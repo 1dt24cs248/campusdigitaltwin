@@ -1,0 +1,5 @@
+action_id,action_name,category,priority,trigger_condition,suggested_action,requires_human_approval,data_status
+ACT001,Switch off unused-room lights/fans,Energy,High,Room is unscheduled and occupancy count is zero,Recommend authorized staff switch off equipment; no direct electrical control in prototype,True,Suggested action
+ACT002,Consolidate low-occupancy classes,Timetable,High,Compatible class has a smaller suitable room available,"Simulate move and validate capacity, timetable, room and faculty conflicts",True,Suggested action
+ACT003,Prevent room conflicts,Scheduling,High,Room appears in overlapping time slots,Reject proposal and identify another available room,True,Suggested action
+ACT004,Review underused labs,Utilization,Medium,Scheduled use and observed occupancy are consistently low,Flag for human review; do not automatically cancel classes,True,Suggested action

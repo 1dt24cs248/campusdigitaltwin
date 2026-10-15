@@ -1,0 +1,5 @@
+simulation_id,scenario_name,baseline_energy_kwh_day,proposed_energy_kwh_day,baseline_utilization_pct,proposed_utilization_pct,baseline_walk_m_day,proposed_walk_m_day,energy_saved_kwh_day,energy_saved_pct,cost_saved_inr_day,utilization_change_pp,walking_distance_change_m_day,tariff_inr_kwh,data_status
+SIM001,Baseline schedule,520,520,61,61,2800,2800,0,0.0,0.0,0,0,8.5,"SYNTHETIC scenario; outputs illustrative, recalculate in app"
+SIM002,Consolidate low-occupancy classes,520,468,61,72,2800,3020,52,10.0,442.0,11,220,8.5,"SYNTHETIC scenario; outputs illustrative, recalculate in app"
+SIM003,Move lab closer to cohort,520,505,61,64,2800,2480,15,2.88,127.5,3,-320,8.5,"SYNTHETIC scenario; outputs illustrative, recalculate in app"
+SIM004,Oversized room counterexample,520,536,61,55,2800,2760,-16,-3.08,-136.0,-6,-40,8.5,"SYNTHETIC scenario; outputs illustrative, recalculate in app"

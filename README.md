@@ -30,4 +30,23 @@ Estimated savings must not be presented as measured or guaranteed savings.
 
 ## Development Status
 
-Initial project setup. Features will be marked complete only after implementation and testing.
+Backend milestone implemented: SQLite-backed FastAPI health, building, room, timetable, occupancy, simulator-pending, and sustainability endpoints, plus a repeatable synthetic CSV importer. Run the documented tests before treating any behavior as complete.
+
+## Backend quick start
+
+From the repository root, use Python 3.11:
+
+```powershell
+py -3.11 -m venv backend\.venv
+backend\.venv\Scripts\python.exe -m pip install -r backend\requirements.txt
+backend\.venv\Scripts\python.exe -m backend.seed_data
+backend\.venv\Scripts\python.exe -m uvicorn backend.main:app --reload --host 127.0.0.1 --port 8000
+```
+
+Run backend tests with:
+
+```powershell
+backend\.venv\Scripts\python.exe -m pytest tests -q
+```
+
+The backend imports CSVs from `data/raw/ecotwin_dataset/` into `backend/ecotwin.db`. All supplied records are synthetic or illustrative. The simulator endpoint reports integration pending until a real simulator module is available; it does not fabricate simulation results. See [docs/API_CONTRACTS.md](docs/API_CONTRACTS.md) for endpoints, filters, provenance, and request/response examples.
