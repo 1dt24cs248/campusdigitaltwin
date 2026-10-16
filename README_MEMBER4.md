@@ -1,119 +1,209 @@
-# Member 4: Vision and AI modules
+# Member 4: Vision, Occupancy, and AI
 
-## Scope and status
+## Status and Scope
 
-This package provides image-based occupancy estimation, evidence-linked sustainability recommendations, and deterministic explanations for simulator results. It is independent of the React app and does not add a second API, database, or simulator. The current workspace has no shared FastAPI backend or Member 3 simulator package, so end-to-end API integration and simulator regression tests are not available here.
+The workspace has standalone Python modules and synthetic CSVs, but no shared
+FastAPI application, database models, frontend, real campus data, or classroom
+image. The modules below are callable and tested independently. They are not
+HTTP/API-integrated.
 
-The canonical CSV package is explicitly synthetic/illustrative. Recommendations preserve that provenance and do not treat its occupancy, energy, tariff, or timetable values as verified campus measurements. A repository search found no classroom or people image and no external LLM credentials. The shared FastAPI routes/database and Member 3 simulator are also absent from this workspace.
+Member 4 files:
 
-## Files
+- `occupancy.py`: OpenCV HOG image/frame inference, manual-input observations,
+  provenance labels, validation, and inference errors.
+- `sustainability.py`: configurable evidence-based recommendations using room,
+  occupancy, equipment, timetable, energy, action, and optional simulator data.
+- `explanations.py`: deterministic fallback explanations grounded in simulator
+  response fields.
+- `scripts/generate_demo_data.py`: reproducible campus CSV generator.
+- `test_member4.py`: isolated generator, inference, recommendation, and
+  explanation tests.
+- `data/`: generated synthetic demo CSVs. See [data/README.md](data/README.md).
+- `requirements-vision.txt`: optional image-inference dependency.
 
-- `backend/vision/detector.py`: OpenCV HOG image inference and result schema.
-- `backend/vision/occupancy.py`: compatibility import for occupancy callers.
-- `backend/ai/recommendations.py`: data-driven recommendations.
-- `backend/ai/explanations.py`: deterministic simulator explanation.
-- `tests/test_vision.py`, `tests/test_recommendations.py`, `tests/test_explanations.py`, `tests/test_member4_integration.py`: focused unit, inference smoke, and Member 4 composition tests.
-- `requirements.txt`, `requirements-dev.txt`: Python dependencies.
+This project retains its existing root-level module structure; no duplicate
+backend or database was created.
 
-## Install and test (Windows PowerShell)
+## Runtime and Installation
 
-From the `campusdigitaltwin` directory:
+Tested with Python 3.14.7 and `opencv-python-headless` 4.14.0.94. NumPy is
+installed as OpenCV's dependency. Standard-library modules and tests require no
+other package. FastAPI, Pydantic, pytest, and LLM client packages are not
+installed in this workspace.
+
+From the workspace parent in Windows PowerShell:
 
 ```powershell
-winget install --id Python.Python.3.12 --exact --scope user
-$python = "$env:LOCALAPPDATA\Programs\Python\Python312\python.exe"
-& $python -m venv .venv
-& .\.venv\Scripts\python.exe -m pip install -r requirements-dev.txt
-& .\.venv\Scripts\python.exe -m pytest -q
+python -m pip install -r campusdigitaltwin/requirements-vision.txt
+python campusdigitaltwin/scripts/generate_demo_data.py
+python -m unittest discover -s campusdigitaltwin -p "test_*.py" -v
 ```
 
-Python 3.10+ is required. The commands above use the standard per-user Python 3.12 installation path and do not depend on the optional `py` launcher. `opencv-python-headless` is constrained to OpenCV 4 because OpenCV 5 removed the HOG API used here. If Python is already installed elsewhere, set `$python` to that executable before creating `.venv`.
+The generator accepts `--seed`, `--tariff`, and `--output-dir`. Its default
+seed is fixed; the default INR 8.50/kWh tariff is illustrative and unverified.
 
-## Occupancy inference
+## Occupancy Inference
+
+The image API is:
 
 ```python
-from backend.vision.detector import detect_occupancy
+from occupancy import estimate_from_image
 
-result = detect_occupancy(
-    r"C:\data\room-frame.jpg",
-    room_id="A-G03",
-    valid_room_ids={"A-G03", "A-G04"},
+result = estimate_from_image(
+    image_path=r"C:\campus-demo\room-frame.jpg",
+    room_id="A101",
+    capacity_students=40,
+    known_room_ids={"A101", "A102"},  # Load from the shared room table.
 )
 ```
 
-`detect_occupancy(image, room_id, valid_room_ids=None)` accepts a path or OpenCV-compatible NumPy frame. If supplied, `valid_room_ids` enforces membership in the caller's room catalog. The returned dictionary has `room_id`, `estimated_occupancy`, `source="image_inference"`, `status="estimated"`, UTC `observed_at`, `model`, and `limitations`. It returns no confidence score because HOG scores are not calibrated probabilities. Missing/corrupt input raises `FileNotFoundError`/`ValueError`; model failures raise `RuntimeError` and are never returned as successful estimates.
+`estimate_from_frame(frame, room_id, capacity_students, known_room_ids=None)`
+accepts a decoded OpenCV-compatible array. `estimate_from_manual_input(...)`
+records a separate user-entered count. `estimate_from_detection_count(...)` is a
+validation helper and labels a bare count `unknown`; it cannot claim that the
+count came from image inference.
 
-The detector uses OpenCV's pretrained default HOG pedestrian SVM, not a classroom-trained model. Tests run actual inference on generated blank images to verify the code path; there is no real classroom image in the workspace, so classroom accuracy has not been validated. Occlusion, seating, camera angle, lighting, and posture can reduce detections. A snapshot is not continuous occupancy evidence.
+Successful image result shape:
 
-Image results use `image_inference`; caller-entered counts should use `manual_input`; demo records should use `synthetic_demo_data`; absent provenance should remain `unknown`. Keep these sources and historical observations separate.
+```json
+{
+  "room_id": "A101",
+  "estimated_occupancy": 0,
+  "capacity_students": 40,
+  "occupancy_ratio": 0.0,
+  "source": "image_inference",
+  "status": "estimated",
+  "observed_at": "UTC ISO-8601 timestamp",
+  "model": "opencv_hog_default_people_detector",
+  "data_label": "image_inference",
+  "confidence": null,
+  "detector_scores": [],
+  "limitations": ["..."],
+  "image_retained": false
+}
+```
+
+The example count above describes the blank-image smoke test only; it is not a
+campus observation. Actual returned counts come from the detector. HOG scores
+are not calibrated confidence probabilities. A bare count has source
+`unknown`; a manual entry uses `manual_input`; generated CSV observations use
+`synthetic_demo_data`. Do not change a source label to make observations look
+live.
+
+Pass `known_room_ids` (or perform equivalent database validation before the
+call) to reject unknown room IDs. Missing files raise `FileNotFoundError`;
+unsupported/corrupt images and invalid metadata raise `OccupancyInputError`;
+detector failures raise `OccupancyInferenceError`. No success-shaped estimate
+is returned after a failure.
+
+The detector is OpenCV's built-in default HOG pedestrian model, not a
+classroom-trained model. HOG commonly misses seated, occluded, small, and
+overhead-view people; lighting, camera angle, resolution, and false positives
+also matter. One image is one snapshot, not continuous occupancy or attendance.
+No real classroom image was present in the workspace. The actual inference path
+was smoke-tested on a temporary blank PNG; that verifies the call path, not
+person-detection accuracy. No student identity or attendance is inferred.
 
 ## Recommendations
 
-```python
-from backend.ai.recommendations import generate_recommendations
+Callable interface:
 
-recommendations = generate_recommendations(
-    campus_data=campus_data,  # records loaded from the agreed backend/database schema
-    simulation_results=simulation_results,  # actual simulator output, or None
+```python
+from sustainability import build_recommendations
+
+result = build_recommendations(
+    rooms=room_rows,
+    occupancy_observations=observation_rows,
+    energy_records=energy_rows,
+    sustainability_actions=action_rows,
+    timetable=timetable_rows,
+    equipment_inventory=equipment_rows,
+    simulation_results=simulation_response_or_list,
+    low_occupancy_threshold=0.25,
+    high_connected_load_kw=0.8,
+    max_observation_age_hours=24,
+    timetable_timezone=campus_timezone,  # Set when schedule timezone is known.
 )
 ```
 
-`generate_recommendations(campus_data, simulation_results=None, *, now=None, max_observation_age_hours=4, low_utilization_threshold=0.25)` accepts canonical-style room/observation/timetable/equipment lists and the React demo's nested `buildings[].floors[].rooms[]` shape. It returns records with a stable `recommendation_id`, room/building IDs, title, evidence, data source/time, impact fields, limitations, operational constraints, next step, simulation ID, and `requires_verification`. Impacts are `None` unless a separate simulator integration supplies reported values; simulator figures are preserved under `simulator_reported_impacts`, not recalculated. A single low count prompts review only. Timetable entries constrain room changes. Equipment review requires an explicit operating state and never asserts energy waste. Missing/stale observations prompt a new verified observation.
+All input rows are ordinary dictionaries, including CSV `DictReader` rows.
+Recommendations can flag missing/stale observations, low snapshot counts,
+connected load, unverified tariffs, and feasible simulator proposals. They
+include room/building IDs, data source/timestamp, supporting evidence,
+limitations, operational constraints, and next steps. A low count is only a
+review prompt; timetable context is checked when its timezone can be aligned.
+For UTC observations, pass the campus `timetable_timezone`; without it, the
+module does not claim that no class was scheduled.
 
-## Deterministic explanation
+Simulator energy, cost, and walking impacts are copied from a feasible
+simulator response, not independently recalculated. Infeasible or incomplete
+simulator results do not produce relocation recommendations. Equipment
+inventory and assumed runtime do not prove that equipment was operating at the
+observation time. Recommendations never turn equipment off or close rooms.
+Priority ordering is a transparent rule, not a scientifically validated score.
+
+## Explanations
 
 ```python
-from backend.ai.explanations import generate_explanation
+from explanations import build_simulation_explanation
 
-payload = generate_explanation(
-    simulation_result=actual_simulator_result,
-    campus_context=campus_context,
+explanation = build_simulation_explanation(
+    simulator_response,
+    campus_context={"building_name": "Block A", "room_type": "classroom"},
 )
 ```
 
-`generate_explanation(simulation_result, campus_context=None)` returns `source="deterministic_fallback"`, simulator feasibility/errors/metrics as supplied, affected entities, a readable `explanation`, and a verification `next_step`. Missing metrics are reported unavailable; signed values and validation errors are not changed. Optional caller context keys include `context_notes`, `operational_constraints`, `timetable_constraints`, `capacity_constraints`, `assumptions`, and `missing_information`. No external LLM is configured or used.
+The structured result has `mode: "deterministic_fallback"`, `status`,
+`simulation_id`, `text`, and `limitations`. `explain_simulation(result)` is a
+backward-compatible text helper. Explanations preserve simulator feasibility,
+validation errors, units, signed savings, assumptions, and unavailable fields.
+The simulator remains authoritative for numbers; the explanation module does
+not recalculate them.
 
-## Integration Contract (Proposed)
+No LLM client or API key is configured, and no external LLM call was made. The
+deterministic fallback works without credentials and is not described as live
+generative AI.
 
-There is no FastAPI application, route, database model, or Member 3 simulator in this repository. The contracts below are the existing Python functions' inputs/outputs; route paths, HTTP envelopes, database schema, and simulator field names must be agreed by the team. No HTTP request/response JSON is shown because no HTTP interface exists to support it.
+## Integration Contract
 
-### Member 1: Backend and database
-
-Import the existing callables:
+Member 1 can import these functions from the project root:
 
 ```python
-from backend.vision import detect_occupancy
-from backend.ai import generate_recommendations, generate_explanation
+from occupancy import estimate_from_image, estimate_from_frame, estimate_from_manual_input
+from sustainability import build_recommendations
+from explanations import build_simulation_explanation
 ```
 
-For an authorized image upload, resolve `room_id` from the authoritative room table, decode the uploaded image to a file path or OpenCV/NumPy frame, and call `detect_occupancy(image, room_id, valid_room_ids=None)`. It returns `room_id`, integer `estimated_occupancy`, `source="image_inference"`, `status="estimated"`, UTC `observed_at`, `model`, and `limitations`. Persist the observation without changing its source. Keep manual and synthetic observations distinct. Invalid room/image input raises `ValueError` or `FileNotFoundError`; inference failures raise `RuntimeError`.
+For a future route, validate `room_id` against the shared database, obtain room
+capacity and known room IDs there, call `estimate_from_image`, then persist its
+returned observation without replacing prior observations. Handle the
+documented exceptions as client errors or inference failures; do not convert an
+exception into an occupancy value. Pass current rows and the exact Member 3
+simulation response to the recommendation and explanation functions. Persist
+the returned recommendation/explanation only through the shared data layer.
 
-Call `generate_recommendations(campus_data, simulation_results=None, *, now=None, max_observation_age_hours=4, low_utilization_threshold=0.25)`. `campus_data` must be a mapping containing `rooms` (a list, or nested `buildings[].floors[].rooms[]`), plus optional `occupancy_observations`, `timetable`, and `equipment_inventory` lists. Each room needs `room_id` and preferably `capacity` or `capacity_students`. Observations need `room_id`, a count field (`detected_person_count`, `observed_person_count`, or `estimated_occupancy`), timestamp (`observed_at` or `observation_timestamp`), and provenance (`source`, `data_source`, or recognizable `data_status`). Timetable records need `room_id`. Equipment review only recognizes an explicit operating field (`is_operating`, `operating`, `is_active`, `active`, or `power_state`). Energy records are not consumed by this function. Optional `simulation_results` is one mapping or a list of mappings; include `simulation_id`/`scenario_id`, boolean `feasible`/`is_feasible`, `validation_errors`/`errors`, and any of these top-level metric keys: `baseline_energy_kwh_day`, `proposed_energy_kwh_day`, `energy_saved_kwh_day`, `energy_change_kwh`, `cost_saved_inr_day`, `cost_change_inr`, `baseline_walk_m_day`, `proposed_walk_m_day`, `walking_distance_change_m_day`. It returns a list of records with `recommendation_id`, room/building IDs, title, evidence, `data_source`, `observed_at`, nullable `estimated_energy_impact` and `estimated_cost_impact`, `simulator_reported_impacts`, confidence limitations, operational constraints, next step, `simulation_id`, and `requires_verification`. Simulator metrics are passed through, not calculated; unsupported savings remain null.
+An API response can wrap the occupancy dictionary as-is. Member 2 can display
+`estimated_occupancy`, `capacity_students`, `status`, `source`, `observed_at`,
+`limitations`, and `warning`; do not display detector scores as a confidence
+percentage. Recommendations expose `recommendations` and `warnings`; each
+recommendation has evidence, limitations, next step, and optional simulator
+impact fields. Explanation responses expose `mode` and `text`.
 
-Call `generate_explanation(simulation_result, campus_context=None)` with the actual simulator mapping. Pass through `simulation_id`, `feasible`/`is_feasible`/`is_valid`, `validation_errors`/`errors`, affected room/class IDs, assumptions, and available metrics. Supported metric aliases are defined in `backend/ai/explanations.py`; values may be top-level or nested in `metrics`, `energy`, `cost`, or `walking`. It returns `source="deterministic_fallback"`, `simulation_id`, feasibility, validation errors, affected entities, `simulator_metrics`, selected `campus_context`, explanation text, and `next_step`. Missing metrics are reported unavailable. Do not alter feasibility, errors, signs, units, or values. These functions do not perform database I/O.
+No backend route was added because the shared backend does not exist in this
+workspace. No frontend, database, persistence, API-key setup, or attendance
+workflow is implemented. Attendance remains intentionally out of scope because
+person detection does not identify students.
 
-Member 1 must map the agreed database rows to these function inputs, authorize image access, store observations, and expose agreed routes. Do not create a second FastAPI app or simulator for this integration.
+## Verification
 
-### Member 2: Frontend and room IDs
+Run from the workspace parent:
 
-`src/App.jsx` currently reads the static `src/campusData.js` fixture and does not call an API; its simulation button is not wired to a handler. Fixture IDs such as `A-101` do not match canonical CSV IDs such as `A-G03`. The canonical CSVs are synthetic and are not an authoritative mapping. Member 1 and Member 2 must select one authoritative room ID from the backend room catalog and maintain an explicit, approved ID mapping if the UI must retain separate IDs. Do not match by room name or treat fixture counts as image results.
+```powershell
+python campusdigitaltwin/scripts/generate_demo_data.py
+python -m unittest discover -s campusdigitaltwin -p "test_*.py" -v
+```
 
-After route paths and envelopes are agreed, Member 2 should send the image plus the selected authoritative `room_id`, render the detector result fields, send backend-loaded campus records and actual simulator output to the recommendation/explanation routes, and render their returned fields. Preserve `source`, `feasible`, validation errors, and metric signs. No frontend or backend HTTP integration is present yet.
-
-## Verified results (2026-10-16)
-
-- `python -m pytest -q`: **17 passed** in the project `.venv`, including a composition test across vision, recommendations, and explanations. This does not exercise absent FastAPI routes or the absent Member 3 simulator.
-- `python -m compileall -q backend tests`: passed.
-- The documented dependency install was checked; OpenCV 4.14.0.94 and pytest 9.1.1 are installed.
-- Public imports and signatures were checked. A real OpenCV HOG inference call on a generated blank frame returned `estimated_occupancy=0`, `source="image_inference"`, `status="estimated"`. Invalid dictionary image input was rejected. This verifies inference execution only, not people-count accuracy.
-- Recommendation checks retained `manual_input` provenance and left energy/cost impacts null. The simulator explanation check retained `feasible=False`, the supplied validation error, and energy/cost values of `-16` and `-136`, with `source="deterministic_fallback"`.
-- Canonical CSV integration check read 128 rooms and 59 synthetic occupancy observations; outputs did not claim energy/cost impacts from those rows.
-- No classroom/people image exists in the repository, so no real-person image was tested. No FastAPI routes, database models, or Member 3 simulator were found; team integration and simulator regression tests remain blocked until those components are supplied.
-
-## Not implemented or verified
-
-- No classroom-specific accuracy validation: no real campus image was present.
-- No shared FastAPI/database integration or simulator tests: those modules are absent from this workspace.
-- No live generative LLM API; deterministic fallback is used.
-- Attendance is intentionally not implemented; person detection does not establish identity.
-- Recommendations cannot establish equipment energy consumption without measured data, and no savings, tariff, or carbon impact is invented.
+The suite covers the existing Member 3 simulator and Member 4 generation,
+inference errors/provenance, schedule-aware recommendations, simulator result
+pass-through, and deterministic explanations. It does not validate HOG accuracy
+on real people or classroom imagery.

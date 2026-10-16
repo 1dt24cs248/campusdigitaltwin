@@ -1,0 +1,13 @@
+room_id,building_id,floor,room_name,room_type,capacity_students,timetable_eligible,estimated_connected_load_kw,data_label
+A101,BLK-A,2,A Block Room 101,classroom,24,true,0.3,synthetic_demo_data
+A102,BLK-A,2,A Block Room 102,classroom,49,true,0.6,synthetic_demo_data
+A103,BLK-A,1,A Block Room 103,computer_lab,38,true,0.81,synthetic_demo_data
+A104,BLK-A,2,A Block Room 104,classroom,39,true,0.42,synthetic_demo_data
+B101,BLK-B,1,B Block Room 101,classroom,26,true,0.39,synthetic_demo_data
+B102,BLK-B,1,B Block Room 102,classroom,24,true,0.65,synthetic_demo_data
+B103,BLK-B,1,B Block Room 103,computer_lab,36,true,0.3,synthetic_demo_data
+B104,BLK-B,2,B Block Room 104,classroom,25,true,0.6,synthetic_demo_data
+C101,BLK-C,2,C Block Room 101,classroom,39,true,0.8,synthetic_demo_data
+C102,BLK-C,2,C Block Room 102,classroom,26,true,0.3,synthetic_demo_data
+C103,BLK-C,1,C Block Room 103,computer_lab,50,true,0.6,synthetic_demo_data
+C104,BLK-C,1,C Block Room 104,classroom,26,false,0.73,synthetic_demo_data

@@ -1,0 +1,13 @@
+observation_id,room_id,observation_timestamp,estimated_occupancy,source,status,confidence,data_label
+OBS-001,A101,2026-10-15T10:30:00+05:30,21,synthetic_data_generator,synthetic_demo_data,,synthetic_demo_data
+OBS-002,A102,2026-10-15T10:30:00+05:30,25,synthetic_data_generator,synthetic_demo_data,,synthetic_demo_data
+OBS-003,A103,2026-10-15T10:30:00+05:30,20,synthetic_data_generator,synthetic_demo_data,,synthetic_demo_data
+OBS-004,A104,2026-10-15T10:30:00+05:30,7,synthetic_data_generator,synthetic_demo_data,,synthetic_demo_data
+OBS-005,B101,2026-10-15T10:30:00+05:30,1,synthetic_data_generator,synthetic_demo_data,,synthetic_demo_data
+OBS-006,B102,2026-10-15T10:30:00+05:30,16,synthetic_data_generator,synthetic_demo_data,,synthetic_demo_data
+OBS-007,B103,2026-10-15T10:30:00+05:30,2,synthetic_data_generator,synthetic_demo_data,,synthetic_demo_data
+OBS-008,B104,2026-10-15T10:30:00+05:30,19,synthetic_data_generator,synthetic_demo_data,,synthetic_demo_data
+OBS-009,C101,2026-10-15T10:30:00+05:30,39,synthetic_data_generator,synthetic_demo_data,,synthetic_demo_data
+OBS-010,C102,2026-10-15T10:30:00+05:30,2,synthetic_data_generator,synthetic_demo_data,,synthetic_demo_data
+OBS-011,C103,2026-10-15T10:30:00+05:30,25,synthetic_data_generator,synthetic_demo_data,,synthetic_demo_data
+OBS-012,C104,2026-10-15T10:30:00+05:30,1,synthetic_data_generator,synthetic_demo_data,,synthetic_demo_data

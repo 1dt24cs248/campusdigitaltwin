@@ -1,0 +1,8 @@
+action_id,action_name,trigger_type,description,priority,data_label
+ACT-001,Review low-occupancy room schedules,low_observed_occupancy,Compare repeated observations with scheduled class sizes before consolidating room use.,review,synthetic_demo_data
+ACT-002,Inspect high connected-load rooms,high_connected_load,Review equipment runtime assumptions and avoid switching equipment off without authorization.,review,synthetic_demo_data
+ACT-003,Verify electricity tariff,unverified_tariff,Replace the illustrative tariff with an approved campus tariff before cost decisions.,data_quality,synthetic_demo_data
+ACT-004,Check room eligibility and capacity,allocation_validation,Confirm room-use policy and expected class size before changing a timetable.,operational,synthetic_demo_data
+ACT-005,Refresh occupancy observation,missing_or_stale_occupancy,Collect a timestamped occupancy observation and compare it with the room timetable.,data_quality,synthetic_demo_data
+ACT-006,Review equipment runtime assumptions,low_occupancy_with_equipment,Verify room schedule and equipment controls when an occupancy observation and inventory are both available.,review,synthetic_demo_data
+ACT-007,Review feasible room relocation,feasible_simulation_review,Review a feasible simulator result and its assumptions before an operator changes a timetable.,operational,synthetic_demo_data

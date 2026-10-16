@@ -1,0 +1,13 @@
+energy_record_id,room_id,estimated_energy_kwh_per_day,estimated_energy_kwh_per_week,electricity_tariff_inr_per_kwh,estimated_cost_inr_per_week,data_source,data_label
+EN-001,A101,1.5,7.5,8.50,63.75,synthetic_equipment_power_and_runtime_assumptions,synthetic_demo_data
+EN-002,A102,4.35,21.75,8.50,184.88,synthetic_equipment_power_and_runtime_assumptions,synthetic_demo_data
+EN-003,A103,3.45,17.25,8.50,146.62,synthetic_equipment_power_and_runtime_assumptions,synthetic_demo_data
+EN-004,A104,3.22,16.1,8.50,136.85,synthetic_equipment_power_and_runtime_assumptions,synthetic_demo_data
+EN-005,B101,3.01,15.05,8.50,127.93,synthetic_equipment_power_and_runtime_assumptions,synthetic_demo_data
+EN-006,B102,4.0,20.0,8.50,170.0,synthetic_equipment_power_and_runtime_assumptions,synthetic_demo_data
+EN-007,B103,1.92,9.6,8.50,81.6,synthetic_equipment_power_and_runtime_assumptions,synthetic_demo_data
+EN-008,B104,5.15,25.75,8.50,218.88,synthetic_equipment_power_and_runtime_assumptions,synthetic_demo_data
+EN-009,C101,3.9,19.5,8.50,165.75,synthetic_equipment_power_and_runtime_assumptions,synthetic_demo_data
+EN-010,C102,2.08,10.4,8.50,88.4,synthetic_equipment_power_and_runtime_assumptions,synthetic_demo_data
+EN-011,C103,4.3,21.5,8.50,182.75,synthetic_equipment_power_and_runtime_assumptions,synthetic_demo_data
+EN-012,C104,4.83,24.15,8.50,205.27,synthetic_equipment_power_and_runtime_assumptions,synthetic_demo_data

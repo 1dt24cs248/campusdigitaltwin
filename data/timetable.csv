@@ -1,0 +1,31 @@
+timetable_entry_id,semester,section,department,day_of_week,start_time,end_time,subject_code,subject_name,room_id,faculty_id,expected_students,data_label
+TT-001,2026-Fall,SEC-001,Physics,Monday,09:00,10:00,PH120,Physics Lab,C103,FAC-001,30,synthetic_demo_data
+TT-002,2026-Fall,SEC-002,Mechanical Engineering,Monday,09:00,10:00,ME110,Engineering Design,B104,FAC-002,21,synthetic_demo_data
+TT-003,2026-Fall,SEC-003,Mathematics,Monday,10:15,11:15,MA130,Applied Mathematics,C102,FAC-003,18,synthetic_demo_data
+TT-004,2026-Fall,SEC-004,Civil Engineering,Monday,10:15,11:15,CE220,Sustainable Systems,A103,FAC-004,31,synthetic_demo_data
+TT-005,2026-Fall,SEC-005,Mathematics,Monday,13:00,14:00,MA130,Applied Mathematics,C102,FAC-005,25,synthetic_demo_data
+TT-006,2026-Fall,SEC-006,Physics,Monday,13:00,14:00,PH120,Physics Lab,A102,FAC-006,21,synthetic_demo_data
+TT-007,2026-Fall,SEC-007,Mathematics,Tuesday,09:00,10:00,MA130,Applied Mathematics,A104,FAC-007,29,synthetic_demo_data
+TT-008,2026-Fall,SEC-008,Mechanical Engineering,Tuesday,09:00,10:00,ME110,Engineering Design,A102,FAC-008,38,synthetic_demo_data
+TT-009,2026-Fall,SEC-009,Computer Science,Tuesday,10:15,11:15,CS201,Data Structures,A101,FAC-009,22,synthetic_demo_data
+TT-010,2026-Fall,SEC-010,Computer Science,Tuesday,10:15,11:15,CS201,Data Structures,C103,FAC-010,41,synthetic_demo_data
+TT-011,2026-Fall,SEC-011,Physics,Tuesday,13:00,14:00,PH120,Physics Lab,A101,FAC-011,22,synthetic_demo_data
+TT-012,2026-Fall,SEC-012,Electrical Engineering,Tuesday,13:00,14:00,EE204,Circuit Analysis,A103,FAC-012,27,synthetic_demo_data
+TT-013,2026-Fall,SEC-013,Computer Science,Wednesday,09:00,10:00,CS201,Data Structures,B102,FAC-013,18,synthetic_demo_data
+TT-014,2026-Fall,SEC-014,Electrical Engineering,Wednesday,09:00,10:00,EE204,Circuit Analysis,C103,FAC-014,38,synthetic_demo_data
+TT-015,2026-Fall,SEC-015,Computer Science,Wednesday,10:15,11:15,CS201,Data Structures,B101,FAC-015,22,synthetic_demo_data
+TT-016,2026-Fall,SEC-016,Civil Engineering,Wednesday,10:15,11:15,CE220,Sustainable Systems,C102,FAC-016,22,synthetic_demo_data
+TT-017,2026-Fall,SEC-017,Mechanical Engineering,Wednesday,13:00,14:00,ME110,Engineering Design,B103,FAC-017,36,synthetic_demo_data
+TT-018,2026-Fall,SEC-018,Mathematics,Wednesday,13:00,14:00,MA130,Applied Mathematics,C102,FAC-018,18,synthetic_demo_data
+TT-019,2026-Fall,SEC-019,Mechanical Engineering,Thursday,09:00,10:00,ME110,Engineering Design,A104,FAC-019,39,synthetic_demo_data
+TT-020,2026-Fall,SEC-020,Mechanical Engineering,Thursday,09:00,10:00,ME110,Engineering Design,B102,FAC-020,19,synthetic_demo_data
+TT-021,2026-Fall,SEC-021,Electrical Engineering,Thursday,10:15,11:15,EE204,Circuit Analysis,C103,FAC-021,22,synthetic_demo_data
+TT-022,2026-Fall,SEC-022,Physics,Thursday,10:15,11:15,PH120,Physics Lab,A102,FAC-022,23,synthetic_demo_data
+TT-023,2026-Fall,SEC-023,Electrical Engineering,Thursday,13:00,14:00,EE204,Circuit Analysis,B103,FAC-023,22,synthetic_demo_data
+TT-024,2026-Fall,SEC-024,Physics,Thursday,13:00,14:00,PH120,Physics Lab,A101,FAC-024,18,synthetic_demo_data
+TT-025,2026-Fall,SEC-025,Mathematics,Friday,09:00,10:00,MA130,Applied Mathematics,A103,FAC-025,27,synthetic_demo_data
+TT-026,2026-Fall,SEC-026,Mechanical Engineering,Friday,09:00,10:00,ME110,Engineering Design,C101,FAC-026,21,synthetic_demo_data
+TT-027,2026-Fall,SEC-027,Electrical Engineering,Friday,10:15,11:15,EE204,Circuit Analysis,A101,FAC-027,19,synthetic_demo_data
+TT-028,2026-Fall,SEC-028,Physics,Friday,10:15,11:15,PH120,Physics Lab,C102,FAC-028,25,synthetic_demo_data
+TT-029,2026-Fall,SEC-029,Mathematics,Friday,13:00,14:00,MA130,Applied Mathematics,B102,FAC-029,24,synthetic_demo_data
+TT-030,2026-Fall,SEC-030,Mathematics,Friday,13:00,14:00,MA130,Applied Mathematics,A103,FAC-030,18,synthetic_demo_data

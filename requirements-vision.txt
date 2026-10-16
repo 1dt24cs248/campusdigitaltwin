@@ -1,0 +1,2 @@
+# Optional dependency for image-based occupancy inference in occupancy.py.
+opencv-python-headless>=4.12,<5
