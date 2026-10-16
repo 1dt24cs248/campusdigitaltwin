@@ -34,6 +34,14 @@ button {
   cursor: pointer;
 }
 
+button:focus-visible,
+select:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #7dd3fc;
+  outline-offset: 3px;
+}
+
 .app-shell {
   max-width: 1440px;
   margin: 0 auto;
@@ -83,6 +91,11 @@ h1 {
   font-weight: 700;
 }
 
+.nav-pill:hover:not(.active) {
+  border-color: #7dd3fc;
+  background: rgba(14, 165, 233, 0.14);
+}
+
 .content-grid,
 .bottom-grid {
   display: grid;
@@ -115,6 +128,178 @@ h1 {
 .panel-header h2,
 .panel-header h3 {
   margin: 0;
+}
+
+.dashboard-panel,
+.building-list-panel,
+.building-explorer-panel {
+  margin-bottom: 24px;
+}
+
+.dashboard-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid rgba(45, 212, 191, 0.24);
+  border-radius: 16px;
+  background: rgba(15, 118, 110, 0.1);
+}
+
+.dashboard-summary h3,
+.dashboard-summary p {
+  margin: 0;
+}
+
+.dashboard-summary p {
+  margin-top: 6px;
+  color: #cbd5e1;
+}
+
+.building-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.building-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  min-height: 190px;
+  padding: 22px;
+  text-align: left;
+  color: #e2e8f0;
+  background: linear-gradient(145deg, rgba(15, 118, 110, 0.2), rgba(15, 23, 42, 0.9));
+  border: 1px solid rgba(45, 212, 191, 0.28);
+  border-radius: 18px;
+  transition: transform 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.building-card:hover {
+  transform: translateY(-3px);
+  border-color: #5eead4;
+  background-color: rgba(15, 118, 110, 0.2);
+}
+
+.building-card.selected {
+  border-color: #5eead4;
+  box-shadow: inset 0 0 0 1px rgba(94, 234, 212, 0.38);
+  background: linear-gradient(145deg, rgba(16, 185, 129, 0.28), rgba(15, 23, 42, 0.9));
+}
+
+.building-grid-compact {
+  margin-bottom: 18px;
+}
+
+.building-grid-compact .building-card {
+  min-height: 150px;
+}
+
+.building-card strong {
+  font-size: 1.5rem;
+}
+
+.building-card > span:not(.building-card-id) {
+  color: #cbd5e1;
+}
+
+.building-card .building-card-id {
+  color: #7dd3fc;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.building-card .building-card-action {
+  margin-top: auto;
+  color: #5eead4;
+  font-weight: 700;
+}
+
+.secondary-button {
+  padding: 9px 14px;
+  color: #dbeafe;
+  background: rgba(30, 41, 59, 0.8);
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  border-radius: 12px;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.secondary-button:hover {
+  border-color: #7dd3fc;
+  background: rgba(14, 165, 233, 0.14);
+}
+
+.floor-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.floor-button {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 130px;
+  padding: 11px 14px;
+  color: #e2e8f0;
+  text-align: left;
+  background: rgba(30, 41, 59, 0.8);
+  border: 1px solid rgba(148, 163, 184, 0.24);
+  border-radius: 12px;
+  transition: border-color 0.15s ease, background-color 0.15s ease, transform 0.15s ease;
+}
+
+.floor-button:hover {
+  transform: translateY(-2px);
+  border-color: #7dd3fc;
+}
+
+.floor-button.selected {
+  color: #041712;
+  font-weight: 700;
+  background: linear-gradient(135deg, #10b981, #34d399);
+  border-color: transparent;
+}
+
+.floor-button small {
+  color: inherit;
+  opacity: 0.78;
+}
+
+.building-content-grid {
+  align-items: start;
+}
+
+.rooms-panel {
+  min-width: 0;
+}
+
+.room-card.selected {
+  box-shadow: inset 0 0 0 1px rgba(125, 211, 252, 0.45);
+  background-color: rgba(14, 165, 233, 0.2);
+}
+
+.room-card:focus-visible,
+.building-card:focus-visible,
+.floor-button:focus-visible {
+  outline-offset: 2px;
+}
+
+.primary-button:hover:not(:disabled) {
+  filter: brightness(1.08);
+}
+
+.primary-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.58;
+}
+
+.ai-results-panel {
+  margin-top: 24px;
 }
 
 .status-badge {
@@ -499,5 +684,18 @@ th {
 
   .floor-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .building-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-summary {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .building-card {
+    min-height: 160px;
   }
 }
