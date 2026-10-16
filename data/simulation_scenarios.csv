@@ -1,0 +1,5 @@
+scenario_id,scenario_type,timetable_entry_id,proposed_room_id,class_size,expected_status,description,data_label
+SCN-VALID,valid_reassignment,TT-001,A102,30,feasible,Open eligible room with sufficient capacity and no slot conflict.,synthetic_demo_data
+SCN-ROOM-CONFLICT,room_timetable_conflict,TT-001,B104,30,infeasible,Destination is occupied by another entry in the same time slot.,synthetic_demo_data
+SCN-CAPACITY,capacity_exceeded,TT-001,A101,25,infeasible,Test input exceeds the destination room's stated capacity.,synthetic_demo_data
+SCN-INELIGIBLE,room_not_timetable_eligible,TT-001,C104,26,infeasible,Destination is explicitly marked as not timetable-eligible.,synthetic_demo_data

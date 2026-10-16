@@ -1,0 +1,4 @@
+building_id,building_name,number_of_floors,fictional_location_description,data_label
+BLK-A,Block A,2,Fictional north campus courtyard,synthetic_demo_data
+BLK-B,Block B,2,Fictional central learning walk,synthetic_demo_data
+BLK-C,Block C,3,Fictional south garden edge,synthetic_demo_data
