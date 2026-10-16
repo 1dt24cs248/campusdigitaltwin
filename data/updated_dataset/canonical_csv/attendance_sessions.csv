@@ -1,0 +1,33 @@
+session_id,semester,section,session_date,day_of_week,start_time,end_time,subject_name,room_id,attendance_method,data_status
+SES0001,1,A,2026-10-12,Monday,09:00,10:00,Engineering Mathematics I,A-F1-01,Manual demo placeholder,SYNTHETIC session
+SES0002,1,A,2026-10-13,Tuesday,09:00,10:00,Engineering Mathematics I,A-F1-01,Manual demo placeholder,SYNTHETIC session
+SES0003,1,B,2026-10-12,Monday,09:00,10:00,Engineering Mathematics I,A-F1-02,Manual demo placeholder,SYNTHETIC session
+SES0004,1,B,2026-10-13,Tuesday,09:00,10:00,Engineering Mathematics I,A-F1-02,Manual demo placeholder,SYNTHETIC session
+SES0005,2,A,2026-10-12,Monday,09:00,10:00,Engineering Mathematics II,A-F1-03,Manual demo placeholder,SYNTHETIC session
+SES0006,2,A,2026-10-13,Tuesday,09:00,10:00,Engineering Mathematics II,A-F1-03,Manual demo placeholder,SYNTHETIC session
+SES0007,2,B,2026-10-12,Monday,09:00,10:00,Engineering Mathematics II,A-F1-04,Manual demo placeholder,SYNTHETIC session
+SES0008,2,B,2026-10-13,Tuesday,09:00,10:00,Engineering Mathematics II,A-F1-04,Manual demo placeholder,SYNTHETIC session
+SES0009,3,A,2026-10-12,Monday,09:00,10:00,Engineering Mathematics III,A-F2-01,Manual demo placeholder,SYNTHETIC session
+SES0010,3,A,2026-10-13,Tuesday,09:00,10:00,Engineering Mathematics III,A-F2-01,Manual demo placeholder,SYNTHETIC session
+SES0011,3,B,2026-10-12,Monday,09:00,10:00,Engineering Mathematics III,A-F2-02,Manual demo placeholder,SYNTHETIC session
+SES0012,3,B,2026-10-13,Tuesday,09:00,10:00,Engineering Mathematics III,A-F2-02,Manual demo placeholder,SYNTHETIC session
+SES0013,4,A,2026-10-12,Monday,09:00,10:00,Analysis and Design of Algorithms,A-F2-03,Manual demo placeholder,SYNTHETIC session
+SES0014,4,A,2026-10-13,Tuesday,09:00,10:00,Analysis and Design of Algorithms,A-F2-03,Manual demo placeholder,SYNTHETIC session
+SES0015,4,B,2026-10-12,Monday,09:00,10:00,Analysis and Design of Algorithms,A-F2-04,Manual demo placeholder,SYNTHETIC session
+SES0016,4,B,2026-10-13,Tuesday,09:00,10:00,Analysis and Design of Algorithms,A-F2-04,Manual demo placeholder,SYNTHETIC session
+SES0017,5,A,2026-10-12,Monday,09:00,10:00,Machine Learning,A-F3-01,Manual demo placeholder,SYNTHETIC session
+SES0018,5,A,2026-10-13,Tuesday,09:00,10:00,Machine Learning,A-F3-01,Manual demo placeholder,SYNTHETIC session
+SES0019,5,B,2026-10-12,Monday,09:00,10:00,Machine Learning,A-F3-02,Manual demo placeholder,SYNTHETIC session
+SES0020,5,B,2026-10-13,Tuesday,09:00,10:00,Machine Learning,A-F3-02,Manual demo placeholder,SYNTHETIC session
+SES0021,6,A,2026-10-12,Monday,09:00,10:00,Machine Learning,A-F3-03,Manual demo placeholder,SYNTHETIC session
+SES0022,6,A,2026-10-13,Tuesday,09:00,10:00,Machine Learning,A-F3-03,Manual demo placeholder,SYNTHETIC session
+SES0023,6,B,2026-10-12,Monday,09:00,10:00,Machine Learning,A-F3-04,Manual demo placeholder,SYNTHETIC session
+SES0024,6,B,2026-10-13,Tuesday,09:00,10:00,Machine Learning,A-F3-04,Manual demo placeholder,SYNTHETIC session
+SES0025,7,A,2026-10-12,Monday,09:00,10:00,Deep Learning,A-F4-01,Manual demo placeholder,SYNTHETIC session
+SES0026,7,A,2026-10-13,Tuesday,09:00,10:00,Deep Learning,A-F4-01,Manual demo placeholder,SYNTHETIC session
+SES0027,7,B,2026-10-12,Monday,09:00,10:00,Deep Learning,A-F4-02,Manual demo placeholder,SYNTHETIC session
+SES0028,7,B,2026-10-13,Tuesday,09:00,10:00,Deep Learning,A-F4-02,Manual demo placeholder,SYNTHETIC session
+SES0029,8,A,2026-10-12,Monday,09:00,10:00,Major Project,A-F4-03,Manual demo placeholder,SYNTHETIC session
+SES0030,8,A,2026-10-13,Tuesday,09:00,10:00,Major Project,A-F4-03,Manual demo placeholder,SYNTHETIC session
+SES0031,8,B,2026-10-12,Monday,09:00,10:00,Major Project,A-F4-04,Manual demo placeholder,SYNTHETIC session
+SES0032,8,B,2026-10-13,Tuesday,09:00,10:00,Major Project,A-F4-04,Manual demo placeholder,SYNTHETIC session

@@ -1,0 +1,261 @@
+equipment_id,room_id,equipment_type,quantity,unit_power_watts,total_power_watts,assumed_daily_hours,assumed_days_per_week,data_status,notes
+EQ0001,A-B01,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0002,A-B02,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0003,A-B03,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0004,A-B03,Workshop Equipment,4,500,2000,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0005,A-B04,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0006,A-G01,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0007,A-G02,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0008,A-G03,LED Light,12,20,240,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0009,A-G03,Ceiling Fan,6,75,450,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0010,A-G03,Projector,2,250,500,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0011,A-G04,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0012,A-G04,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0013,A-G04,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0014,A-G05,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0015,A-G05,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0016,A-G05,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0017,A-G06,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0018,A-G07,LED Light,10,20,200,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0019,A-G07,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0020,A-G07,Desktop Computer,30,150,4500,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0021,A-G07,Network Switch,2,40,80,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0022,A-G08,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0023,A-G09,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0024,A-G10,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0025,A-F1-01,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0026,A-F1-01,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0027,A-F1-01,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0028,A-F1-02,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0029,A-F1-02,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0030,A-F1-02,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0031,A-F1-03,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0032,A-F1-03,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0033,A-F1-03,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0034,A-F1-04,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0035,A-F1-04,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0036,A-F1-04,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0037,A-F1-05,LED Light,10,20,200,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0038,A-F1-05,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0039,A-F1-05,Desktop Computer,30,150,4500,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0040,A-F1-05,Network Switch,2,40,80,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0041,A-F1-06,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0042,A-F1-07,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0043,A-F1-08,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0044,A-F1-09,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0045,A-F1-10,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0046,A-F2-01,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0047,A-F2-01,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0048,A-F2-01,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0049,A-F2-02,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0050,A-F2-02,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0051,A-F2-02,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0052,A-F2-03,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0053,A-F2-03,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0054,A-F2-03,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0055,A-F2-04,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0056,A-F2-04,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0057,A-F2-04,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0058,A-F2-05,LED Light,10,20,200,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0059,A-F2-05,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0060,A-F2-05,Desktop Computer,30,150,4500,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0061,A-F2-05,Network Switch,2,40,80,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0062,A-F2-06,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0063,A-F2-07,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0064,A-F2-08,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0065,A-F2-09,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0066,A-F2-10,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0067,A-F3-01,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0068,A-F3-01,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0069,A-F3-01,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0070,A-F3-02,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0071,A-F3-02,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0072,A-F3-02,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0073,A-F3-03,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0074,A-F3-03,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0075,A-F3-03,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0076,A-F3-04,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0077,A-F3-04,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0078,A-F3-04,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0079,A-F3-05,LED Light,10,20,200,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0080,A-F3-05,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0081,A-F3-05,Desktop Computer,30,150,4500,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0082,A-F3-05,Network Switch,2,40,80,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0083,A-F3-06,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0084,A-F3-07,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0085,A-F3-08,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0086,A-F3-09,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0087,A-F3-10,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0088,A-F4-01,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0089,A-F4-01,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0090,A-F4-01,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0091,A-F4-02,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0092,A-F4-02,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0093,A-F4-02,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0094,A-F4-03,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0095,A-F4-03,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0096,A-F4-03,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0097,A-F4-04,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0098,A-F4-04,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0099,A-F4-04,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0100,A-F4-05,LED Light,10,20,200,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0101,A-F4-05,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0102,A-F4-05,Desktop Computer,30,150,4500,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0103,A-F4-05,Network Switch,2,40,80,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0104,A-F4-06,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0105,A-F4-07,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0106,A-F4-08,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0107,A-F4-09,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0108,A-F4-10,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0109,A-F5-01,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0110,A-F5-01,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0111,A-F5-01,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0112,A-F5-02,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0113,A-F5-02,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0114,A-F5-02,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0115,A-F5-03,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0116,A-F5-03,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0117,A-F5-03,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0118,A-F5-04,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0119,A-F5-04,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0120,A-F5-04,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0121,A-F5-05,LED Light,10,20,200,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0122,A-F5-05,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0123,A-F5-05,Desktop Computer,30,150,4500,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0124,A-F5-05,Network Switch,2,40,80,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0125,A-F5-06,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0126,A-F5-07,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0127,A-F5-08,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0128,A-F5-09,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0129,A-F5-10,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0130,B-B01,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0131,B-B02,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0132,B-B03,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0133,B-B03,Workshop Equipment,4,500,2000,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0134,B-B04,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0135,B-G01,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0136,B-G02,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0137,B-G03,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0138,B-G03,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0139,B-G03,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0140,B-G04,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0141,B-G04,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0142,B-G04,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0143,B-G05,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0144,B-G05,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0145,B-G05,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0146,B-G06,LED Light,10,20,200,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0147,B-G06,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0148,B-G06,Desktop Computer,30,150,4500,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0149,B-G06,Network Switch,2,40,80,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0150,B-G07,LED Light,12,20,240,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0151,B-G07,Ceiling Fan,6,75,450,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0152,B-G07,Projector,2,250,500,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0153,B-G08,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0154,B-G09,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0155,B-G10,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0156,B-F1-01,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0157,B-F1-01,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0158,B-F1-01,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0159,B-F1-02,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0160,B-F1-02,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0161,B-F1-02,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0162,B-F1-03,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0163,B-F1-03,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0164,B-F1-03,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0165,B-F1-04,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0166,B-F1-04,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0167,B-F1-04,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0168,B-F1-05,LED Light,10,20,200,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0169,B-F1-05,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0170,B-F1-05,Desktop Computer,30,150,4500,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0171,B-F1-05,Network Switch,2,40,80,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0172,B-F1-06,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0173,B-F1-07,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0174,B-F1-08,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0175,B-F1-09,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0176,B-F1-10,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0177,B-F2-01,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0178,B-F2-01,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0179,B-F2-01,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0180,B-F2-02,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0181,B-F2-02,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0182,B-F2-02,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0183,B-F2-03,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0184,B-F2-03,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0185,B-F2-03,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0186,B-F2-04,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0187,B-F2-04,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0188,B-F2-04,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0189,B-F2-05,LED Light,10,20,200,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0190,B-F2-05,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0191,B-F2-05,Desktop Computer,30,150,4500,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0192,B-F2-05,Network Switch,2,40,80,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0193,B-F2-06,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0194,B-F2-07,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0195,B-F2-08,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0196,B-F2-09,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0197,B-F2-10,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0198,B-F3-01,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0199,B-F3-01,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0200,B-F3-01,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0201,B-F3-02,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0202,B-F3-02,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0203,B-F3-02,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0204,B-F3-03,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0205,B-F3-03,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0206,B-F3-03,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0207,B-F3-04,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0208,B-F3-04,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0209,B-F3-04,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0210,B-F3-05,LED Light,10,20,200,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0211,B-F3-05,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0212,B-F3-05,Desktop Computer,30,150,4500,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0213,B-F3-05,Network Switch,2,40,80,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0214,B-F3-06,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0215,B-F3-07,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0216,B-F3-08,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0217,B-F3-09,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0218,B-F3-10,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0219,B-F4-01,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0220,B-F4-01,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0221,B-F4-01,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0222,B-F4-02,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0223,B-F4-02,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0224,B-F4-02,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0225,B-F4-03,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0226,B-F4-03,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0227,B-F4-03,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0228,B-F4-04,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0229,B-F4-04,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0230,B-F4-04,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0231,B-F4-05,LED Light,10,20,200,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0232,B-F4-05,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0233,B-F4-05,Desktop Computer,30,150,4500,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0234,B-F4-05,Network Switch,2,40,80,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0235,B-F4-06,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0236,B-F4-07,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0237,B-F4-08,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0238,B-F4-09,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0239,B-F4-10,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0240,B-F5-01,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0241,B-F5-01,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0242,B-F5-01,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0243,B-F5-02,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0244,B-F5-02,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0245,B-F5-02,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0246,B-F5-03,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0247,B-F5-03,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0248,B-F5-03,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0249,B-F5-04,LED Light,8,20,160,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0250,B-F5-04,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0251,B-F5-04,Projector,1,250,250,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0252,B-F5-05,LED Light,10,20,200,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0253,B-F5-05,Ceiling Fan,4,75,300,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0254,B-F5-05,Desktop Computer,30,150,4500,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0255,B-F5-05,Network Switch,2,40,80,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0256,B-F5-06,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0257,B-F5-07,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0258,B-F5-08,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0259,B-F5-09,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
+EQ0260,B-F5-10,LED Light,2,20,40,6,5,SYNTHETIC - equipment assumptions,Replace quantities and wattage with measured inventory.
