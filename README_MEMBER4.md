@@ -53,16 +53,8 @@ Image results use `image_inference`; caller-entered counts should use `manual_in
 from backend.ai.recommendations import generate_recommendations
 
 recommendations = generate_recommendations(
-    campus_data={
-        "rooms": [{"room_id": "A-G03", "building_id": "A", "capacity_students": 40}],
-        "occupancy_observations": [{
-            "room_id": "A-G03", "detected_person_count": 3,
-            "observed_at": "2026-10-16T09:15:00Z", "source": "manual_input",
-        }],
-        "timetable": [{"room_id": "A-G03", "day_of_week": "Monday", "period_number": 1}],
-        "equipment_inventory": [],
-    },
-    simulation_results=None,
+    campus_data=campus_data,  # records loaded from the agreed backend/database schema
+    simulation_results=simulation_results,  # actual simulator output, or None
 )
 ```
 
@@ -74,39 +66,39 @@ recommendations = generate_recommendations(
 from backend.ai.explanations import generate_explanation
 
 payload = generate_explanation(
-    simulation_result={
-        "simulation_id": "SIM004",
-        "feasible": False,
-        "validation_errors": ["Capacity exceeded"],
-        "baseline_energy_kwh_day": 520,
-        "proposed_energy_kwh_day": 536,
-        "energy_saved_kwh_day": -16,
-        "cost_saved_inr_day": -136,
-    },
-    campus_context={"timetable_constraints": ["Faculty availability not checked"]},
+    simulation_result=actual_simulator_result,
+    campus_context=campus_context,
 )
 ```
 
 `generate_explanation(simulation_result, campus_context=None)` returns `source="deterministic_fallback"`, simulator feasibility/errors/metrics as supplied, affected entities, a readable `explanation`, and a verification `next_step`. Missing metrics are reported unavailable; signed values and validation errors are not changed. Optional caller context keys include `context_notes`, `operational_constraints`, `timetable_constraints`, `capacity_constraints`, `assumptions`, and `missing_information`. No external LLM is configured or used.
 
-## Backend integration contract
+## Integration Contract (Proposed)
 
-Member 1 can import:
+There is no FastAPI application, route, database model, or Member 3 simulator in this repository. The contracts below are the existing Python functions' inputs/outputs; route paths, HTTP envelopes, database schema, and simulator field names must be agreed by the team. No HTTP request/response JSON is shown because no HTTP interface exists to support it.
+
+### Member 1: Backend and database
+
+Import the existing callables:
 
 ```python
 from backend.vision import detect_occupancy
 from backend.ai import generate_recommendations, generate_explanation
 ```
 
-No integration was performed because the shared service and simulator do not exist in this workspace. The following is a proposed contract, not a description of existing routes.
+For an authorized image upload, resolve `room_id` from the authoritative room table, decode the uploaded image to a file path or OpenCV/NumPy frame, and call `detect_occupancy(image, room_id, valid_room_ids=None)`. It returns `room_id`, integer `estimated_occupancy`, `source="image_inference"`, `status="estimated"`, UTC `observed_at`, `model`, and `limitations`. Persist the observation without changing its source. Keep manual and synthetic observations distinct. Invalid room/image input raises `ValueError` or `FileNotFoundError`; inference failures raise `RuntimeError`.
 
-Member 1 should:
+Call `generate_recommendations(campus_data, simulation_results=None, *, now=None, max_observation_age_hours=4, low_utilization_threshold=0.25)`. `campus_data` must be a mapping containing `rooms` (a list, or nested `buildings[].floors[].rooms[]`), plus optional `occupancy_observations`, `timetable`, and `equipment_inventory` lists. Each room needs `room_id` and preferably `capacity` or `capacity_students`. Observations need `room_id`, a count field (`detected_person_count`, `observed_person_count`, or `estimated_occupancy`), timestamp (`observed_at` or `observation_timestamp`), and provenance (`source`, `data_source`, or recognizable `data_status`). Timetable records need `room_id`. Equipment review only recognizes an explicit operating field (`is_operating`, `operating`, `is_active`, `active`, or `power_state`). Energy records are not consumed by this function. Optional `simulation_results` is one mapping or a list of mappings; include `simulation_id`/`scenario_id`, boolean `feasible`/`is_feasible`, `validation_errors`/`errors`, and any of these top-level metric keys: `baseline_energy_kwh_day`, `proposed_energy_kwh_day`, `energy_saved_kwh_day`, `energy_change_kwh`, `cost_saved_inr_day`, `cost_change_inr`, `baseline_walk_m_day`, `proposed_walk_m_day`, `walking_distance_change_m_day`. It returns a list of records with `recommendation_id`, room/building IDs, title, evidence, `data_source`, `observed_at`, nullable `estimated_energy_impact` and `estimated_cost_impact`, `simulator_reported_impacts`, confidence limitations, operational constraints, next step, `simulation_id`, and `requires_verification`. Simulator metrics are passed through, not calculated; unsupported savings remain null.
 
-1. Add an authorized image-upload route that resolves `room_id` against the existing room table, accepts an image file, calls `detect_occupancy(image_path_or_frame, room_id, valid_room_ids)`, and stores the returned observation without changing `source`. Its response fields are `room_id`, `estimated_occupancy`, `source`, `status`, `observed_at`, `model`, and `limitations`. Preserve `source="image_inference"`; keep manual and synthetic rows distinct.
-2. For recommendations, load `rooms` (each with `room_id` and `capacity` or `capacity_students`), `occupancy_observations` (with `room_id`, a supported count field, timestamp, and provenance), `timetable` (at least `room_id`), and optional `equipment_inventory` (with an explicit operating-state field). Pass these as `campus_data` and the actual simulator result(s) as `simulation_results` to `generate_recommendations`. Return its list unchanged, including `recommendation_id`, evidence, provenance, nullable impacts, constraints, next step, and `requires_verification`.
-3. For an explanation request, pass the actual simulator result mapping to `generate_explanation(simulation_result, campus_context)`. Include boolean `feasible`, `validation_errors`, stable `simulation_id`, affected room/class IDs, and any available simulator-reported energy, cost, and walking metrics with units. Return `source="deterministic_fallback"`, `feasible`, `validation_errors`, `simulator_metrics`, `explanation`, and `next_step`; do not recalculate or override simulator values.
+Call `generate_explanation(simulation_result, campus_context=None)` with the actual simulator mapping. Pass through `simulation_id`, `feasible`/`is_feasible`/`is_valid`, `validation_errors`/`errors`, affected room/class IDs, assumptions, and available metrics. Supported metric aliases are defined in `backend/ai/explanations.py`; values may be top-level or nested in `metrics`, `energy`, `cost`, or `walking`. It returns `source="deterministic_fallback"`, `simulation_id`, feasibility, validation errors, affected entities, `simulator_metrics`, selected `campus_context`, explanation text, and `next_step`. Missing metrics are reported unavailable. Do not alter feasibility, errors, signs, units, or values. These functions do not perform database I/O.
 
-These functions do not write to the database. Member 2 can display returned fields directly. No new route names or database schema are prescribed here; Member 1 should map these payloads to the project's agreed API/schema when that code is available.
+Member 1 must map the agreed database rows to these function inputs, authorize image access, store observations, and expose agreed routes. Do not create a second FastAPI app or simulator for this integration.
+
+### Member 2: Frontend and room IDs
+
+`src/App.jsx` currently reads the static `src/campusData.js` fixture and does not call an API; its simulation button is not wired to a handler. Fixture IDs such as `A-101` do not match canonical CSV IDs such as `A-G03`. The canonical CSVs are synthetic and are not an authoritative mapping. Member 1 and Member 2 must select one authoritative room ID from the backend room catalog and maintain an explicit, approved ID mapping if the UI must retain separate IDs. Do not match by room name or treat fixture counts as image results.
+
+After route paths and envelopes are agreed, Member 2 should send the image plus the selected authoritative `room_id`, render the detector result fields, send backend-loaded campus records and actual simulator output to the recommendation/explanation routes, and render their returned fields. Preserve `source`, `feasible`, validation errors, and metric signs. No frontend or backend HTTP integration is present yet.
 
 ## Verified results (2026-10-16)
 
