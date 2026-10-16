@@ -1,6 +1,11 @@
 from contextlib import asynccontextmanager
 import os
+from pathlib import Path
 from typing import AsyncIterator
+
+from dotenv import load_dotenv
+
+load_dotenv(Path(__file__).resolve().parents[1] / ".env", override=False)
 
 from fastapi import FastAPI, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
