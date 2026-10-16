@@ -1,0 +1,129 @@
+room_id,building_id,building_name,floor_number,floor_name,room_name,facility_type,department,capacity_students,estimated_connected_load_kw,timetable_eligible,data_status,notes
+A-B01,A,A Block,-1,Basement,Utility/Storage 01,Utility/Storage,Shared,0,1.5,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-B02,A,A Block,-1,Basement,Electrical Room 02,Electrical Room,Shared,0,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-B03,A,A Block,-1,Basement,Workshop 03,Workshop,Shared,24,3.0,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-B04,A,A Block,-1,Basement,Store Room 04,Store Room,Shared,0,1.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-G01,A,A Block,0,Ground Floor,Admission Center,Admission Center,Shared,20,2.5,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-G02,A,A Block,0,Ground Floor,Principal Cabin,Principal Cabin,Shared,5,1.5,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-G03,A,A Block,0,Ground Floor,Conference Hall,Conference Hall,Shared,40,5.0,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-G04,A,A Block,0,Ground Floor,Classroom 04,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-G05,A,A Block,0,Ground Floor,Classroom 05,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-G06,A,A Block,0,Ground Floor,Staff Room 06,Staff Room,Shared,12,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-G07,A,A Block,0,Ground Floor,Computer Lab 07,Computer Lab,CSE,30,8.0,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-G08,A,A Block,0,Ground Floor,Boys Washroom 08,Boys Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-G09,A,A Block,0,Ground Floor,Girls Washroom 09,Girls Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-G10,A,A Block,0,Ground Floor,Empty Room 10,Empty Room,Shared,30,0.5,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F1-01,A,A Block,1,First Floor,Classroom 01,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F1-02,A,A Block,1,First Floor,Classroom 02,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F1-03,A,A Block,1,First Floor,Classroom 03,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F1-04,A,A Block,1,First Floor,Classroom 04,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F1-05,A,A Block,1,First Floor,Computer Lab 05,Computer Lab,CSE,30,8.0,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F1-06,A,A Block,1,First Floor,Faculty Room 06,Faculty Room,CSE,12,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F1-07,A,A Block,1,First Floor,Department Office 07,Department Office,CSE,10,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F1-08,A,A Block,1,First Floor,Boys Washroom 08,Boys Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F1-09,A,A Block,1,First Floor,Girls Washroom 09,Girls Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F1-10,A,A Block,1,First Floor,Empty Room 10,Empty Room,Shared,30,0.5,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F2-01,A,A Block,2,Second Floor,Classroom 01,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F2-02,A,A Block,2,Second Floor,Classroom 02,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F2-03,A,A Block,2,Second Floor,Classroom 03,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F2-04,A,A Block,2,Second Floor,Classroom 04,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F2-05,A,A Block,2,Second Floor,Computer Lab 05,Computer Lab,CSE,30,8.0,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F2-06,A,A Block,2,Second Floor,Faculty Room 06,Faculty Room,CSE,12,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F2-07,A,A Block,2,Second Floor,Department Office 07,Department Office,CSE,10,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F2-08,A,A Block,2,Second Floor,Boys Washroom 08,Boys Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F2-09,A,A Block,2,Second Floor,Girls Washroom 09,Girls Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F2-10,A,A Block,2,Second Floor,Empty Room 10,Empty Room,Shared,30,0.5,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F3-01,A,A Block,3,Third Floor,Classroom 01,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F3-02,A,A Block,3,Third Floor,Classroom 02,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F3-03,A,A Block,3,Third Floor,Classroom 03,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F3-04,A,A Block,3,Third Floor,Classroom 04,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F3-05,A,A Block,3,Third Floor,Computer Lab 05,Computer Lab,CSE,30,8.0,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F3-06,A,A Block,3,Third Floor,Faculty Room 06,Faculty Room,CSE,12,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F3-07,A,A Block,3,Third Floor,Department Office 07,Department Office,CSE,10,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F3-08,A,A Block,3,Third Floor,Boys Washroom 08,Boys Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F3-09,A,A Block,3,Third Floor,Girls Washroom 09,Girls Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F3-10,A,A Block,3,Third Floor,Empty Room 10,Empty Room,Shared,30,0.5,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F4-01,A,A Block,4,Fourth Floor,Classroom 01,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F4-02,A,A Block,4,Fourth Floor,Classroom 02,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F4-03,A,A Block,4,Fourth Floor,Classroom 03,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F4-04,A,A Block,4,Fourth Floor,Classroom 04,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F4-05,A,A Block,4,Fourth Floor,Computer Lab 05,Computer Lab,CSE,30,8.0,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F4-06,A,A Block,4,Fourth Floor,Faculty Room 06,Faculty Room,CSE,12,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F4-07,A,A Block,4,Fourth Floor,Department Office 07,Department Office,CSE,10,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F4-08,A,A Block,4,Fourth Floor,Boys Washroom 08,Boys Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F4-09,A,A Block,4,Fourth Floor,Girls Washroom 09,Girls Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F4-10,A,A Block,4,Fourth Floor,Empty Room 10,Empty Room,Shared,30,0.5,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F5-01,A,A Block,5,Fifth Floor,Classroom 01,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F5-02,A,A Block,5,Fifth Floor,Classroom 02,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F5-03,A,A Block,5,Fifth Floor,Classroom 03,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F5-04,A,A Block,5,Fifth Floor,Classroom 04,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F5-05,A,A Block,5,Fifth Floor,Computer Lab 05,Computer Lab,CSE,30,8.0,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F5-06,A,A Block,5,Fifth Floor,Faculty Room 06,Faculty Room,CSE,12,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F5-07,A,A Block,5,Fifth Floor,Department Office 07,Department Office,CSE,10,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F5-08,A,A Block,5,Fifth Floor,Boys Washroom 08,Boys Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F5-09,A,A Block,5,Fifth Floor,Girls Washroom 09,Girls Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+A-F5-10,A,A Block,5,Fifth Floor,Empty Room 10,Empty Room,Shared,30,0.5,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-B01,B,B Block,-1,Basement,Utility/Storage 01,Utility/Storage,Shared,0,1.5,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-B02,B,B Block,-1,Basement,Electrical Room 02,Electrical Room,Shared,0,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-B03,B,B Block,-1,Basement,Workshop 03,Workshop,Shared,24,3.0,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-B04,B,B Block,-1,Basement,Store Room 04,Store Room,Shared,0,1.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-G01,B,B Block,0,Ground Floor,Reception/Help Desk 01,Reception/Help Desk,Shared,10,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-G02,B,B Block,0,Ground Floor,Administrative Office 02,Administrative Office,Shared,12,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-G03,B,B Block,0,Ground Floor,Classroom 03,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-G04,B,B Block,0,Ground Floor,Classroom 04,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-G05,B,B Block,0,Ground Floor,Classroom 05,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-G06,B,B Block,0,Ground Floor,Computer Lab 06,Computer Lab,CSE,30,8.0,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-G07,B,B Block,0,Ground Floor,Seminar Hall 07,Seminar Hall,Shared,50,5.0,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-G08,B,B Block,0,Ground Floor,Boys Washroom 08,Boys Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-G09,B,B Block,0,Ground Floor,Girls Washroom 09,Girls Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-G10,B,B Block,0,Ground Floor,Empty Room 10,Empty Room,Shared,30,0.5,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F1-01,B,B Block,1,First Floor,Classroom 01,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F1-02,B,B Block,1,First Floor,Classroom 02,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F1-03,B,B Block,1,First Floor,Classroom 03,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F1-04,B,B Block,1,First Floor,Classroom 04,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F1-05,B,B Block,1,First Floor,Computer Lab 05,Computer Lab,CSE,30,8.0,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F1-06,B,B Block,1,First Floor,Faculty Room 06,Faculty Room,CSE,12,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F1-07,B,B Block,1,First Floor,Department Office 07,Department Office,CSE,10,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F1-08,B,B Block,1,First Floor,Boys Washroom 08,Boys Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F1-09,B,B Block,1,First Floor,Girls Washroom 09,Girls Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F1-10,B,B Block,1,First Floor,Empty Room 10,Empty Room,Shared,30,0.5,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F2-01,B,B Block,2,Second Floor,Classroom 01,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F2-02,B,B Block,2,Second Floor,Classroom 02,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F2-03,B,B Block,2,Second Floor,Classroom 03,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F2-04,B,B Block,2,Second Floor,Classroom 04,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F2-05,B,B Block,2,Second Floor,Computer Lab 05,Computer Lab,CSE,30,8.0,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F2-06,B,B Block,2,Second Floor,Faculty Room 06,Faculty Room,CSE,12,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F2-07,B,B Block,2,Second Floor,Department Office 07,Department Office,CSE,10,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F2-08,B,B Block,2,Second Floor,Boys Washroom 08,Boys Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F2-09,B,B Block,2,Second Floor,Girls Washroom 09,Girls Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F2-10,B,B Block,2,Second Floor,Empty Room 10,Empty Room,Shared,30,0.5,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F3-01,B,B Block,3,Third Floor,Classroom 01,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F3-02,B,B Block,3,Third Floor,Classroom 02,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F3-03,B,B Block,3,Third Floor,Classroom 03,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F3-04,B,B Block,3,Third Floor,Classroom 04,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F3-05,B,B Block,3,Third Floor,Computer Lab 05,Computer Lab,CSE,30,8.0,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F3-06,B,B Block,3,Third Floor,Faculty Room 06,Faculty Room,CSE,12,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F3-07,B,B Block,3,Third Floor,Department Office 07,Department Office,CSE,10,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F3-08,B,B Block,3,Third Floor,Boys Washroom 08,Boys Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F3-09,B,B Block,3,Third Floor,Girls Washroom 09,Girls Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F3-10,B,B Block,3,Third Floor,Empty Room 10,Empty Room,Shared,30,0.5,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F4-01,B,B Block,4,Fourth Floor,Classroom 01,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F4-02,B,B Block,4,Fourth Floor,Classroom 02,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F4-03,B,B Block,4,Fourth Floor,Classroom 03,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F4-04,B,B Block,4,Fourth Floor,Classroom 04,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F4-05,B,B Block,4,Fourth Floor,Computer Lab 05,Computer Lab,CSE,30,8.0,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F4-06,B,B Block,4,Fourth Floor,Faculty Room 06,Faculty Room,CSE,12,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F4-07,B,B Block,4,Fourth Floor,Department Office 07,Department Office,CSE,10,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F4-08,B,B Block,4,Fourth Floor,Boys Washroom 08,Boys Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F4-09,B,B Block,4,Fourth Floor,Girls Washroom 09,Girls Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F4-10,B,B Block,4,Fourth Floor,Empty Room 10,Empty Room,Shared,30,0.5,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F5-01,B,B Block,5,Fifth Floor,Classroom 01,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F5-02,B,B Block,5,Fifth Floor,Classroom 02,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F5-03,B,B Block,5,Fifth Floor,Classroom 03,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F5-04,B,B Block,5,Fifth Floor,Classroom 04,Classroom,CSE,60,2.5,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F5-05,B,B Block,5,Fifth Floor,Computer Lab 05,Computer Lab,CSE,30,8.0,True,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F5-06,B,B Block,5,Fifth Floor,Faculty Room 06,Faculty Room,CSE,12,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F5-07,B,B Block,5,Fifth Floor,Department Office 07,Department Office,CSE,10,2.0,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F5-08,B,B Block,5,Fifth Floor,Boys Washroom 08,Boys Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F5-09,B,B Block,5,Fifth Floor,Girls Washroom 09,Girls Washroom,Shared,0,0.2,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.
+B-F5-10,B,B Block,5,Fifth Floor,Empty Room 10,Empty Room,Shared,30,0.5,False,SYNTHETIC - verify before real use,Illustrative capacity and power; not official campus data.

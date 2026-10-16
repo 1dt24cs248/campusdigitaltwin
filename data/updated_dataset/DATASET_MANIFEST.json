@@ -1,0 +1,39 @@
+{
+  "package_name": "EcoTwin AI Updated Team Dataset",
+  "prepared_on": "2026-10-15",
+  "primary_source": "EcoTwin_AI_Complete_Synthetic_Dataset (1).xlsx and corresponding CSV ZIP",
+  "legacy_sources": [
+    "ecotwin_campus_dataset_with_unique_timetables.xlsx",
+    "ecotwin_semester_wise_timetable.csv"
+  ],
+  "primary_tables": {
+    "Buildings": 2,
+    "Rooms": 128,
+    "Students": 160,
+    "Timetable": 480,
+    "Equipment Inventory": 260,
+    "Energy Records": 128,
+    "Occupancy Observations": 59,
+    "Attendance Sessions": 32,
+    "Attendance Records": 320,
+    "Room Distances": 276,
+    "Simulation Scenarios": 4,
+    "Sustainability Actions": 4
+  },
+  "legacy_tables": {
+    "Room Register": 106,
+    "Master Timetable": 240,
+    "CSE_1Year_A": 6,
+    "CSE_1Year_B": 6,
+    "CSE_2Year_A": 6,
+    "CSE_2Year_B": 6,
+    "CSE_3Year_A": 6,
+    "CSE_3Year_B": 6,
+    "CSE_4Year_A": 6,
+    "CSE_4Year_B": 6,
+    "Subject Reference": 48,
+    "Read Me": 6,
+    "Semester Wise Timetable CSV": 480
+  },
+  "important_note": "Synthetic/illustrative data only. Legacy sources are retained separately and must not be blindly merged with the canonical source."
+}

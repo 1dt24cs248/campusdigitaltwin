@@ -1,0 +1,481 @@
+timetable_entry_id,semester,section,department,day_of_week,period_number,start_time,end_time,subject_code,subject_name,room_id,faculty_id,session_type,data_status
+TT0001,1,A,CSE,Monday,1,09:00,10:00,CSE101,Engineering Mathematics I,A-F1-04,FAC004,Theory,SYNTHETIC - illustrative timetable
+TT0002,1,A,CSE,Monday,2,10:00,11:00,CSE102,Programming for Problem Solving,A-F2-01,FAC005,Theory,SYNTHETIC - illustrative timetable
+TT0003,1,A,CSE,Monday,3,11:00,12:00,CSE103,Engineering Physics,A-F2-02,FAC006,Theory,SYNTHETIC - illustrative timetable
+TT0004,1,A,CSE,Monday,4,12:00,13:00,CSE104,Basic Electrical and Electronics,A-F2-03,FAC007,Theory,SYNTHETIC - illustrative timetable
+TT0005,1,A,CSE,Monday,5,14:00,15:00,CSE105,Communicative English,A-F2-04,FAC008,Theory,SYNTHETIC - illustrative timetable
+TT0006,1,A,CSE,Monday,6,15:00,16:00,CSE106,Engineering Chemistry,A-F3-01,FAC009,Theory,SYNTHETIC - illustrative timetable
+TT0007,1,A,CSE,Tuesday,1,09:00,10:00,CSE107,Environmental Studies,A-F3-02,FAC005,Theory,SYNTHETIC - illustrative timetable
+TT0008,1,A,CSE,Tuesday,2,10:00,11:00,CSE108,Programming Lab,A-G07,FAC006,Lab,SYNTHETIC - illustrative timetable
+TT0009,1,A,CSE,Tuesday,3,11:00,12:00,CSE109,Physics Lab,A-F1-05,FAC007,Lab,SYNTHETIC - illustrative timetable
+TT0010,1,A,CSE,Tuesday,4,12:00,13:00,CSE110,Engineering Graphics,A-F4-01,FAC008,Theory,SYNTHETIC - illustrative timetable
+TT0011,1,A,CSE,Tuesday,5,14:00,15:00,CSE101,Engineering Mathematics I,A-F4-02,FAC009,Theory,SYNTHETIC - illustrative timetable
+TT0012,1,A,CSE,Tuesday,6,15:00,16:00,CSE102,Programming for Problem Solving,A-F4-03,FAC010,Theory,SYNTHETIC - illustrative timetable
+TT0013,1,A,CSE,Wednesday,1,09:00,10:00,CSE103,Engineering Physics,A-F4-04,FAC006,Theory,SYNTHETIC - illustrative timetable
+TT0014,1,A,CSE,Wednesday,2,10:00,11:00,CSE104,Basic Electrical and Electronics,A-F5-01,FAC007,Theory,SYNTHETIC - illustrative timetable
+TT0015,1,A,CSE,Wednesday,3,11:00,12:00,CSE105,Communicative English,A-F5-02,FAC008,Theory,SYNTHETIC - illustrative timetable
+TT0016,1,A,CSE,Wednesday,4,12:00,13:00,CSE106,Engineering Chemistry,A-F5-03,FAC009,Theory,SYNTHETIC - illustrative timetable
+TT0017,1,A,CSE,Wednesday,5,14:00,15:00,CSE107,Environmental Studies,A-F5-04,FAC010,Theory,SYNTHETIC - illustrative timetable
+TT0018,1,A,CSE,Wednesday,6,15:00,16:00,CSE108,Programming Lab,B-F4-05,FAC011,Lab,SYNTHETIC - illustrative timetable
+TT0019,1,A,CSE,Thursday,1,09:00,10:00,CSE109,Physics Lab,B-F5-05,FAC007,Lab,SYNTHETIC - illustrative timetable
+TT0020,1,A,CSE,Thursday,2,10:00,11:00,CSE110,Engineering Graphics,B-G05,FAC008,Theory,SYNTHETIC - illustrative timetable
+TT0021,1,A,CSE,Thursday,3,11:00,12:00,CSE101,Engineering Mathematics I,B-F1-01,FAC009,Theory,SYNTHETIC - illustrative timetable
+TT0022,1,A,CSE,Thursday,4,12:00,13:00,CSE102,Programming for Problem Solving,B-F1-02,FAC010,Theory,SYNTHETIC - illustrative timetable
+TT0023,1,A,CSE,Thursday,5,14:00,15:00,CSE103,Engineering Physics,B-F1-03,FAC011,Theory,SYNTHETIC - illustrative timetable
+TT0024,1,A,CSE,Thursday,6,15:00,16:00,CSE104,Basic Electrical and Electronics,B-F1-04,FAC012,Theory,SYNTHETIC - illustrative timetable
+TT0025,1,A,CSE,Friday,1,09:00,10:00,CSE105,Communicative English,B-F2-01,FAC008,Theory,SYNTHETIC - illustrative timetable
+TT0026,1,A,CSE,Friday,2,10:00,11:00,CSE106,Engineering Chemistry,B-F2-02,FAC009,Theory,SYNTHETIC - illustrative timetable
+TT0027,1,A,CSE,Friday,3,11:00,12:00,CSE107,Environmental Studies,B-F2-03,FAC010,Theory,SYNTHETIC - illustrative timetable
+TT0028,1,A,CSE,Friday,4,12:00,13:00,CSE108,Programming Lab,B-F2-05,FAC011,Lab,SYNTHETIC - illustrative timetable
+TT0029,1,A,CSE,Friday,5,14:00,15:00,CSE109,Physics Lab,B-F3-05,FAC012,Lab,SYNTHETIC - illustrative timetable
+TT0030,1,A,CSE,Friday,6,15:00,16:00,CSE110,Engineering Graphics,B-F3-02,FAC013,Theory,SYNTHETIC - illustrative timetable
+TT0031,1,B,CSE,Monday,1,09:00,10:00,CSE104,Basic Electrical and Electronics,A-F4-01,FAC009,Theory,SYNTHETIC - illustrative timetable
+TT0032,1,B,CSE,Monday,2,10:00,11:00,CSE105,Communicative English,A-F4-02,FAC010,Theory,SYNTHETIC - illustrative timetable
+TT0033,1,B,CSE,Monday,3,11:00,12:00,CSE106,Engineering Chemistry,A-F4-03,FAC011,Theory,SYNTHETIC - illustrative timetable
+TT0034,1,B,CSE,Monday,4,12:00,13:00,CSE107,Environmental Studies,A-F4-04,FAC012,Theory,SYNTHETIC - illustrative timetable
+TT0035,1,B,CSE,Monday,5,14:00,15:00,CSE108,Programming Lab,B-G06,FAC013,Lab,SYNTHETIC - illustrative timetable
+TT0036,1,B,CSE,Monday,6,15:00,16:00,CSE109,Physics Lab,B-F1-05,FAC014,Lab,SYNTHETIC - illustrative timetable
+TT0037,1,B,CSE,Tuesday,1,09:00,10:00,CSE110,Engineering Graphics,A-F5-03,FAC010,Theory,SYNTHETIC - illustrative timetable
+TT0038,1,B,CSE,Tuesday,2,10:00,11:00,CSE101,Engineering Mathematics I,A-F5-04,FAC011,Theory,SYNTHETIC - illustrative timetable
+TT0039,1,B,CSE,Tuesday,3,11:00,12:00,CSE102,Programming for Problem Solving,B-G03,FAC012,Theory,SYNTHETIC - illustrative timetable
+TT0040,1,B,CSE,Tuesday,4,12:00,13:00,CSE103,Engineering Physics,B-G04,FAC013,Theory,SYNTHETIC - illustrative timetable
+TT0041,1,B,CSE,Tuesday,5,14:00,15:00,CSE104,Basic Electrical and Electronics,B-G05,FAC014,Theory,SYNTHETIC - illustrative timetable
+TT0042,1,B,CSE,Tuesday,6,15:00,16:00,CSE105,Communicative English,B-F1-01,FAC015,Theory,SYNTHETIC - illustrative timetable
+TT0043,1,B,CSE,Wednesday,1,09:00,10:00,CSE106,Engineering Chemistry,B-F1-02,FAC011,Theory,SYNTHETIC - illustrative timetable
+TT0044,1,B,CSE,Wednesday,2,10:00,11:00,CSE107,Environmental Studies,B-F1-03,FAC012,Theory,SYNTHETIC - illustrative timetable
+TT0045,1,B,CSE,Wednesday,3,11:00,12:00,CSE108,Programming Lab,A-F4-05,FAC013,Lab,SYNTHETIC - illustrative timetable
+TT0046,1,B,CSE,Wednesday,4,12:00,13:00,CSE109,Physics Lab,A-F5-05,FAC014,Lab,SYNTHETIC - illustrative timetable
+TT0047,1,B,CSE,Wednesday,5,14:00,15:00,CSE110,Engineering Graphics,B-F2-02,FAC015,Theory,SYNTHETIC - illustrative timetable
+TT0048,1,B,CSE,Wednesday,6,15:00,16:00,CSE101,Engineering Mathematics I,B-F2-03,FAC016,Theory,SYNTHETIC - illustrative timetable
+TT0049,1,B,CSE,Thursday,1,09:00,10:00,CSE102,Programming for Problem Solving,B-F2-04,FAC012,Theory,SYNTHETIC - illustrative timetable
+TT0050,1,B,CSE,Thursday,2,10:00,11:00,CSE103,Engineering Physics,B-F3-01,FAC013,Theory,SYNTHETIC - illustrative timetable
+TT0051,1,B,CSE,Thursday,3,11:00,12:00,CSE104,Basic Electrical and Electronics,B-F3-02,FAC014,Theory,SYNTHETIC - illustrative timetable
+TT0052,1,B,CSE,Thursday,4,12:00,13:00,CSE105,Communicative English,B-F3-03,FAC015,Theory,SYNTHETIC - illustrative timetable
+TT0053,1,B,CSE,Thursday,5,14:00,15:00,CSE106,Engineering Chemistry,B-F3-04,FAC016,Theory,SYNTHETIC - illustrative timetable
+TT0054,1,B,CSE,Thursday,6,15:00,16:00,CSE107,Environmental Studies,B-F4-01,FAC017,Theory,SYNTHETIC - illustrative timetable
+TT0055,1,B,CSE,Friday,1,09:00,10:00,CSE108,Programming Lab,A-F2-05,FAC013,Lab,SYNTHETIC - illustrative timetable
+TT0056,1,B,CSE,Friday,2,10:00,11:00,CSE109,Physics Lab,A-F3-05,FAC014,Lab,SYNTHETIC - illustrative timetable
+TT0057,1,B,CSE,Friday,3,11:00,12:00,CSE110,Engineering Graphics,B-F4-04,FAC015,Theory,SYNTHETIC - illustrative timetable
+TT0058,1,B,CSE,Friday,4,12:00,13:00,CSE101,Engineering Mathematics I,B-F5-01,FAC016,Theory,SYNTHETIC - illustrative timetable
+TT0059,1,B,CSE,Friday,5,14:00,15:00,CSE102,Programming for Problem Solving,B-F5-02,FAC017,Theory,SYNTHETIC - illustrative timetable
+TT0060,1,B,CSE,Friday,6,15:00,16:00,CSE103,Engineering Physics,B-F5-03,FAC018,Theory,SYNTHETIC - illustrative timetable
+TT0061,2,A,CSE,Monday,1,09:00,10:00,CSE201,Engineering Mathematics II,A-F3-01,FAC007,Theory,SYNTHETIC - illustrative timetable
+TT0062,2,A,CSE,Monday,2,10:00,11:00,CSE202,Data Structures and Applications,A-F3-02,FAC008,Theory,SYNTHETIC - illustrative timetable
+TT0063,2,A,CSE,Monday,3,11:00,12:00,CSE203,Object-Oriented Programming with Java,A-F3-03,FAC009,Theory,SYNTHETIC - illustrative timetable
+TT0064,2,A,CSE,Monday,4,12:00,13:00,CSE204,Database Management Systems,A-F3-04,FAC010,Theory,SYNTHETIC - illustrative timetable
+TT0065,2,A,CSE,Monday,5,14:00,15:00,CSE205,Discrete Mathematics,A-F4-01,FAC011,Theory,SYNTHETIC - illustrative timetable
+TT0066,2,A,CSE,Monday,6,15:00,16:00,CSE206,Computer Organization,A-F4-02,FAC012,Theory,SYNTHETIC - illustrative timetable
+TT0067,2,A,CSE,Tuesday,1,09:00,10:00,CSE207,DS Lab,A-F4-05,FAC008,Lab,SYNTHETIC - illustrative timetable
+TT0068,2,A,CSE,Tuesday,2,10:00,11:00,CSE208,Java Programming Lab,A-F5-05,FAC009,Lab,SYNTHETIC - illustrative timetable
+TT0069,2,A,CSE,Tuesday,3,11:00,12:00,CSE209,DBMS Lab,B-G06,FAC010,Lab,SYNTHETIC - illustrative timetable
+TT0070,2,A,CSE,Tuesday,4,12:00,13:00,CSE210,Design Thinking,A-F5-02,FAC011,Theory,SYNTHETIC - illustrative timetable
+TT0071,2,A,CSE,Tuesday,5,14:00,15:00,CSE201,Engineering Mathematics II,A-F5-03,FAC012,Theory,SYNTHETIC - illustrative timetable
+TT0072,2,A,CSE,Tuesday,6,15:00,16:00,CSE202,Data Structures and Applications,A-F5-04,FAC013,Theory,SYNTHETIC - illustrative timetable
+TT0073,2,A,CSE,Wednesday,1,09:00,10:00,CSE203,Object-Oriented Programming with Java,B-G03,FAC009,Theory,SYNTHETIC - illustrative timetable
+TT0074,2,A,CSE,Wednesday,2,10:00,11:00,CSE204,Database Management Systems,B-G04,FAC010,Theory,SYNTHETIC - illustrative timetable
+TT0075,2,A,CSE,Wednesday,3,11:00,12:00,CSE205,Discrete Mathematics,B-G05,FAC011,Theory,SYNTHETIC - illustrative timetable
+TT0076,2,A,CSE,Wednesday,4,12:00,13:00,CSE206,Computer Organization,B-F1-01,FAC012,Theory,SYNTHETIC - illustrative timetable
+TT0077,2,A,CSE,Wednesday,5,14:00,15:00,CSE207,DS Lab,A-F2-05,FAC013,Lab,SYNTHETIC - illustrative timetable
+TT0078,2,A,CSE,Wednesday,6,15:00,16:00,CSE208,Java Programming Lab,A-F3-05,FAC014,Lab,SYNTHETIC - illustrative timetable
+TT0079,2,A,CSE,Thursday,1,09:00,10:00,CSE209,DBMS Lab,A-F4-05,FAC010,Lab,SYNTHETIC - illustrative timetable
+TT0080,2,A,CSE,Thursday,2,10:00,11:00,CSE210,Design Thinking,B-F2-01,FAC011,Theory,SYNTHETIC - illustrative timetable
+TT0081,2,A,CSE,Thursday,3,11:00,12:00,CSE201,Engineering Mathematics II,B-F2-02,FAC012,Theory,SYNTHETIC - illustrative timetable
+TT0082,2,A,CSE,Thursday,4,12:00,13:00,CSE202,Data Structures and Applications,B-F2-03,FAC013,Theory,SYNTHETIC - illustrative timetable
+TT0083,2,A,CSE,Thursday,5,14:00,15:00,CSE203,Object-Oriented Programming with Java,B-F2-04,FAC014,Theory,SYNTHETIC - illustrative timetable
+TT0084,2,A,CSE,Thursday,6,15:00,16:00,CSE204,Database Management Systems,B-F3-01,FAC015,Theory,SYNTHETIC - illustrative timetable
+TT0085,2,A,CSE,Friday,1,09:00,10:00,CSE205,Discrete Mathematics,B-F3-02,FAC011,Theory,SYNTHETIC - illustrative timetable
+TT0086,2,A,CSE,Friday,2,10:00,11:00,CSE206,Computer Organization,B-F3-03,FAC012,Theory,SYNTHETIC - illustrative timetable
+TT0087,2,A,CSE,Friday,3,11:00,12:00,CSE207,DS Lab,A-G07,FAC013,Lab,SYNTHETIC - illustrative timetable
+TT0088,2,A,CSE,Friday,4,12:00,13:00,CSE208,Java Programming Lab,A-F1-05,FAC014,Lab,SYNTHETIC - illustrative timetable
+TT0089,2,A,CSE,Friday,5,14:00,15:00,CSE209,DBMS Lab,A-F2-05,FAC015,Lab,SYNTHETIC - illustrative timetable
+TT0090,2,A,CSE,Friday,6,15:00,16:00,CSE210,Design Thinking,B-F4-03,FAC016,Theory,SYNTHETIC - illustrative timetable
+TT0091,2,B,CSE,Monday,1,09:00,10:00,CSE204,Database Management Systems,A-F5-02,FAC012,Theory,SYNTHETIC - illustrative timetable
+TT0092,2,B,CSE,Monday,2,10:00,11:00,CSE205,Discrete Mathematics,A-F5-03,FAC013,Theory,SYNTHETIC - illustrative timetable
+TT0093,2,B,CSE,Monday,3,11:00,12:00,CSE206,Computer Organization,A-F5-04,FAC014,Theory,SYNTHETIC - illustrative timetable
+TT0094,2,B,CSE,Monday,4,12:00,13:00,CSE207,DS Lab,B-F4-05,FAC015,Lab,SYNTHETIC - illustrative timetable
+TT0095,2,B,CSE,Monday,5,14:00,15:00,CSE208,Java Programming Lab,B-F5-05,FAC016,Lab,SYNTHETIC - illustrative timetable
+TT0096,2,B,CSE,Monday,6,15:00,16:00,CSE209,DBMS Lab,A-G07,FAC017,Lab,SYNTHETIC - illustrative timetable
+TT0097,2,B,CSE,Tuesday,1,09:00,10:00,CSE210,Design Thinking,B-F1-01,FAC013,Theory,SYNTHETIC - illustrative timetable
+TT0098,2,B,CSE,Tuesday,2,10:00,11:00,CSE201,Engineering Mathematics II,B-F1-02,FAC014,Theory,SYNTHETIC - illustrative timetable
+TT0099,2,B,CSE,Tuesday,3,11:00,12:00,CSE202,Data Structures and Applications,B-F1-03,FAC015,Theory,SYNTHETIC - illustrative timetable
+TT0100,2,B,CSE,Tuesday,4,12:00,13:00,CSE203,Object-Oriented Programming with Java,B-F1-04,FAC016,Theory,SYNTHETIC - illustrative timetable
+TT0101,2,B,CSE,Tuesday,5,14:00,15:00,CSE204,Database Management Systems,B-F2-01,FAC017,Theory,SYNTHETIC - illustrative timetable
+TT0102,2,B,CSE,Tuesday,6,15:00,16:00,CSE205,Discrete Mathematics,B-F2-02,FAC018,Theory,SYNTHETIC - illustrative timetable
+TT0103,2,B,CSE,Wednesday,1,09:00,10:00,CSE206,Computer Organization,B-F2-03,FAC014,Theory,SYNTHETIC - illustrative timetable
+TT0104,2,B,CSE,Wednesday,2,10:00,11:00,CSE207,DS Lab,B-F2-05,FAC015,Lab,SYNTHETIC - illustrative timetable
+TT0105,2,B,CSE,Wednesday,3,11:00,12:00,CSE208,Java Programming Lab,B-F3-05,FAC016,Lab,SYNTHETIC - illustrative timetable
+TT0106,2,B,CSE,Wednesday,4,12:00,13:00,CSE209,DBMS Lab,B-F4-05,FAC017,Lab,SYNTHETIC - illustrative timetable
+TT0107,2,B,CSE,Wednesday,5,14:00,15:00,CSE210,Design Thinking,B-F3-03,FAC018,Theory,SYNTHETIC - illustrative timetable
+TT0108,2,B,CSE,Wednesday,6,15:00,16:00,CSE201,Engineering Mathematics II,B-F3-04,FAC019,Theory,SYNTHETIC - illustrative timetable
+TT0109,2,B,CSE,Thursday,1,09:00,10:00,CSE202,Data Structures and Applications,B-F4-01,FAC015,Theory,SYNTHETIC - illustrative timetable
+TT0110,2,B,CSE,Thursday,2,10:00,11:00,CSE203,Object-Oriented Programming with Java,B-F4-02,FAC016,Theory,SYNTHETIC - illustrative timetable
+TT0111,2,B,CSE,Thursday,3,11:00,12:00,CSE204,Database Management Systems,B-F4-03,FAC017,Theory,SYNTHETIC - illustrative timetable
+TT0112,2,B,CSE,Thursday,4,12:00,13:00,CSE205,Discrete Mathematics,B-F4-04,FAC018,Theory,SYNTHETIC - illustrative timetable
+TT0113,2,B,CSE,Thursday,5,14:00,15:00,CSE206,Computer Organization,B-F5-01,FAC019,Theory,SYNTHETIC - illustrative timetable
+TT0114,2,B,CSE,Thursday,6,15:00,16:00,CSE207,DS Lab,B-G06,FAC020,Lab,SYNTHETIC - illustrative timetable
+TT0115,2,B,CSE,Friday,1,09:00,10:00,CSE208,Java Programming Lab,B-F1-05,FAC016,Lab,SYNTHETIC - illustrative timetable
+TT0116,2,B,CSE,Friday,2,10:00,11:00,CSE209,DBMS Lab,B-F2-05,FAC017,Lab,SYNTHETIC - illustrative timetable
+TT0117,2,B,CSE,Friday,3,11:00,12:00,CSE210,Design Thinking,A-G04,FAC018,Theory,SYNTHETIC - illustrative timetable
+TT0118,2,B,CSE,Friday,4,12:00,13:00,CSE201,Engineering Mathematics II,A-G05,FAC019,Theory,SYNTHETIC - illustrative timetable
+TT0119,2,B,CSE,Friday,5,14:00,15:00,CSE202,Data Structures and Applications,A-F1-01,FAC020,Theory,SYNTHETIC - illustrative timetable
+TT0120,2,B,CSE,Friday,6,15:00,16:00,CSE203,Object-Oriented Programming with Java,A-F1-02,FAC021,Theory,SYNTHETIC - illustrative timetable
+TT0121,3,A,CSE,Monday,1,09:00,10:00,CSE301,Engineering Mathematics III,A-F4-02,FAC010,Theory,SYNTHETIC - illustrative timetable
+TT0122,3,A,CSE,Monday,2,10:00,11:00,CSE302,Design and Analysis of Algorithms,A-F4-03,FAC011,Theory,SYNTHETIC - illustrative timetable
+TT0123,3,A,CSE,Monday,3,11:00,12:00,CSE303,Operating Systems,A-F4-04,FAC012,Theory,SYNTHETIC - illustrative timetable
+TT0124,3,A,CSE,Monday,4,12:00,13:00,CSE304,Computer Networks,A-F5-01,FAC013,Theory,SYNTHETIC - illustrative timetable
+TT0125,3,A,CSE,Monday,5,14:00,15:00,CSE305,Theory of Computation,A-F5-02,FAC014,Theory,SYNTHETIC - illustrative timetable
+TT0126,3,A,CSE,Monday,6,15:00,16:00,CSE306,Software Engineering,A-F5-03,FAC015,Theory,SYNTHETIC - illustrative timetable
+TT0127,3,A,CSE,Tuesday,1,09:00,10:00,CSE307,Algorithms Lab,B-F3-05,FAC011,Lab,SYNTHETIC - illustrative timetable
+TT0128,3,A,CSE,Tuesday,2,10:00,11:00,CSE308,OS and Networks Lab,B-F4-05,FAC012,Lab,SYNTHETIC - illustrative timetable
+TT0129,3,A,CSE,Tuesday,3,11:00,12:00,CSE309,Mini Project,B-G04,FAC013,Theory,SYNTHETIC - illustrative timetable
+TT0130,3,A,CSE,Tuesday,4,12:00,13:00,CSE310,Probability and Statistics,B-G05,FAC014,Theory,SYNTHETIC - illustrative timetable
+TT0131,3,A,CSE,Tuesday,5,14:00,15:00,CSE301,Engineering Mathematics III,B-F1-01,FAC015,Theory,SYNTHETIC - illustrative timetable
+TT0132,3,A,CSE,Tuesday,6,15:00,16:00,CSE302,Design and Analysis of Algorithms,B-F1-02,FAC016,Theory,SYNTHETIC - illustrative timetable
+TT0133,3,A,CSE,Wednesday,1,09:00,10:00,CSE303,Operating Systems,B-F1-03,FAC012,Theory,SYNTHETIC - illustrative timetable
+TT0134,3,A,CSE,Wednesday,2,10:00,11:00,CSE304,Computer Networks,B-F1-04,FAC013,Theory,SYNTHETIC - illustrative timetable
+TT0135,3,A,CSE,Wednesday,3,11:00,12:00,CSE305,Theory of Computation,B-F2-01,FAC014,Theory,SYNTHETIC - illustrative timetable
+TT0136,3,A,CSE,Wednesday,4,12:00,13:00,CSE306,Software Engineering,B-F2-02,FAC015,Theory,SYNTHETIC - illustrative timetable
+TT0137,3,A,CSE,Wednesday,5,14:00,15:00,CSE307,Algorithms Lab,B-F1-05,FAC016,Lab,SYNTHETIC - illustrative timetable
+TT0138,3,A,CSE,Wednesday,6,15:00,16:00,CSE308,OS and Networks Lab,B-F2-05,FAC017,Lab,SYNTHETIC - illustrative timetable
+TT0139,3,A,CSE,Thursday,1,09:00,10:00,CSE309,Mini Project,B-F3-01,FAC013,Theory,SYNTHETIC - illustrative timetable
+TT0140,3,A,CSE,Thursday,2,10:00,11:00,CSE310,Probability and Statistics,B-F3-02,FAC014,Theory,SYNTHETIC - illustrative timetable
+TT0141,3,A,CSE,Thursday,3,11:00,12:00,CSE301,Engineering Mathematics III,B-F3-03,FAC015,Theory,SYNTHETIC - illustrative timetable
+TT0142,3,A,CSE,Thursday,4,12:00,13:00,CSE302,Design and Analysis of Algorithms,B-F3-04,FAC016,Theory,SYNTHETIC - illustrative timetable
+TT0143,3,A,CSE,Thursday,5,14:00,15:00,CSE303,Operating Systems,B-F4-01,FAC017,Theory,SYNTHETIC - illustrative timetable
+TT0144,3,A,CSE,Thursday,6,15:00,16:00,CSE304,Computer Networks,B-F4-02,FAC018,Theory,SYNTHETIC - illustrative timetable
+TT0145,3,A,CSE,Friday,1,09:00,10:00,CSE305,Theory of Computation,B-F4-03,FAC014,Theory,SYNTHETIC - illustrative timetable
+TT0146,3,A,CSE,Friday,2,10:00,11:00,CSE306,Software Engineering,B-F4-04,FAC015,Theory,SYNTHETIC - illustrative timetable
+TT0147,3,A,CSE,Friday,3,11:00,12:00,CSE307,Algorithms Lab,A-F5-05,FAC016,Lab,SYNTHETIC - illustrative timetable
+TT0148,3,A,CSE,Friday,4,12:00,13:00,CSE308,OS and Networks Lab,B-G06,FAC017,Lab,SYNTHETIC - illustrative timetable
+TT0149,3,A,CSE,Friday,5,14:00,15:00,CSE309,Mini Project,B-F5-03,FAC018,Theory,SYNTHETIC - illustrative timetable
+TT0150,3,A,CSE,Friday,6,15:00,16:00,CSE310,Probability and Statistics,B-F5-04,FAC019,Theory,SYNTHETIC - illustrative timetable
+TT0151,3,B,CSE,Monday,1,09:00,10:00,CSE304,Computer Networks,B-G05,FAC015,Theory,SYNTHETIC - illustrative timetable
+TT0152,3,B,CSE,Monday,2,10:00,11:00,CSE305,Theory of Computation,B-F1-01,FAC016,Theory,SYNTHETIC - illustrative timetable
+TT0153,3,B,CSE,Monday,3,11:00,12:00,CSE306,Software Engineering,B-F1-02,FAC017,Theory,SYNTHETIC - illustrative timetable
+TT0154,3,B,CSE,Monday,4,12:00,13:00,CSE307,Algorithms Lab,A-F3-05,FAC018,Lab,SYNTHETIC - illustrative timetable
+TT0155,3,B,CSE,Monday,5,14:00,15:00,CSE308,OS and Networks Lab,A-F4-05,FAC019,Lab,SYNTHETIC - illustrative timetable
+TT0156,3,B,CSE,Monday,6,15:00,16:00,CSE309,Mini Project,B-F2-01,FAC020,Theory,SYNTHETIC - illustrative timetable
+TT0157,3,B,CSE,Tuesday,1,09:00,10:00,CSE310,Probability and Statistics,B-F2-02,FAC016,Theory,SYNTHETIC - illustrative timetable
+TT0158,3,B,CSE,Tuesday,2,10:00,11:00,CSE301,Engineering Mathematics III,B-F2-03,FAC017,Theory,SYNTHETIC - illustrative timetable
+TT0159,3,B,CSE,Tuesday,3,11:00,12:00,CSE302,Design and Analysis of Algorithms,B-F2-04,FAC018,Theory,SYNTHETIC - illustrative timetable
+TT0160,3,B,CSE,Tuesday,4,12:00,13:00,CSE303,Operating Systems,B-F3-01,FAC019,Theory,SYNTHETIC - illustrative timetable
+TT0161,3,B,CSE,Tuesday,5,14:00,15:00,CSE304,Computer Networks,B-F3-02,FAC020,Theory,SYNTHETIC - illustrative timetable
+TT0162,3,B,CSE,Tuesday,6,15:00,16:00,CSE305,Theory of Computation,B-F3-03,FAC021,Theory,SYNTHETIC - illustrative timetable
+TT0163,3,B,CSE,Wednesday,1,09:00,10:00,CSE306,Software Engineering,B-F3-04,FAC017,Theory,SYNTHETIC - illustrative timetable
+TT0164,3,B,CSE,Wednesday,2,10:00,11:00,CSE307,Algorithms Lab,A-F1-05,FAC018,Lab,SYNTHETIC - illustrative timetable
+TT0165,3,B,CSE,Wednesday,3,11:00,12:00,CSE308,OS and Networks Lab,A-F2-05,FAC019,Lab,SYNTHETIC - illustrative timetable
+TT0166,3,B,CSE,Wednesday,4,12:00,13:00,CSE309,Mini Project,B-F4-03,FAC020,Theory,SYNTHETIC - illustrative timetable
+TT0167,3,B,CSE,Wednesday,5,14:00,15:00,CSE310,Probability and Statistics,B-F4-04,FAC021,Theory,SYNTHETIC - illustrative timetable
+TT0168,3,B,CSE,Wednesday,6,15:00,16:00,CSE301,Engineering Mathematics III,B-F5-01,FAC022,Theory,SYNTHETIC - illustrative timetable
+TT0169,3,B,CSE,Thursday,1,09:00,10:00,CSE302,Design and Analysis of Algorithms,B-F5-02,FAC018,Theory,SYNTHETIC - illustrative timetable
+TT0170,3,B,CSE,Thursday,2,10:00,11:00,CSE303,Operating Systems,B-F5-03,FAC019,Theory,SYNTHETIC - illustrative timetable
+TT0171,3,B,CSE,Thursday,3,11:00,12:00,CSE304,Computer Networks,B-F5-04,FAC020,Theory,SYNTHETIC - illustrative timetable
+TT0172,3,B,CSE,Thursday,4,12:00,13:00,CSE305,Theory of Computation,A-G04,FAC021,Theory,SYNTHETIC - illustrative timetable
+TT0173,3,B,CSE,Thursday,5,14:00,15:00,CSE306,Software Engineering,A-G05,FAC022,Theory,SYNTHETIC - illustrative timetable
+TT0174,3,B,CSE,Thursday,6,15:00,16:00,CSE307,Algorithms Lab,B-F5-05,FAC023,Lab,SYNTHETIC - illustrative timetable
+TT0175,3,B,CSE,Friday,1,09:00,10:00,CSE308,OS and Networks Lab,A-G07,FAC019,Lab,SYNTHETIC - illustrative timetable
+TT0176,3,B,CSE,Friday,2,10:00,11:00,CSE309,Mini Project,A-F1-03,FAC020,Theory,SYNTHETIC - illustrative timetable
+TT0177,3,B,CSE,Friday,3,11:00,12:00,CSE310,Probability and Statistics,A-F1-04,FAC021,Theory,SYNTHETIC - illustrative timetable
+TT0178,3,B,CSE,Friday,4,12:00,13:00,CSE301,Engineering Mathematics III,A-F2-01,FAC022,Theory,SYNTHETIC - illustrative timetable
+TT0179,3,B,CSE,Friday,5,14:00,15:00,CSE302,Design and Analysis of Algorithms,A-F2-02,FAC023,Theory,SYNTHETIC - illustrative timetable
+TT0180,3,B,CSE,Friday,6,15:00,16:00,CSE303,Operating Systems,A-F2-03,FAC024,Theory,SYNTHETIC - illustrative timetable
+TT0181,4,A,CSE,Monday,1,09:00,10:00,CSE401,Analysis and Design of Algorithms,A-F5-03,FAC013,Theory,SYNTHETIC - illustrative timetable
+TT0182,4,A,CSE,Monday,2,10:00,11:00,CSE402,Web Technologies,A-F5-04,FAC014,Theory,SYNTHETIC - illustrative timetable
+TT0183,4,A,CSE,Monday,3,11:00,12:00,CSE403,Artificial Intelligence,B-G03,FAC015,Theory,SYNTHETIC - illustrative timetable
+TT0184,4,A,CSE,Monday,4,12:00,13:00,CSE404,Computer Networks,B-G04,FAC016,Theory,SYNTHETIC - illustrative timetable
+TT0185,4,A,CSE,Monday,5,14:00,15:00,CSE405,Database Management Systems,B-G05,FAC017,Theory,SYNTHETIC - illustrative timetable
+TT0186,4,A,CSE,Monday,6,15:00,16:00,CSE406,Software Engineering,B-F1-01,FAC018,Theory,SYNTHETIC - illustrative timetable
+TT0187,4,A,CSE,Tuesday,1,09:00,10:00,CSE407,Web Technology Lab,A-F2-05,FAC014,Lab,SYNTHETIC - illustrative timetable
+TT0188,4,A,CSE,Tuesday,2,10:00,11:00,CSE408,Networks Lab,A-F3-05,FAC015,Lab,SYNTHETIC - illustrative timetable
+TT0189,4,A,CSE,Tuesday,3,11:00,12:00,CSE409,Mini Project,B-F1-04,FAC016,Theory,SYNTHETIC - illustrative timetable
+TT0190,4,A,CSE,Tuesday,4,12:00,13:00,CSE410,Professional Communication,B-F2-01,FAC017,Theory,SYNTHETIC - illustrative timetable
+TT0191,4,A,CSE,Tuesday,5,14:00,15:00,CSE401,Analysis and Design of Algorithms,B-F2-02,FAC018,Theory,SYNTHETIC - illustrative timetable
+TT0192,4,A,CSE,Tuesday,6,15:00,16:00,CSE402,Web Technologies,B-F2-03,FAC019,Theory,SYNTHETIC - illustrative timetable
+TT0193,4,A,CSE,Wednesday,1,09:00,10:00,CSE403,Artificial Intelligence,B-F2-04,FAC015,Theory,SYNTHETIC - illustrative timetable
+TT0194,4,A,CSE,Wednesday,2,10:00,11:00,CSE404,Computer Networks,B-F3-01,FAC016,Theory,SYNTHETIC - illustrative timetable
+TT0195,4,A,CSE,Wednesday,3,11:00,12:00,CSE405,Database Management Systems,B-F3-02,FAC017,Theory,SYNTHETIC - illustrative timetable
+TT0196,4,A,CSE,Wednesday,4,12:00,13:00,CSE406,Software Engineering,B-F3-03,FAC018,Theory,SYNTHETIC - illustrative timetable
+TT0197,4,A,CSE,Wednesday,5,14:00,15:00,CSE407,Web Technology Lab,A-G07,FAC019,Lab,SYNTHETIC - illustrative timetable
+TT0198,4,A,CSE,Wednesday,6,15:00,16:00,CSE408,Networks Lab,A-F1-05,FAC020,Lab,SYNTHETIC - illustrative timetable
+TT0199,4,A,CSE,Thursday,1,09:00,10:00,CSE409,Mini Project,B-F4-02,FAC016,Theory,SYNTHETIC - illustrative timetable
+TT0200,4,A,CSE,Thursday,2,10:00,11:00,CSE410,Professional Communication,B-F4-03,FAC017,Theory,SYNTHETIC - illustrative timetable
+TT0201,4,A,CSE,Thursday,3,11:00,12:00,CSE401,Analysis and Design of Algorithms,B-F4-04,FAC018,Theory,SYNTHETIC - illustrative timetable
+TT0202,4,A,CSE,Thursday,4,12:00,13:00,CSE402,Web Technologies,B-F5-01,FAC019,Theory,SYNTHETIC - illustrative timetable
+TT0203,4,A,CSE,Thursday,5,14:00,15:00,CSE403,Artificial Intelligence,B-F5-02,FAC020,Theory,SYNTHETIC - illustrative timetable
+TT0204,4,A,CSE,Thursday,6,15:00,16:00,CSE404,Computer Networks,B-F5-03,FAC021,Theory,SYNTHETIC - illustrative timetable
+TT0205,4,A,CSE,Friday,1,09:00,10:00,CSE405,Database Management Systems,B-F5-04,FAC017,Theory,SYNTHETIC - illustrative timetable
+TT0206,4,A,CSE,Friday,2,10:00,11:00,CSE406,Software Engineering,A-G04,FAC018,Theory,SYNTHETIC - illustrative timetable
+TT0207,4,A,CSE,Friday,3,11:00,12:00,CSE407,Web Technology Lab,B-F4-05,FAC019,Lab,SYNTHETIC - illustrative timetable
+TT0208,4,A,CSE,Friday,4,12:00,13:00,CSE408,Networks Lab,B-F5-05,FAC020,Lab,SYNTHETIC - illustrative timetable
+TT0209,4,A,CSE,Friday,5,14:00,15:00,CSE409,Mini Project,A-F1-02,FAC021,Theory,SYNTHETIC - illustrative timetable
+TT0210,4,A,CSE,Friday,6,15:00,16:00,CSE410,Professional Communication,A-F1-03,FAC022,Theory,SYNTHETIC - illustrative timetable
+TT0211,4,B,CSE,Monday,1,09:00,10:00,CSE404,Computer Networks,B-F2-01,FAC018,Theory,SYNTHETIC - illustrative timetable
+TT0212,4,B,CSE,Monday,2,10:00,11:00,CSE405,Database Management Systems,B-F2-02,FAC019,Theory,SYNTHETIC - illustrative timetable
+TT0213,4,B,CSE,Monday,3,11:00,12:00,CSE406,Software Engineering,B-F2-03,FAC020,Theory,SYNTHETIC - illustrative timetable
+TT0214,4,B,CSE,Monday,4,12:00,13:00,CSE407,Web Technology Lab,B-F2-05,FAC021,Lab,SYNTHETIC - illustrative timetable
+TT0215,4,B,CSE,Monday,5,14:00,15:00,CSE408,Networks Lab,B-F3-05,FAC022,Lab,SYNTHETIC - illustrative timetable
+TT0216,4,B,CSE,Monday,6,15:00,16:00,CSE409,Mini Project,B-F3-02,FAC023,Theory,SYNTHETIC - illustrative timetable
+TT0217,4,B,CSE,Tuesday,1,09:00,10:00,CSE410,Professional Communication,B-F3-03,FAC019,Theory,SYNTHETIC - illustrative timetable
+TT0218,4,B,CSE,Tuesday,2,10:00,11:00,CSE401,Analysis and Design of Algorithms,B-F3-04,FAC020,Theory,SYNTHETIC - illustrative timetable
+TT0219,4,B,CSE,Tuesday,3,11:00,12:00,CSE402,Web Technologies,B-F4-01,FAC021,Theory,SYNTHETIC - illustrative timetable
+TT0220,4,B,CSE,Tuesday,4,12:00,13:00,CSE403,Artificial Intelligence,B-F4-02,FAC022,Theory,SYNTHETIC - illustrative timetable
+TT0221,4,B,CSE,Tuesday,5,14:00,15:00,CSE404,Computer Networks,B-F4-03,FAC023,Theory,SYNTHETIC - illustrative timetable
+TT0222,4,B,CSE,Tuesday,6,15:00,16:00,CSE405,Database Management Systems,B-F4-04,FAC024,Theory,SYNTHETIC - illustrative timetable
+TT0223,4,B,CSE,Wednesday,1,09:00,10:00,CSE406,Software Engineering,B-F5-01,FAC020,Theory,SYNTHETIC - illustrative timetable
+TT0224,4,B,CSE,Wednesday,2,10:00,11:00,CSE407,Web Technology Lab,B-G06,FAC021,Lab,SYNTHETIC - illustrative timetable
+TT0225,4,B,CSE,Wednesday,3,11:00,12:00,CSE408,Networks Lab,B-F1-05,FAC022,Lab,SYNTHETIC - illustrative timetable
+TT0226,4,B,CSE,Wednesday,4,12:00,13:00,CSE409,Mini Project,B-F5-04,FAC023,Theory,SYNTHETIC - illustrative timetable
+TT0227,4,B,CSE,Wednesday,5,14:00,15:00,CSE410,Professional Communication,A-G04,FAC024,Theory,SYNTHETIC - illustrative timetable
+TT0228,4,B,CSE,Wednesday,6,15:00,16:00,CSE401,Analysis and Design of Algorithms,A-G05,FAC001,Theory,SYNTHETIC - illustrative timetable
+TT0229,4,B,CSE,Thursday,1,09:00,10:00,CSE402,Web Technologies,A-F1-01,FAC021,Theory,SYNTHETIC - illustrative timetable
+TT0230,4,B,CSE,Thursday,2,10:00,11:00,CSE403,Artificial Intelligence,A-F1-02,FAC022,Theory,SYNTHETIC - illustrative timetable
+TT0231,4,B,CSE,Thursday,3,11:00,12:00,CSE404,Computer Networks,A-F1-03,FAC023,Theory,SYNTHETIC - illustrative timetable
+TT0232,4,B,CSE,Thursday,4,12:00,13:00,CSE405,Database Management Systems,A-F1-04,FAC024,Theory,SYNTHETIC - illustrative timetable
+TT0233,4,B,CSE,Thursday,5,14:00,15:00,CSE406,Software Engineering,A-F2-01,FAC001,Theory,SYNTHETIC - illustrative timetable
+TT0234,4,B,CSE,Thursday,6,15:00,16:00,CSE407,Web Technology Lab,A-F4-05,FAC002,Lab,SYNTHETIC - illustrative timetable
+TT0235,4,B,CSE,Friday,1,09:00,10:00,CSE408,Networks Lab,A-F5-05,FAC022,Lab,SYNTHETIC - illustrative timetable
+TT0236,4,B,CSE,Friday,2,10:00,11:00,CSE409,Mini Project,A-F2-04,FAC023,Theory,SYNTHETIC - illustrative timetable
+TT0237,4,B,CSE,Friday,3,11:00,12:00,CSE410,Professional Communication,A-F3-01,FAC024,Theory,SYNTHETIC - illustrative timetable
+TT0238,4,B,CSE,Friday,4,12:00,13:00,CSE401,Analysis and Design of Algorithms,A-F3-02,FAC001,Theory,SYNTHETIC - illustrative timetable
+TT0239,4,B,CSE,Friday,5,14:00,15:00,CSE402,Web Technologies,A-F3-03,FAC002,Theory,SYNTHETIC - illustrative timetable
+TT0240,4,B,CSE,Friday,6,15:00,16:00,CSE403,Artificial Intelligence,A-F3-04,FAC003,Theory,SYNTHETIC - illustrative timetable
+TT0241,5,A,CSE,Monday,1,09:00,10:00,CSE501,Machine Learning,B-F1-01,FAC016,Theory,SYNTHETIC - illustrative timetable
+TT0242,5,A,CSE,Monday,2,10:00,11:00,CSE502,Cloud Computing,B-F1-02,FAC017,Theory,SYNTHETIC - illustrative timetable
+TT0243,5,A,CSE,Monday,3,11:00,12:00,CSE503,Cyber Security,B-F1-03,FAC018,Theory,SYNTHETIC - illustrative timetable
+TT0244,5,A,CSE,Monday,4,12:00,13:00,CSE504,Big Data Analytics,B-F1-04,FAC019,Theory,SYNTHETIC - illustrative timetable
+TT0245,5,A,CSE,Monday,5,14:00,15:00,CSE505,Internet of Things,B-F2-01,FAC020,Theory,SYNTHETIC - illustrative timetable
+TT0246,5,A,CSE,Monday,6,15:00,16:00,CSE506,Compiler Design,B-F2-02,FAC021,Theory,SYNTHETIC - illustrative timetable
+TT0247,5,A,CSE,Tuesday,1,09:00,10:00,CSE507,Machine Learning Lab,B-F1-05,FAC017,Lab,SYNTHETIC - illustrative timetable
+TT0248,5,A,CSE,Tuesday,2,10:00,11:00,CSE508,Cloud Computing Lab,B-F2-05,FAC018,Lab,SYNTHETIC - illustrative timetable
+TT0249,5,A,CSE,Tuesday,3,11:00,12:00,CSE509,Mini Project,B-F3-01,FAC019,Theory,SYNTHETIC - illustrative timetable
+TT0250,5,A,CSE,Tuesday,4,12:00,13:00,CSE510,Professional Elective,B-F3-02,FAC020,Theory,SYNTHETIC - illustrative timetable
+TT0251,5,A,CSE,Tuesday,5,14:00,15:00,CSE501,Machine Learning,B-F3-03,FAC021,Theory,SYNTHETIC - illustrative timetable
+TT0252,5,A,CSE,Tuesday,6,15:00,16:00,CSE502,Cloud Computing,B-F3-04,FAC022,Theory,SYNTHETIC - illustrative timetable
+TT0253,5,A,CSE,Wednesday,1,09:00,10:00,CSE503,Cyber Security,B-F4-01,FAC018,Theory,SYNTHETIC - illustrative timetable
+TT0254,5,A,CSE,Wednesday,2,10:00,11:00,CSE504,Big Data Analytics,B-F4-02,FAC019,Theory,SYNTHETIC - illustrative timetable
+TT0255,5,A,CSE,Wednesday,3,11:00,12:00,CSE505,Internet of Things,B-F4-03,FAC020,Theory,SYNTHETIC - illustrative timetable
+TT0256,5,A,CSE,Wednesday,4,12:00,13:00,CSE506,Compiler Design,B-F4-04,FAC021,Theory,SYNTHETIC - illustrative timetable
+TT0257,5,A,CSE,Wednesday,5,14:00,15:00,CSE507,Machine Learning Lab,A-F5-05,FAC022,Lab,SYNTHETIC - illustrative timetable
+TT0258,5,A,CSE,Wednesday,6,15:00,16:00,CSE508,Cloud Computing Lab,B-G06,FAC023,Lab,SYNTHETIC - illustrative timetable
+TT0259,5,A,CSE,Thursday,1,09:00,10:00,CSE509,Mini Project,B-F5-03,FAC019,Theory,SYNTHETIC - illustrative timetable
+TT0260,5,A,CSE,Thursday,2,10:00,11:00,CSE510,Professional Elective,B-F5-04,FAC020,Theory,SYNTHETIC - illustrative timetable
+TT0261,5,A,CSE,Thursday,3,11:00,12:00,CSE501,Machine Learning,A-G04,FAC021,Theory,SYNTHETIC - illustrative timetable
+TT0262,5,A,CSE,Thursday,4,12:00,13:00,CSE502,Cloud Computing,A-G05,FAC022,Theory,SYNTHETIC - illustrative timetable
+TT0263,5,A,CSE,Thursday,5,14:00,15:00,CSE503,Cyber Security,A-F1-01,FAC023,Theory,SYNTHETIC - illustrative timetable
+TT0264,5,A,CSE,Thursday,6,15:00,16:00,CSE504,Big Data Analytics,A-F1-02,FAC024,Theory,SYNTHETIC - illustrative timetable
+TT0265,5,A,CSE,Friday,1,09:00,10:00,CSE505,Internet of Things,A-F1-03,FAC020,Theory,SYNTHETIC - illustrative timetable
+TT0266,5,A,CSE,Friday,2,10:00,11:00,CSE506,Compiler Design,A-F1-04,FAC021,Theory,SYNTHETIC - illustrative timetable
+TT0267,5,A,CSE,Friday,3,11:00,12:00,CSE507,Machine Learning Lab,A-F3-05,FAC022,Lab,SYNTHETIC - illustrative timetable
+TT0268,5,A,CSE,Friday,4,12:00,13:00,CSE508,Cloud Computing Lab,A-F4-05,FAC023,Lab,SYNTHETIC - illustrative timetable
+TT0269,5,A,CSE,Friday,5,14:00,15:00,CSE509,Mini Project,A-F2-03,FAC024,Theory,SYNTHETIC - illustrative timetable
+TT0270,5,A,CSE,Friday,6,15:00,16:00,CSE510,Professional Elective,A-F2-04,FAC001,Theory,SYNTHETIC - illustrative timetable
+TT0271,5,B,CSE,Monday,1,09:00,10:00,CSE504,Big Data Analytics,B-F3-02,FAC021,Theory,SYNTHETIC - illustrative timetable
+TT0272,5,B,CSE,Monday,2,10:00,11:00,CSE505,Internet of Things,B-F3-03,FAC022,Theory,SYNTHETIC - illustrative timetable
+TT0273,5,B,CSE,Monday,3,11:00,12:00,CSE506,Compiler Design,B-F3-04,FAC023,Theory,SYNTHETIC - illustrative timetable
+TT0274,5,B,CSE,Monday,4,12:00,13:00,CSE507,Machine Learning Lab,A-F1-05,FAC024,Lab,SYNTHETIC - illustrative timetable
+TT0275,5,B,CSE,Monday,5,14:00,15:00,CSE508,Cloud Computing Lab,A-F2-05,FAC001,Lab,SYNTHETIC - illustrative timetable
+TT0276,5,B,CSE,Monday,6,15:00,16:00,CSE509,Mini Project,B-F4-03,FAC002,Theory,SYNTHETIC - illustrative timetable
+TT0277,5,B,CSE,Tuesday,1,09:00,10:00,CSE510,Professional Elective,B-F4-04,FAC022,Theory,SYNTHETIC - illustrative timetable
+TT0278,5,B,CSE,Tuesday,2,10:00,11:00,CSE501,Machine Learning,B-F5-01,FAC023,Theory,SYNTHETIC - illustrative timetable
+TT0279,5,B,CSE,Tuesday,3,11:00,12:00,CSE502,Cloud Computing,B-F5-02,FAC024,Theory,SYNTHETIC - illustrative timetable
+TT0280,5,B,CSE,Tuesday,4,12:00,13:00,CSE503,Cyber Security,B-F5-03,FAC001,Theory,SYNTHETIC - illustrative timetable
+TT0281,5,B,CSE,Tuesday,5,14:00,15:00,CSE504,Big Data Analytics,B-F5-04,FAC002,Theory,SYNTHETIC - illustrative timetable
+TT0282,5,B,CSE,Tuesday,6,15:00,16:00,CSE505,Internet of Things,A-G04,FAC003,Theory,SYNTHETIC - illustrative timetable
+TT0283,5,B,CSE,Wednesday,1,09:00,10:00,CSE506,Compiler Design,A-G05,FAC023,Theory,SYNTHETIC - illustrative timetable
+TT0284,5,B,CSE,Wednesday,2,10:00,11:00,CSE507,Machine Learning Lab,B-F5-05,FAC024,Lab,SYNTHETIC - illustrative timetable
+TT0285,5,B,CSE,Wednesday,3,11:00,12:00,CSE508,Cloud Computing Lab,A-G07,FAC001,Lab,SYNTHETIC - illustrative timetable
+TT0286,5,B,CSE,Wednesday,4,12:00,13:00,CSE509,Mini Project,A-F1-03,FAC002,Theory,SYNTHETIC - illustrative timetable
+TT0287,5,B,CSE,Wednesday,5,14:00,15:00,CSE510,Professional Elective,A-F1-04,FAC003,Theory,SYNTHETIC - illustrative timetable
+TT0288,5,B,CSE,Wednesday,6,15:00,16:00,CSE501,Machine Learning,A-F2-01,FAC004,Theory,SYNTHETIC - illustrative timetable
+TT0289,5,B,CSE,Thursday,1,09:00,10:00,CSE502,Cloud Computing,A-F2-02,FAC024,Theory,SYNTHETIC - illustrative timetable
+TT0290,5,B,CSE,Thursday,2,10:00,11:00,CSE503,Cyber Security,A-F2-03,FAC001,Theory,SYNTHETIC - illustrative timetable
+TT0291,5,B,CSE,Thursday,3,11:00,12:00,CSE504,Big Data Analytics,A-F2-04,FAC002,Theory,SYNTHETIC - illustrative timetable
+TT0292,5,B,CSE,Thursday,4,12:00,13:00,CSE505,Internet of Things,A-F3-01,FAC003,Theory,SYNTHETIC - illustrative timetable
+TT0293,5,B,CSE,Thursday,5,14:00,15:00,CSE506,Compiler Design,A-F3-02,FAC004,Theory,SYNTHETIC - illustrative timetable
+TT0294,5,B,CSE,Thursday,6,15:00,16:00,CSE507,Machine Learning Lab,B-F3-05,FAC005,Lab,SYNTHETIC - illustrative timetable
+TT0295,5,B,CSE,Friday,1,09:00,10:00,CSE508,Cloud Computing Lab,B-F4-05,FAC001,Lab,SYNTHETIC - illustrative timetable
+TT0296,5,B,CSE,Friday,2,10:00,11:00,CSE509,Mini Project,A-F4-01,FAC002,Theory,SYNTHETIC - illustrative timetable
+TT0297,5,B,CSE,Friday,3,11:00,12:00,CSE510,Professional Elective,A-F4-02,FAC003,Theory,SYNTHETIC - illustrative timetable
+TT0298,5,B,CSE,Friday,4,12:00,13:00,CSE501,Machine Learning,A-F4-03,FAC004,Theory,SYNTHETIC - illustrative timetable
+TT0299,5,B,CSE,Friday,5,14:00,15:00,CSE502,Cloud Computing,A-F4-04,FAC005,Theory,SYNTHETIC - illustrative timetable
+TT0300,5,B,CSE,Friday,6,15:00,16:00,CSE503,Cyber Security,A-F5-01,FAC006,Theory,SYNTHETIC - illustrative timetable
+TT0301,6,A,CSE,Monday,1,09:00,10:00,CSE601,Machine Learning,B-F2-02,FAC019,Theory,SYNTHETIC - illustrative timetable
+TT0302,6,A,CSE,Monday,2,10:00,11:00,CSE602,DevOps,B-F2-03,FAC020,Theory,SYNTHETIC - illustrative timetable
+TT0303,6,A,CSE,Monday,3,11:00,12:00,CSE603,Data Mining,B-F2-04,FAC021,Theory,SYNTHETIC - illustrative timetable
+TT0304,6,A,CSE,Monday,4,12:00,13:00,CSE604,Distributed Systems,B-F3-01,FAC022,Theory,SYNTHETIC - illustrative timetable
+TT0305,6,A,CSE,Monday,5,14:00,15:00,CSE605,Information Security,B-F3-02,FAC023,Theory,SYNTHETIC - illustrative timetable
+TT0306,6,A,CSE,Monday,6,15:00,16:00,CSE606,Internet of Things,B-F3-03,FAC024,Theory,SYNTHETIC - illustrative timetable
+TT0307,6,A,CSE,Tuesday,1,09:00,10:00,CSE607,DevOps Lab,A-G07,FAC020,Lab,SYNTHETIC - illustrative timetable
+TT0308,6,A,CSE,Tuesday,2,10:00,11:00,CSE608,Data Analytics Lab,A-F1-05,FAC021,Lab,SYNTHETIC - illustrative timetable
+TT0309,6,A,CSE,Tuesday,3,11:00,12:00,CSE609,Project Work,B-F4-02,FAC022,Theory,SYNTHETIC - illustrative timetable
+TT0310,6,A,CSE,Tuesday,4,12:00,13:00,CSE610,Professional Elective,B-F4-03,FAC023,Theory,SYNTHETIC - illustrative timetable
+TT0311,6,A,CSE,Tuesday,5,14:00,15:00,CSE601,Machine Learning,B-F4-04,FAC024,Theory,SYNTHETIC - illustrative timetable
+TT0312,6,A,CSE,Tuesday,6,15:00,16:00,CSE602,DevOps,B-F5-01,FAC001,Theory,SYNTHETIC - illustrative timetable
+TT0313,6,A,CSE,Wednesday,1,09:00,10:00,CSE603,Data Mining,B-F5-02,FAC021,Theory,SYNTHETIC - illustrative timetable
+TT0314,6,A,CSE,Wednesday,2,10:00,11:00,CSE604,Distributed Systems,B-F5-03,FAC022,Theory,SYNTHETIC - illustrative timetable
+TT0315,6,A,CSE,Wednesday,3,11:00,12:00,CSE605,Information Security,B-F5-04,FAC023,Theory,SYNTHETIC - illustrative timetable
+TT0316,6,A,CSE,Wednesday,4,12:00,13:00,CSE606,Internet of Things,A-G04,FAC024,Theory,SYNTHETIC - illustrative timetable
+TT0317,6,A,CSE,Wednesday,5,14:00,15:00,CSE607,DevOps Lab,B-F4-05,FAC001,Lab,SYNTHETIC - illustrative timetable
+TT0318,6,A,CSE,Wednesday,6,15:00,16:00,CSE608,Data Analytics Lab,B-F5-05,FAC002,Lab,SYNTHETIC - illustrative timetable
+TT0319,6,A,CSE,Thursday,1,09:00,10:00,CSE609,Project Work,A-F1-02,FAC022,Theory,SYNTHETIC - illustrative timetable
+TT0320,6,A,CSE,Thursday,2,10:00,11:00,CSE610,Professional Elective,A-F1-03,FAC023,Theory,SYNTHETIC - illustrative timetable
+TT0321,6,A,CSE,Thursday,3,11:00,12:00,CSE601,Machine Learning,A-F1-04,FAC024,Theory,SYNTHETIC - illustrative timetable
+TT0322,6,A,CSE,Thursday,4,12:00,13:00,CSE602,DevOps,A-F2-01,FAC001,Theory,SYNTHETIC - illustrative timetable
+TT0323,6,A,CSE,Thursday,5,14:00,15:00,CSE603,Data Mining,A-F2-02,FAC002,Theory,SYNTHETIC - illustrative timetable
+TT0324,6,A,CSE,Thursday,6,15:00,16:00,CSE604,Distributed Systems,A-F2-03,FAC003,Theory,SYNTHETIC - illustrative timetable
+TT0325,6,A,CSE,Friday,1,09:00,10:00,CSE605,Information Security,A-F2-04,FAC023,Theory,SYNTHETIC - illustrative timetable
+TT0326,6,A,CSE,Friday,2,10:00,11:00,CSE606,Internet of Things,A-F3-01,FAC024,Theory,SYNTHETIC - illustrative timetable
+TT0327,6,A,CSE,Friday,3,11:00,12:00,CSE607,DevOps Lab,B-F2-05,FAC001,Lab,SYNTHETIC - illustrative timetable
+TT0328,6,A,CSE,Friday,4,12:00,13:00,CSE608,Data Analytics Lab,B-F3-05,FAC002,Lab,SYNTHETIC - illustrative timetable
+TT0329,6,A,CSE,Friday,5,14:00,15:00,CSE609,Project Work,A-F3-04,FAC003,Theory,SYNTHETIC - illustrative timetable
+TT0330,6,A,CSE,Friday,6,15:00,16:00,CSE610,Professional Elective,A-F4-01,FAC004,Theory,SYNTHETIC - illustrative timetable
+TT0331,6,B,CSE,Monday,1,09:00,10:00,CSE604,Distributed Systems,B-F4-03,FAC024,Theory,SYNTHETIC - illustrative timetable
+TT0332,6,B,CSE,Monday,2,10:00,11:00,CSE605,Information Security,B-F4-04,FAC001,Theory,SYNTHETIC - illustrative timetable
+TT0333,6,B,CSE,Monday,3,11:00,12:00,CSE606,Internet of Things,B-F5-01,FAC002,Theory,SYNTHETIC - illustrative timetable
+TT0334,6,B,CSE,Monday,4,12:00,13:00,CSE607,DevOps Lab,B-G06,FAC003,Lab,SYNTHETIC - illustrative timetable
+TT0335,6,B,CSE,Monday,5,14:00,15:00,CSE608,Data Analytics Lab,B-F1-05,FAC004,Lab,SYNTHETIC - illustrative timetable
+TT0336,6,B,CSE,Monday,6,15:00,16:00,CSE609,Project Work,B-F5-04,FAC005,Theory,SYNTHETIC - illustrative timetable
+TT0337,6,B,CSE,Tuesday,1,09:00,10:00,CSE610,Professional Elective,A-G04,FAC001,Theory,SYNTHETIC - illustrative timetable
+TT0338,6,B,CSE,Tuesday,2,10:00,11:00,CSE601,Machine Learning,A-G05,FAC002,Theory,SYNTHETIC - illustrative timetable
+TT0339,6,B,CSE,Tuesday,3,11:00,12:00,CSE602,DevOps,A-F1-01,FAC003,Theory,SYNTHETIC - illustrative timetable
+TT0340,6,B,CSE,Tuesday,4,12:00,13:00,CSE603,Data Mining,A-F1-02,FAC004,Theory,SYNTHETIC - illustrative timetable
+TT0341,6,B,CSE,Tuesday,5,14:00,15:00,CSE604,Distributed Systems,A-F1-03,FAC005,Theory,SYNTHETIC - illustrative timetable
+TT0342,6,B,CSE,Tuesday,6,15:00,16:00,CSE605,Information Security,A-F1-04,FAC006,Theory,SYNTHETIC - illustrative timetable
+TT0343,6,B,CSE,Wednesday,1,09:00,10:00,CSE606,Internet of Things,A-F2-01,FAC002,Theory,SYNTHETIC - illustrative timetable
+TT0344,6,B,CSE,Wednesday,2,10:00,11:00,CSE607,DevOps Lab,A-F4-05,FAC003,Lab,SYNTHETIC - illustrative timetable
+TT0345,6,B,CSE,Wednesday,3,11:00,12:00,CSE608,Data Analytics Lab,A-F5-05,FAC004,Lab,SYNTHETIC - illustrative timetable
+TT0346,6,B,CSE,Wednesday,4,12:00,13:00,CSE609,Project Work,A-F2-04,FAC005,Theory,SYNTHETIC - illustrative timetable
+TT0347,6,B,CSE,Wednesday,5,14:00,15:00,CSE610,Professional Elective,A-F3-01,FAC006,Theory,SYNTHETIC - illustrative timetable
+TT0348,6,B,CSE,Wednesday,6,15:00,16:00,CSE601,Machine Learning,A-F3-02,FAC007,Theory,SYNTHETIC - illustrative timetable
+TT0349,6,B,CSE,Thursday,1,09:00,10:00,CSE602,DevOps,A-F3-03,FAC003,Theory,SYNTHETIC - illustrative timetable
+TT0350,6,B,CSE,Thursday,2,10:00,11:00,CSE603,Data Mining,A-F3-04,FAC004,Theory,SYNTHETIC - illustrative timetable
+TT0351,6,B,CSE,Thursday,3,11:00,12:00,CSE604,Distributed Systems,A-F4-01,FAC005,Theory,SYNTHETIC - illustrative timetable
+TT0352,6,B,CSE,Thursday,4,12:00,13:00,CSE605,Information Security,A-F4-02,FAC006,Theory,SYNTHETIC - illustrative timetable
+TT0353,6,B,CSE,Thursday,5,14:00,15:00,CSE606,Internet of Things,A-F4-03,FAC007,Theory,SYNTHETIC - illustrative timetable
+TT0354,6,B,CSE,Thursday,6,15:00,16:00,CSE607,DevOps Lab,A-F2-05,FAC008,Lab,SYNTHETIC - illustrative timetable
+TT0355,6,B,CSE,Friday,1,09:00,10:00,CSE608,Data Analytics Lab,A-F3-05,FAC004,Lab,SYNTHETIC - illustrative timetable
+TT0356,6,B,CSE,Friday,2,10:00,11:00,CSE609,Project Work,A-F5-02,FAC005,Theory,SYNTHETIC - illustrative timetable
+TT0357,6,B,CSE,Friday,3,11:00,12:00,CSE610,Professional Elective,A-F5-03,FAC006,Theory,SYNTHETIC - illustrative timetable
+TT0358,6,B,CSE,Friday,4,12:00,13:00,CSE601,Machine Learning,A-F5-04,FAC007,Theory,SYNTHETIC - illustrative timetable
+TT0359,6,B,CSE,Friday,5,14:00,15:00,CSE602,DevOps,B-G03,FAC008,Theory,SYNTHETIC - illustrative timetable
+TT0360,6,B,CSE,Friday,6,15:00,16:00,CSE603,Data Mining,B-G04,FAC009,Theory,SYNTHETIC - illustrative timetable
+TT0361,7,A,CSE,Monday,1,09:00,10:00,CSE701,Deep Learning,B-F3-03,FAC022,Theory,SYNTHETIC - illustrative timetable
+TT0362,7,A,CSE,Monday,2,10:00,11:00,CSE702,Cloud Architecture,B-F3-04,FAC023,Theory,SYNTHETIC - illustrative timetable
+TT0363,7,A,CSE,Monday,3,11:00,12:00,CSE703,Blockchain Fundamentals,B-F4-01,FAC024,Theory,SYNTHETIC - illustrative timetable
+TT0364,7,A,CSE,Monday,4,12:00,13:00,CSE704,Natural Language Processing,B-F4-02,FAC001,Theory,SYNTHETIC - illustrative timetable
+TT0365,7,A,CSE,Monday,5,14:00,15:00,CSE705,Software Testing,B-F4-03,FAC002,Theory,SYNTHETIC - illustrative timetable
+TT0366,7,A,CSE,Monday,6,15:00,16:00,CSE706,Data Science Elective,B-F4-04,FAC003,Theory,SYNTHETIC - illustrative timetable
+TT0367,7,A,CSE,Tuesday,1,09:00,10:00,CSE707,Project Work,B-F5-01,FAC023,Theory,SYNTHETIC - illustrative timetable
+TT0368,7,A,CSE,Tuesday,2,10:00,11:00,CSE708,Internship Seminar,B-F5-02,FAC024,Theory,SYNTHETIC - illustrative timetable
+TT0369,7,A,CSE,Tuesday,3,11:00,12:00,CSE709,Research Methodology,B-F5-03,FAC001,Theory,SYNTHETIC - illustrative timetable
+TT0370,7,A,CSE,Tuesday,4,12:00,13:00,CSE710,Professional Elective,B-F5-04,FAC002,Theory,SYNTHETIC - illustrative timetable
+TT0371,7,A,CSE,Tuesday,5,14:00,15:00,CSE701,Deep Learning,A-G04,FAC003,Theory,SYNTHETIC - illustrative timetable
+TT0372,7,A,CSE,Tuesday,6,15:00,16:00,CSE702,Cloud Architecture,A-G05,FAC004,Theory,SYNTHETIC - illustrative timetable
+TT0373,7,A,CSE,Wednesday,1,09:00,10:00,CSE703,Blockchain Fundamentals,A-F1-01,FAC024,Theory,SYNTHETIC - illustrative timetable
+TT0374,7,A,CSE,Wednesday,2,10:00,11:00,CSE704,Natural Language Processing,A-F1-02,FAC001,Theory,SYNTHETIC - illustrative timetable
+TT0375,7,A,CSE,Wednesday,3,11:00,12:00,CSE705,Software Testing,A-F1-03,FAC002,Theory,SYNTHETIC - illustrative timetable
+TT0376,7,A,CSE,Wednesday,4,12:00,13:00,CSE706,Data Science Elective,A-F1-04,FAC003,Theory,SYNTHETIC - illustrative timetable
+TT0377,7,A,CSE,Wednesday,5,14:00,15:00,CSE707,Project Work,A-F2-01,FAC004,Theory,SYNTHETIC - illustrative timetable
+TT0378,7,A,CSE,Wednesday,6,15:00,16:00,CSE708,Internship Seminar,A-F2-02,FAC005,Theory,SYNTHETIC - illustrative timetable
+TT0379,7,A,CSE,Thursday,1,09:00,10:00,CSE709,Research Methodology,A-F2-03,FAC001,Theory,SYNTHETIC - illustrative timetable
+TT0380,7,A,CSE,Thursday,2,10:00,11:00,CSE710,Professional Elective,A-F2-04,FAC002,Theory,SYNTHETIC - illustrative timetable
+TT0381,7,A,CSE,Thursday,3,11:00,12:00,CSE701,Deep Learning,A-F3-01,FAC003,Theory,SYNTHETIC - illustrative timetable
+TT0382,7,A,CSE,Thursday,4,12:00,13:00,CSE702,Cloud Architecture,A-F3-02,FAC004,Theory,SYNTHETIC - illustrative timetable
+TT0383,7,A,CSE,Thursday,5,14:00,15:00,CSE703,Blockchain Fundamentals,A-F3-03,FAC005,Theory,SYNTHETIC - illustrative timetable
+TT0384,7,A,CSE,Thursday,6,15:00,16:00,CSE704,Natural Language Processing,A-F3-04,FAC006,Theory,SYNTHETIC - illustrative timetable
+TT0385,7,A,CSE,Friday,1,09:00,10:00,CSE705,Software Testing,A-F4-01,FAC002,Theory,SYNTHETIC - illustrative timetable
+TT0386,7,A,CSE,Friday,2,10:00,11:00,CSE706,Data Science Elective,A-F4-02,FAC003,Theory,SYNTHETIC - illustrative timetable
+TT0387,7,A,CSE,Friday,3,11:00,12:00,CSE707,Project Work,A-F4-03,FAC004,Theory,SYNTHETIC - illustrative timetable
+TT0388,7,A,CSE,Friday,4,12:00,13:00,CSE708,Internship Seminar,A-F4-04,FAC005,Theory,SYNTHETIC - illustrative timetable
+TT0389,7,A,CSE,Friday,5,14:00,15:00,CSE709,Research Methodology,A-F5-01,FAC006,Theory,SYNTHETIC - illustrative timetable
+TT0390,7,A,CSE,Friday,6,15:00,16:00,CSE710,Professional Elective,A-F5-02,FAC007,Theory,SYNTHETIC - illustrative timetable
+TT0391,7,B,CSE,Monday,1,09:00,10:00,CSE704,Natural Language Processing,B-F5-04,FAC003,Theory,SYNTHETIC - illustrative timetable
+TT0392,7,B,CSE,Monday,2,10:00,11:00,CSE705,Software Testing,A-G04,FAC004,Theory,SYNTHETIC - illustrative timetable
+TT0393,7,B,CSE,Monday,3,11:00,12:00,CSE706,Data Science Elective,A-G05,FAC005,Theory,SYNTHETIC - illustrative timetable
+TT0394,7,B,CSE,Monday,4,12:00,13:00,CSE707,Project Work,A-F1-01,FAC006,Theory,SYNTHETIC - illustrative timetable
+TT0395,7,B,CSE,Monday,5,14:00,15:00,CSE708,Internship Seminar,A-F1-02,FAC007,Theory,SYNTHETIC - illustrative timetable
+TT0396,7,B,CSE,Monday,6,15:00,16:00,CSE709,Research Methodology,A-F1-03,FAC008,Theory,SYNTHETIC - illustrative timetable
+TT0397,7,B,CSE,Tuesday,1,09:00,10:00,CSE710,Professional Elective,A-F1-04,FAC004,Theory,SYNTHETIC - illustrative timetable
+TT0398,7,B,CSE,Tuesday,2,10:00,11:00,CSE701,Deep Learning,A-F2-01,FAC005,Theory,SYNTHETIC - illustrative timetable
+TT0399,7,B,CSE,Tuesday,3,11:00,12:00,CSE702,Cloud Architecture,A-F2-02,FAC006,Theory,SYNTHETIC - illustrative timetable
+TT0400,7,B,CSE,Tuesday,4,12:00,13:00,CSE703,Blockchain Fundamentals,A-F2-03,FAC007,Theory,SYNTHETIC - illustrative timetable
+TT0401,7,B,CSE,Tuesday,5,14:00,15:00,CSE704,Natural Language Processing,A-F2-04,FAC008,Theory,SYNTHETIC - illustrative timetable
+TT0402,7,B,CSE,Tuesday,6,15:00,16:00,CSE705,Software Testing,A-F3-01,FAC009,Theory,SYNTHETIC - illustrative timetable
+TT0403,7,B,CSE,Wednesday,1,09:00,10:00,CSE706,Data Science Elective,A-F3-02,FAC005,Theory,SYNTHETIC - illustrative timetable
+TT0404,7,B,CSE,Wednesday,2,10:00,11:00,CSE707,Project Work,A-F3-03,FAC006,Theory,SYNTHETIC - illustrative timetable
+TT0405,7,B,CSE,Wednesday,3,11:00,12:00,CSE708,Internship Seminar,A-F3-04,FAC007,Theory,SYNTHETIC - illustrative timetable
+TT0406,7,B,CSE,Wednesday,4,12:00,13:00,CSE709,Research Methodology,A-F4-01,FAC008,Theory,SYNTHETIC - illustrative timetable
+TT0407,7,B,CSE,Wednesday,5,14:00,15:00,CSE710,Professional Elective,A-F4-02,FAC009,Theory,SYNTHETIC - illustrative timetable
+TT0408,7,B,CSE,Wednesday,6,15:00,16:00,CSE701,Deep Learning,A-F4-03,FAC010,Theory,SYNTHETIC - illustrative timetable
+TT0409,7,B,CSE,Thursday,1,09:00,10:00,CSE702,Cloud Architecture,A-F4-04,FAC006,Theory,SYNTHETIC - illustrative timetable
+TT0410,7,B,CSE,Thursday,2,10:00,11:00,CSE703,Blockchain Fundamentals,A-F5-01,FAC007,Theory,SYNTHETIC - illustrative timetable
+TT0411,7,B,CSE,Thursday,3,11:00,12:00,CSE704,Natural Language Processing,A-F5-02,FAC008,Theory,SYNTHETIC - illustrative timetable
+TT0412,7,B,CSE,Thursday,4,12:00,13:00,CSE705,Software Testing,A-F5-03,FAC009,Theory,SYNTHETIC - illustrative timetable
+TT0413,7,B,CSE,Thursday,5,14:00,15:00,CSE706,Data Science Elective,A-F5-04,FAC010,Theory,SYNTHETIC - illustrative timetable
+TT0414,7,B,CSE,Thursday,6,15:00,16:00,CSE707,Project Work,B-G03,FAC011,Theory,SYNTHETIC - illustrative timetable
+TT0415,7,B,CSE,Friday,1,09:00,10:00,CSE708,Internship Seminar,B-G04,FAC007,Theory,SYNTHETIC - illustrative timetable
+TT0416,7,B,CSE,Friday,2,10:00,11:00,CSE709,Research Methodology,B-G05,FAC008,Theory,SYNTHETIC - illustrative timetable
+TT0417,7,B,CSE,Friday,3,11:00,12:00,CSE710,Professional Elective,B-F1-01,FAC009,Theory,SYNTHETIC - illustrative timetable
+TT0418,7,B,CSE,Friday,4,12:00,13:00,CSE701,Deep Learning,B-F1-02,FAC010,Theory,SYNTHETIC - illustrative timetable
+TT0419,7,B,CSE,Friday,5,14:00,15:00,CSE702,Cloud Architecture,B-F1-03,FAC011,Theory,SYNTHETIC - illustrative timetable
+TT0420,7,B,CSE,Friday,6,15:00,16:00,CSE703,Blockchain Fundamentals,B-F1-04,FAC012,Theory,SYNTHETIC - illustrative timetable
+TT0421,8,A,CSE,Monday,1,09:00,10:00,CSE801,Major Project,B-F4-04,FAC001,Theory,SYNTHETIC - illustrative timetable
+TT0422,8,A,CSE,Monday,2,10:00,11:00,CSE802,Project Review,B-F5-01,FAC002,Theory,SYNTHETIC - illustrative timetable
+TT0423,8,A,CSE,Monday,3,11:00,12:00,CSE803,Professional Elective,B-F5-02,FAC003,Theory,SYNTHETIC - illustrative timetable
+TT0424,8,A,CSE,Monday,4,12:00,13:00,CSE804,Industry Internship,B-F5-03,FAC004,Theory,SYNTHETIC - illustrative timetable
+TT0425,8,A,CSE,Monday,5,14:00,15:00,CSE805,Technical Seminar,B-F5-04,FAC005,Theory,SYNTHETIC - illustrative timetable
+TT0426,8,A,CSE,Monday,6,15:00,16:00,CSE806,Placement Training,A-G04,FAC006,Theory,SYNTHETIC - illustrative timetable
+TT0427,8,A,CSE,Tuesday,1,09:00,10:00,CSE807,Project Work,A-G05,FAC002,Theory,SYNTHETIC - illustrative timetable
+TT0428,8,A,CSE,Tuesday,2,10:00,11:00,CSE808,Project Viva Preparation,A-F1-01,FAC003,Theory,SYNTHETIC - illustrative timetable
+TT0429,8,A,CSE,Tuesday,3,11:00,12:00,CSE809,Career Readiness,A-F1-02,FAC004,Theory,SYNTHETIC - illustrative timetable
+TT0430,8,A,CSE,Tuesday,4,12:00,13:00,CSE810,Capstone Review,A-F1-03,FAC005,Theory,SYNTHETIC - illustrative timetable
+TT0431,8,A,CSE,Tuesday,5,14:00,15:00,CSE801,Major Project,A-F1-04,FAC006,Theory,SYNTHETIC - illustrative timetable
+TT0432,8,A,CSE,Tuesday,6,15:00,16:00,CSE802,Project Review,A-F2-01,FAC007,Theory,SYNTHETIC - illustrative timetable
+TT0433,8,A,CSE,Wednesday,1,09:00,10:00,CSE803,Professional Elective,A-F2-02,FAC003,Theory,SYNTHETIC - illustrative timetable
+TT0434,8,A,CSE,Wednesday,2,10:00,11:00,CSE804,Industry Internship,A-F2-03,FAC004,Theory,SYNTHETIC - illustrative timetable
+TT0435,8,A,CSE,Wednesday,3,11:00,12:00,CSE805,Technical Seminar,A-F2-04,FAC005,Theory,SYNTHETIC - illustrative timetable
+TT0436,8,A,CSE,Wednesday,4,12:00,13:00,CSE806,Placement Training,A-F3-01,FAC006,Theory,SYNTHETIC - illustrative timetable
+TT0437,8,A,CSE,Wednesday,5,14:00,15:00,CSE807,Project Work,A-F3-02,FAC007,Theory,SYNTHETIC - illustrative timetable
+TT0438,8,A,CSE,Wednesday,6,15:00,16:00,CSE808,Project Viva Preparation,A-F3-03,FAC008,Theory,SYNTHETIC - illustrative timetable
+TT0439,8,A,CSE,Thursday,1,09:00,10:00,CSE809,Career Readiness,A-F3-04,FAC004,Theory,SYNTHETIC - illustrative timetable
+TT0440,8,A,CSE,Thursday,2,10:00,11:00,CSE810,Capstone Review,A-F4-01,FAC005,Theory,SYNTHETIC - illustrative timetable
+TT0441,8,A,CSE,Thursday,3,11:00,12:00,CSE801,Major Project,A-F4-02,FAC006,Theory,SYNTHETIC - illustrative timetable
+TT0442,8,A,CSE,Thursday,4,12:00,13:00,CSE802,Project Review,A-F4-03,FAC007,Theory,SYNTHETIC - illustrative timetable
+TT0443,8,A,CSE,Thursday,5,14:00,15:00,CSE803,Professional Elective,A-F4-04,FAC008,Theory,SYNTHETIC - illustrative timetable
+TT0444,8,A,CSE,Thursday,6,15:00,16:00,CSE804,Industry Internship,A-F5-01,FAC009,Theory,SYNTHETIC - illustrative timetable
+TT0445,8,A,CSE,Friday,1,09:00,10:00,CSE805,Technical Seminar,A-F5-02,FAC005,Theory,SYNTHETIC - illustrative timetable
+TT0446,8,A,CSE,Friday,2,10:00,11:00,CSE806,Placement Training,A-F5-03,FAC006,Theory,SYNTHETIC - illustrative timetable
+TT0447,8,A,CSE,Friday,3,11:00,12:00,CSE807,Project Work,A-F5-04,FAC007,Theory,SYNTHETIC - illustrative timetable
+TT0448,8,A,CSE,Friday,4,12:00,13:00,CSE808,Project Viva Preparation,B-G03,FAC008,Theory,SYNTHETIC - illustrative timetable
+TT0449,8,A,CSE,Friday,5,14:00,15:00,CSE809,Career Readiness,B-G04,FAC009,Theory,SYNTHETIC - illustrative timetable
+TT0450,8,A,CSE,Friday,6,15:00,16:00,CSE810,Capstone Review,B-G05,FAC010,Theory,SYNTHETIC - illustrative timetable
+TT0451,8,B,CSE,Monday,1,09:00,10:00,CSE804,Industry Internship,A-F1-03,FAC006,Theory,SYNTHETIC - illustrative timetable
+TT0452,8,B,CSE,Monday,2,10:00,11:00,CSE805,Technical Seminar,A-F1-04,FAC007,Theory,SYNTHETIC - illustrative timetable
+TT0453,8,B,CSE,Monday,3,11:00,12:00,CSE806,Placement Training,A-F2-01,FAC008,Theory,SYNTHETIC - illustrative timetable
+TT0454,8,B,CSE,Monday,4,12:00,13:00,CSE807,Project Work,A-F2-02,FAC009,Theory,SYNTHETIC - illustrative timetable
+TT0455,8,B,CSE,Monday,5,14:00,15:00,CSE808,Project Viva Preparation,A-F2-03,FAC010,Theory,SYNTHETIC - illustrative timetable
+TT0456,8,B,CSE,Monday,6,15:00,16:00,CSE809,Career Readiness,A-F2-04,FAC011,Theory,SYNTHETIC - illustrative timetable
+TT0457,8,B,CSE,Tuesday,1,09:00,10:00,CSE810,Capstone Review,A-F3-01,FAC007,Theory,SYNTHETIC - illustrative timetable
+TT0458,8,B,CSE,Tuesday,2,10:00,11:00,CSE801,Major Project,A-F3-02,FAC008,Theory,SYNTHETIC - illustrative timetable
+TT0459,8,B,CSE,Tuesday,3,11:00,12:00,CSE802,Project Review,A-F3-03,FAC009,Theory,SYNTHETIC - illustrative timetable
+TT0460,8,B,CSE,Tuesday,4,12:00,13:00,CSE803,Professional Elective,A-F3-04,FAC010,Theory,SYNTHETIC - illustrative timetable
+TT0461,8,B,CSE,Tuesday,5,14:00,15:00,CSE804,Industry Internship,A-F4-01,FAC011,Theory,SYNTHETIC - illustrative timetable
+TT0462,8,B,CSE,Tuesday,6,15:00,16:00,CSE805,Technical Seminar,A-F4-02,FAC012,Theory,SYNTHETIC - illustrative timetable
+TT0463,8,B,CSE,Wednesday,1,09:00,10:00,CSE806,Placement Training,A-F4-03,FAC008,Theory,SYNTHETIC - illustrative timetable
+TT0464,8,B,CSE,Wednesday,2,10:00,11:00,CSE807,Project Work,A-F4-04,FAC009,Theory,SYNTHETIC - illustrative timetable
+TT0465,8,B,CSE,Wednesday,3,11:00,12:00,CSE808,Project Viva Preparation,A-F5-01,FAC010,Theory,SYNTHETIC - illustrative timetable
+TT0466,8,B,CSE,Wednesday,4,12:00,13:00,CSE809,Career Readiness,A-F5-02,FAC011,Theory,SYNTHETIC - illustrative timetable
+TT0467,8,B,CSE,Wednesday,5,14:00,15:00,CSE810,Capstone Review,A-F5-03,FAC012,Theory,SYNTHETIC - illustrative timetable
+TT0468,8,B,CSE,Wednesday,6,15:00,16:00,CSE801,Major Project,A-F5-04,FAC013,Theory,SYNTHETIC - illustrative timetable
+TT0469,8,B,CSE,Thursday,1,09:00,10:00,CSE802,Project Review,B-G03,FAC009,Theory,SYNTHETIC - illustrative timetable
+TT0470,8,B,CSE,Thursday,2,10:00,11:00,CSE803,Professional Elective,B-G04,FAC010,Theory,SYNTHETIC - illustrative timetable
+TT0471,8,B,CSE,Thursday,3,11:00,12:00,CSE804,Industry Internship,B-G05,FAC011,Theory,SYNTHETIC - illustrative timetable
+TT0472,8,B,CSE,Thursday,4,12:00,13:00,CSE805,Technical Seminar,B-F1-01,FAC012,Theory,SYNTHETIC - illustrative timetable
+TT0473,8,B,CSE,Thursday,5,14:00,15:00,CSE806,Placement Training,B-F1-02,FAC013,Theory,SYNTHETIC - illustrative timetable
+TT0474,8,B,CSE,Thursday,6,15:00,16:00,CSE807,Project Work,B-F1-03,FAC014,Theory,SYNTHETIC - illustrative timetable
+TT0475,8,B,CSE,Friday,1,09:00,10:00,CSE808,Project Viva Preparation,B-F1-04,FAC010,Theory,SYNTHETIC - illustrative timetable
+TT0476,8,B,CSE,Friday,2,10:00,11:00,CSE809,Career Readiness,B-F2-01,FAC011,Theory,SYNTHETIC - illustrative timetable
+TT0477,8,B,CSE,Friday,3,11:00,12:00,CSE810,Capstone Review,B-F2-02,FAC012,Theory,SYNTHETIC - illustrative timetable
+TT0478,8,B,CSE,Friday,4,12:00,13:00,CSE801,Major Project,B-F2-03,FAC013,Theory,SYNTHETIC - illustrative timetable
+TT0479,8,B,CSE,Friday,5,14:00,15:00,CSE802,Project Review,B-F2-04,FAC014,Theory,SYNTHETIC - illustrative timetable
+TT0480,8,B,CSE,Friday,6,15:00,16:00,CSE803,Professional Elective,B-F3-01,FAC015,Theory,SYNTHETIC - illustrative timetable

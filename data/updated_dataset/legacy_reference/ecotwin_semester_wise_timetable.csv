@@ -1,0 +1,481 @@
+semester,year,department,section,day,time_slot,start_time,end_time,subject,session_type,room_id,building,data_status
+1,1st Year,CSE,A,Monday,09:00–10:00,09:00,10:00,Communicative English,Theory,A-101,A,Illustrative sample timetable
+1,1st Year,CSE,A,Monday,10:00–11:00,10:00,11:00,Programming Lab,Lab,A-103,A,Illustrative sample timetable
+1,1st Year,CSE,A,Monday,11:00–12:00,11:00,12:00,Physics Lab,Lab,A-103,A,Illustrative sample timetable
+1,1st Year,CSE,A,Monday,12:00–13:00,12:00,13:00,Engineering Graphics,Practical,A-B03,A,Illustrative sample timetable
+1,1st Year,CSE,A,Monday,14:00–15:00,14:00,15:00,Indian Constitution,Theory,A-101,A,Illustrative sample timetable
+1,1st Year,CSE,A,Monday,15:00–16:00,15:00,16:00,Basic Electrical Engineering,Theory,A-101,A,Illustrative sample timetable
+1,1st Year,CSE,A,Tuesday,09:00–10:00,09:00,10:00,Engineering Physics,Theory,A-101,A,Illustrative sample timetable
+1,1st Year,CSE,A,Tuesday,10:00–11:00,10:00,11:00,Introduction to Programming,Theory,A-101,A,Illustrative sample timetable
+1,1st Year,CSE,A,Tuesday,11:00–12:00,11:00,12:00,Basic Electrical Engineering,Theory,A-101,A,Illustrative sample timetable
+1,1st Year,CSE,A,Tuesday,12:00–13:00,12:00,13:00,Communicative English,Theory,A-101,A,Illustrative sample timetable
+1,1st Year,CSE,A,Tuesday,14:00–15:00,14:00,15:00,Problem-Solving Tutorial,Tutorial,A-101,A,Illustrative sample timetable
+1,1st Year,CSE,A,Tuesday,15:00–16:00,15:00,16:00,Calculus and Linear Algebra,Theory,A-101,A,Illustrative sample timetable
+1,1st Year,CSE,A,Wednesday,09:00–10:00,09:00,10:00,Indian Constitution,Theory,A-101,A,Illustrative sample timetable
+1,1st Year,CSE,A,Wednesday,10:00–11:00,10:00,11:00,Problem-Solving Tutorial,Tutorial,A-101,A,Illustrative sample timetable
+1,1st Year,CSE,A,Wednesday,11:00–12:00,11:00,12:00,Calculus and Linear Algebra,Theory,A-101,A,Illustrative sample timetable
+1,1st Year,CSE,A,Wednesday,12:00–13:00,12:00,13:00,Programming Lab,Lab,A-103,A,Illustrative sample timetable
+1,1st Year,CSE,A,Wednesday,14:00–15:00,14:00,15:00,Physics Lab,Lab,A-103,A,Illustrative sample timetable
+1,1st Year,CSE,A,Wednesday,15:00–16:00,15:00,16:00,Engineering Graphics,Practical,A-B03,A,Illustrative sample timetable
+1,1st Year,CSE,A,Thursday,09:00–10:00,09:00,10:00,Programming Lab,Lab,A-103,A,Illustrative sample timetable
+1,1st Year,CSE,A,Thursday,10:00–11:00,10:00,11:00,Physics Lab,Lab,A-103,A,Illustrative sample timetable
+1,1st Year,CSE,A,Thursday,11:00–12:00,11:00,12:00,Engineering Physics,Theory,A-101,A,Illustrative sample timetable
+1,1st Year,CSE,A,Thursday,12:00–13:00,12:00,13:00,Introduction to Programming,Theory,A-101,A,Illustrative sample timetable
+1,1st Year,CSE,A,Thursday,14:00–15:00,14:00,15:00,Basic Electrical Engineering,Theory,A-101,A,Illustrative sample timetable
+1,1st Year,CSE,A,Thursday,15:00–16:00,15:00,16:00,Communicative English,Theory,A-101,A,Illustrative sample timetable
+1,1st Year,CSE,A,Friday,09:00–10:00,09:00,10:00,Introduction to Programming,Theory,A-101,A,Illustrative sample timetable
+1,1st Year,CSE,A,Friday,10:00–11:00,10:00,11:00,Engineering Graphics,Practical,A-B03,A,Illustrative sample timetable
+1,1st Year,CSE,A,Friday,11:00–12:00,11:00,12:00,Indian Constitution,Theory,A-101,A,Illustrative sample timetable
+1,1st Year,CSE,A,Friday,12:00–13:00,12:00,13:00,Problem-Solving Tutorial,Tutorial,A-101,A,Illustrative sample timetable
+1,1st Year,CSE,A,Friday,14:00–15:00,14:00,15:00,Calculus and Linear Algebra,Theory,A-101,A,Illustrative sample timetable
+1,1st Year,CSE,A,Friday,15:00–16:00,15:00,16:00,Engineering Physics,Theory,A-101,A,Illustrative sample timetable
+1,1st Year,CSE,B,Monday,09:00–10:00,09:00,10:00,Introduction to Programming,Theory,B-102,B,Illustrative sample timetable
+1,1st Year,CSE,B,Monday,10:00–11:00,10:00,11:00,Basic Electrical Engineering,Theory,B-102,B,Illustrative sample timetable
+1,1st Year,CSE,B,Monday,11:00–12:00,11:00,12:00,Communicative English,Theory,B-102,B,Illustrative sample timetable
+1,1st Year,CSE,B,Monday,12:00–13:00,12:00,13:00,Programming Lab,Lab,B-101,B,Illustrative sample timetable
+1,1st Year,CSE,B,Monday,14:00–15:00,14:00,15:00,Calculus and Linear Algebra,Theory,B-102,B,Illustrative sample timetable
+1,1st Year,CSE,B,Monday,15:00–16:00,15:00,16:00,Engineering Physics,Theory,B-102,B,Illustrative sample timetable
+1,1st Year,CSE,B,Tuesday,09:00–10:00,09:00,10:00,Problem-Solving Tutorial,Tutorial,B-102,B,Illustrative sample timetable
+1,1st Year,CSE,B,Tuesday,10:00–11:00,10:00,11:00,Calculus and Linear Algebra,Theory,B-102,B,Illustrative sample timetable
+1,1st Year,CSE,B,Tuesday,11:00–12:00,11:00,12:00,Engineering Physics,Theory,B-102,B,Illustrative sample timetable
+1,1st Year,CSE,B,Tuesday,12:00–13:00,12:00,13:00,Physics Lab,Lab,B-101,B,Illustrative sample timetable
+1,1st Year,CSE,B,Tuesday,14:00–15:00,14:00,15:00,Engineering Graphics,Practical,B-B03,B,Illustrative sample timetable
+1,1st Year,CSE,B,Tuesday,15:00–16:00,15:00,16:00,Indian Constitution,Theory,B-102,B,Illustrative sample timetable
+1,1st Year,CSE,B,Wednesday,09:00–10:00,09:00,10:00,Physics Lab,Lab,B-101,B,Illustrative sample timetable
+1,1st Year,CSE,B,Wednesday,10:00–11:00,10:00,11:00,Engineering Graphics,Practical,B-B03,B,Illustrative sample timetable
+1,1st Year,CSE,B,Wednesday,11:00–12:00,11:00,12:00,Introduction to Programming,Theory,B-102,B,Illustrative sample timetable
+1,1st Year,CSE,B,Wednesday,12:00–13:00,12:00,13:00,Basic Electrical Engineering,Theory,B-102,B,Illustrative sample timetable
+1,1st Year,CSE,B,Wednesday,14:00–15:00,14:00,15:00,Communicative English,Theory,B-102,B,Illustrative sample timetable
+1,1st Year,CSE,B,Wednesday,15:00–16:00,15:00,16:00,Programming Lab,Lab,B-101,B,Illustrative sample timetable
+1,1st Year,CSE,B,Thursday,09:00–10:00,09:00,10:00,Basic Electrical Engineering,Theory,B-102,B,Illustrative sample timetable
+1,1st Year,CSE,B,Thursday,10:00–11:00,10:00,11:00,Indian Constitution,Theory,B-102,B,Illustrative sample timetable
+1,1st Year,CSE,B,Thursday,11:00–12:00,11:00,12:00,Problem-Solving Tutorial,Tutorial,B-102,B,Illustrative sample timetable
+1,1st Year,CSE,B,Thursday,12:00–13:00,12:00,13:00,Calculus and Linear Algebra,Theory,B-102,B,Illustrative sample timetable
+1,1st Year,CSE,B,Thursday,14:00–15:00,14:00,15:00,Engineering Physics,Theory,B-102,B,Illustrative sample timetable
+1,1st Year,CSE,B,Thursday,15:00–16:00,15:00,16:00,Introduction to Programming,Theory,B-102,B,Illustrative sample timetable
+1,1st Year,CSE,B,Friday,09:00–10:00,09:00,10:00,Communicative English,Theory,B-102,B,Illustrative sample timetable
+1,1st Year,CSE,B,Friday,10:00–11:00,10:00,11:00,Programming Lab,Lab,B-101,B,Illustrative sample timetable
+1,1st Year,CSE,B,Friday,11:00–12:00,11:00,12:00,Physics Lab,Lab,B-101,B,Illustrative sample timetable
+1,1st Year,CSE,B,Friday,12:00–13:00,12:00,13:00,Engineering Graphics,Practical,B-B03,B,Illustrative sample timetable
+1,1st Year,CSE,B,Friday,14:00–15:00,14:00,15:00,Indian Constitution,Theory,B-102,B,Illustrative sample timetable
+1,1st Year,CSE,B,Friday,15:00–16:00,15:00,16:00,Problem-Solving Tutorial,Tutorial,B-102,B,Illustrative sample timetable
+2,1st Year,CSE,A,Monday,09:00–10:00,09:00,10:00,Sustainability Studies,Theory,A-101,A,Illustrative sample timetable
+2,1st Year,CSE,A,Monday,10:00–11:00,10:00,11:00,Technical Communication,Tutorial,A-101,A,Illustrative sample timetable
+2,1st Year,CSE,A,Monday,11:00–12:00,11:00,12:00,Advanced Mathematics,Theory,A-101,A,Illustrative sample timetable
+2,1st Year,CSE,A,Monday,12:00–13:00,12:00,13:00,Engineering Chemistry,Theory,A-101,A,Illustrative sample timetable
+2,1st Year,CSE,A,Monday,14:00–15:00,14:00,15:00,Chemistry Lab,Lab,A-103,A,Illustrative sample timetable
+2,1st Year,CSE,A,Monday,15:00–16:00,15:00,16:00,Engineering Workshop,Practical,A-B03,A,Illustrative sample timetable
+2,1st Year,CSE,A,Tuesday,09:00–10:00,09:00,10:00,Python Programming Lab,Lab,A-103,A,Illustrative sample timetable
+2,1st Year,CSE,A,Tuesday,10:00–11:00,10:00,11:00,Chemistry Lab,Lab,A-103,A,Illustrative sample timetable
+2,1st Year,CSE,A,Tuesday,11:00–12:00,11:00,12:00,Engineering Workshop,Practical,A-B03,A,Illustrative sample timetable
+2,1st Year,CSE,A,Tuesday,12:00–13:00,12:00,13:00,Data Structures Fundamentals,Theory,A-101,A,Illustrative sample timetable
+2,1st Year,CSE,A,Tuesday,14:00–15:00,14:00,15:00,Python Programming,Theory,A-101,A,Illustrative sample timetable
+2,1st Year,CSE,A,Tuesday,15:00–16:00,15:00,16:00,Basic Electronics,Theory,A-101,A,Illustrative sample timetable
+2,1st Year,CSE,A,Wednesday,09:00–10:00,09:00,10:00,Data Structures Fundamentals,Theory,A-101,A,Illustrative sample timetable
+2,1st Year,CSE,A,Wednesday,10:00–11:00,10:00,11:00,Python Programming,Theory,A-101,A,Illustrative sample timetable
+2,1st Year,CSE,A,Wednesday,11:00–12:00,11:00,12:00,Sustainability Studies,Theory,A-101,A,Illustrative sample timetable
+2,1st Year,CSE,A,Wednesday,12:00–13:00,12:00,13:00,Technical Communication,Tutorial,A-101,A,Illustrative sample timetable
+2,1st Year,CSE,A,Wednesday,14:00–15:00,14:00,15:00,Advanced Mathematics,Theory,A-101,A,Illustrative sample timetable
+2,1st Year,CSE,A,Wednesday,15:00–16:00,15:00,16:00,Engineering Chemistry,Theory,A-101,A,Illustrative sample timetable
+2,1st Year,CSE,A,Thursday,09:00–10:00,09:00,10:00,Technical Communication,Tutorial,A-101,A,Illustrative sample timetable
+2,1st Year,CSE,A,Thursday,10:00–11:00,10:00,11:00,Basic Electronics,Theory,A-101,A,Illustrative sample timetable
+2,1st Year,CSE,A,Thursday,11:00–12:00,11:00,12:00,Python Programming Lab,Lab,A-103,A,Illustrative sample timetable
+2,1st Year,CSE,A,Thursday,12:00–13:00,12:00,13:00,Chemistry Lab,Lab,A-103,A,Illustrative sample timetable
+2,1st Year,CSE,A,Thursday,14:00–15:00,14:00,15:00,Engineering Workshop,Practical,A-B03,A,Illustrative sample timetable
+2,1st Year,CSE,A,Thursday,15:00–16:00,15:00,16:00,Sustainability Studies,Theory,A-101,A,Illustrative sample timetable
+2,1st Year,CSE,A,Friday,09:00–10:00,09:00,10:00,Advanced Mathematics,Theory,A-101,A,Illustrative sample timetable
+2,1st Year,CSE,A,Friday,10:00–11:00,10:00,11:00,Engineering Chemistry,Theory,A-101,A,Illustrative sample timetable
+2,1st Year,CSE,A,Friday,11:00–12:00,11:00,12:00,Data Structures Fundamentals,Theory,A-101,A,Illustrative sample timetable
+2,1st Year,CSE,A,Friday,12:00–13:00,12:00,13:00,Python Programming,Theory,A-101,A,Illustrative sample timetable
+2,1st Year,CSE,A,Friday,14:00–15:00,14:00,15:00,Basic Electronics,Theory,A-101,A,Illustrative sample timetable
+2,1st Year,CSE,A,Friday,15:00–16:00,15:00,16:00,Python Programming Lab,Lab,A-103,A,Illustrative sample timetable
+2,1st Year,CSE,B,Monday,09:00–10:00,09:00,10:00,Chemistry Lab,Lab,B-101,B,Illustrative sample timetable
+2,1st Year,CSE,B,Monday,10:00–11:00,10:00,11:00,Engineering Workshop,Practical,B-B03,B,Illustrative sample timetable
+2,1st Year,CSE,B,Monday,11:00–12:00,11:00,12:00,Sustainability Studies,Theory,B-102,B,Illustrative sample timetable
+2,1st Year,CSE,B,Monday,12:00–13:00,12:00,13:00,Python Programming,Theory,B-102,B,Illustrative sample timetable
+2,1st Year,CSE,B,Monday,14:00–15:00,14:00,15:00,Basic Electronics,Theory,B-102,B,Illustrative sample timetable
+2,1st Year,CSE,B,Monday,15:00–16:00,15:00,16:00,Python Programming Lab,Lab,B-101,B,Illustrative sample timetable
+2,1st Year,CSE,B,Tuesday,09:00–10:00,09:00,10:00,Python Programming,Theory,B-102,B,Illustrative sample timetable
+2,1st Year,CSE,B,Tuesday,10:00–11:00,10:00,11:00,Basic Electronics,Theory,B-102,B,Illustrative sample timetable
+2,1st Year,CSE,B,Tuesday,11:00–12:00,11:00,12:00,Technical Communication,Tutorial,B-102,B,Illustrative sample timetable
+2,1st Year,CSE,B,Tuesday,12:00–13:00,12:00,13:00,Advanced Mathematics,Theory,B-102,B,Illustrative sample timetable
+2,1st Year,CSE,B,Tuesday,14:00–15:00,14:00,15:00,Engineering Chemistry,Theory,B-102,B,Illustrative sample timetable
+2,1st Year,CSE,B,Tuesday,15:00–16:00,15:00,16:00,Data Structures Fundamentals,Theory,B-102,B,Illustrative sample timetable
+2,1st Year,CSE,B,Wednesday,09:00–10:00,09:00,10:00,Advanced Mathematics,Theory,B-102,B,Illustrative sample timetable
+2,1st Year,CSE,B,Wednesday,10:00–11:00,10:00,11:00,Python Programming Lab,Lab,B-101,B,Illustrative sample timetable
+2,1st Year,CSE,B,Wednesday,11:00–12:00,11:00,12:00,Chemistry Lab,Lab,B-101,B,Illustrative sample timetable
+2,1st Year,CSE,B,Wednesday,12:00–13:00,12:00,13:00,Engineering Workshop,Practical,B-B03,B,Illustrative sample timetable
+2,1st Year,CSE,B,Wednesday,14:00–15:00,14:00,15:00,Sustainability Studies,Theory,B-102,B,Illustrative sample timetable
+2,1st Year,CSE,B,Wednesday,15:00–16:00,15:00,16:00,Technical Communication,Tutorial,B-102,B,Illustrative sample timetable
+2,1st Year,CSE,B,Thursday,09:00–10:00,09:00,10:00,Engineering Chemistry,Theory,B-102,B,Illustrative sample timetable
+2,1st Year,CSE,B,Thursday,10:00–11:00,10:00,11:00,Data Structures Fundamentals,Theory,B-102,B,Illustrative sample timetable
+2,1st Year,CSE,B,Thursday,11:00–12:00,11:00,12:00,Python Programming,Theory,B-102,B,Illustrative sample timetable
+2,1st Year,CSE,B,Thursday,12:00–13:00,12:00,13:00,Basic Electronics,Theory,B-102,B,Illustrative sample timetable
+2,1st Year,CSE,B,Thursday,14:00–15:00,14:00,15:00,Python Programming Lab,Lab,B-101,B,Illustrative sample timetable
+2,1st Year,CSE,B,Thursday,15:00–16:00,15:00,16:00,Chemistry Lab,Lab,B-101,B,Illustrative sample timetable
+2,1st Year,CSE,B,Friday,09:00–10:00,09:00,10:00,Sustainability Studies,Theory,B-102,B,Illustrative sample timetable
+2,1st Year,CSE,B,Friday,10:00–11:00,10:00,11:00,Technical Communication,Tutorial,B-102,B,Illustrative sample timetable
+2,1st Year,CSE,B,Friday,11:00–12:00,11:00,12:00,Advanced Mathematics,Theory,B-102,B,Illustrative sample timetable
+2,1st Year,CSE,B,Friday,12:00–13:00,12:00,13:00,Engineering Chemistry,Theory,B-102,B,Illustrative sample timetable
+2,1st Year,CSE,B,Friday,14:00–15:00,14:00,15:00,Data Structures Fundamentals,Theory,B-102,B,Illustrative sample timetable
+2,1st Year,CSE,B,Friday,15:00–16:00,15:00,16:00,Engineering Workshop,Practical,B-B03,B,Illustrative sample timetable
+3,2nd Year,CSE,A,Monday,09:00–10:00,09:00,10:00,Discrete Mathematical Structures,Theory,A-201,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Monday,10:00–11:00,10:00,11:00,Digital Design and Computer Organization,Theory,A-201,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Monday,11:00–12:00,11:00,12:00,Database Fundamentals,Theory,A-201,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Monday,12:00–13:00,12:00,13:00,Probability and Statistics,Theory,A-201,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Monday,14:00–15:00,14:00,15:00,Data Structures and Applications,Theory,A-201,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Monday,15:00–16:00,15:00,16:00,Object-Oriented Programming with Java,Theory,A-201,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Tuesday,09:00–10:00,09:00,10:00,Probability and Statistics,Theory,A-201,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Tuesday,10:00–11:00,10:00,11:00,Data Structures and Applications,Theory,A-201,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Tuesday,11:00–12:00,11:00,12:00,Data Structures Lab,Lab,A-203,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Tuesday,12:00–13:00,12:00,13:00,Java Programming Lab,Lab,A-203,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Tuesday,14:00–15:00,14:00,15:00,Digital Design Lab,Lab,A-203,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Tuesday,15:00–16:00,15:00,16:00,Design Thinking,Practical,A-203,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Wednesday,09:00–10:00,09:00,10:00,Java Programming Lab,Lab,A-203,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Wednesday,10:00–11:00,10:00,11:00,Object-Oriented Programming with Java,Theory,A-201,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Wednesday,11:00–12:00,11:00,12:00,Discrete Mathematical Structures,Theory,A-201,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Wednesday,12:00–13:00,12:00,13:00,Digital Design and Computer Organization,Theory,A-201,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Wednesday,14:00–15:00,14:00,15:00,Database Fundamentals,Theory,A-201,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Wednesday,15:00–16:00,15:00,16:00,Data Structures Lab,Lab,A-203,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Thursday,09:00–10:00,09:00,10:00,Digital Design Lab,Lab,A-203,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Thursday,10:00–11:00,10:00,11:00,Design Thinking,Practical,A-203,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Thursday,11:00–12:00,11:00,12:00,Probability and Statistics,Theory,A-201,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Thursday,12:00–13:00,12:00,13:00,Data Structures and Applications,Theory,A-201,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Thursday,14:00–15:00,14:00,15:00,Object-Oriented Programming with Java,Theory,A-201,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Thursday,15:00–16:00,15:00,16:00,Discrete Mathematical Structures,Theory,A-201,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Friday,09:00–10:00,09:00,10:00,Database Fundamentals,Theory,A-201,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Friday,10:00–11:00,10:00,11:00,Data Structures Lab,Lab,A-203,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Friday,11:00–12:00,11:00,12:00,Java Programming Lab,Lab,A-203,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Friday,12:00–13:00,12:00,13:00,Digital Design Lab,Lab,A-203,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Friday,14:00–15:00,14:00,15:00,Design Thinking,Practical,A-203,A,Illustrative sample timetable
+3,2nd Year,CSE,A,Friday,15:00–16:00,15:00,16:00,Digital Design and Computer Organization,Theory,A-201,A,Illustrative sample timetable
+3,2nd Year,CSE,B,Monday,09:00–10:00,09:00,10:00,Data Structures and Applications,Theory,B-202,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Monday,10:00–11:00,10:00,11:00,Object-Oriented Programming with Java,Theory,B-202,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Monday,11:00–12:00,11:00,12:00,Java Programming Lab,Lab,B-203,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Monday,12:00–13:00,12:00,13:00,Digital Design Lab,Lab,B-203,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Monday,14:00–15:00,14:00,15:00,Design Thinking,Practical,B-203,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Monday,15:00–16:00,15:00,16:00,Probability and Statistics,Theory,B-202,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Tuesday,09:00–10:00,09:00,10:00,Digital Design Lab,Lab,B-203,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Tuesday,10:00–11:00,10:00,11:00,Discrete Mathematical Structures,Theory,B-202,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Tuesday,11:00–12:00,11:00,12:00,Digital Design and Computer Organization,Theory,B-202,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Tuesday,12:00–13:00,12:00,13:00,Database Fundamentals,Theory,B-202,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Tuesday,14:00–15:00,14:00,15:00,Data Structures Lab,Lab,B-203,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Tuesday,15:00–16:00,15:00,16:00,Java Programming Lab,Lab,B-203,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Wednesday,09:00–10:00,09:00,10:00,Design Thinking,Practical,B-203,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Wednesday,10:00–11:00,10:00,11:00,Probability and Statistics,Theory,B-202,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Wednesday,11:00–12:00,11:00,12:00,Data Structures and Applications,Theory,B-202,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Wednesday,12:00–13:00,12:00,13:00,Object-Oriented Programming with Java,Theory,B-202,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Wednesday,14:00–15:00,14:00,15:00,Discrete Mathematical Structures,Theory,B-202,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Wednesday,15:00–16:00,15:00,16:00,Digital Design and Computer Organization,Theory,B-202,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Thursday,09:00–10:00,09:00,10:00,Data Structures Lab,Lab,B-203,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Thursday,10:00–11:00,10:00,11:00,Java Programming Lab,Lab,B-203,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Thursday,11:00–12:00,11:00,12:00,Digital Design Lab,Lab,B-203,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Thursday,12:00–13:00,12:00,13:00,Design Thinking,Practical,B-203,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Thursday,14:00–15:00,14:00,15:00,Probability and Statistics,Theory,B-202,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Thursday,15:00–16:00,15:00,16:00,Database Fundamentals,Theory,B-202,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Friday,09:00–10:00,09:00,10:00,Discrete Mathematical Structures,Theory,B-202,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Friday,10:00–11:00,10:00,11:00,Digital Design and Computer Organization,Theory,B-202,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Friday,11:00–12:00,11:00,12:00,Database Fundamentals,Theory,B-202,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Friday,12:00–13:00,12:00,13:00,Data Structures Lab,Lab,B-203,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Friday,14:00–15:00,14:00,15:00,Data Structures and Applications,Theory,B-202,B,Illustrative sample timetable
+3,2nd Year,CSE,B,Friday,15:00–16:00,15:00,16:00,Object-Oriented Programming with Java,Theory,B-202,B,Illustrative sample timetable
+4,2nd Year,CSE,A,Monday,09:00–10:00,09:00,10:00,DBMS Lab,Lab,A-203,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Monday,10:00–11:00,10:00,11:00,Operating Systems Lab,Lab,A-203,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Monday,11:00–12:00,11:00,12:00,Database Management Systems,Theory,A-201,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Monday,12:00–13:00,12:00,13:00,Computer Architecture,Theory,A-201,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Monday,14:00–15:00,14:00,15:00,Microcontrollers and Embedded Systems,Theory,A-201,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Monday,15:00–16:00,15:00,16:00,Algorithms Lab,Lab,A-203,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Tuesday,09:00–10:00,09:00,10:00,Computer Architecture,Theory,A-201,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Tuesday,10:00–11:00,10:00,11:00,Environmental Studies,Theory,A-201,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Tuesday,11:00–12:00,11:00,12:00,Research and Aptitude,Tutorial,A-201,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Tuesday,12:00–13:00,12:00,13:00,Design and Analysis of Algorithms,Theory,A-201,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Tuesday,14:00–15:00,14:00,15:00,Operating Systems,Theory,A-201,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Tuesday,15:00–16:00,15:00,16:00,Database Management Systems,Theory,A-201,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Wednesday,09:00–10:00,09:00,10:00,Microcontrollers and Embedded Systems,Theory,A-201,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Wednesday,10:00–11:00,10:00,11:00,Algorithms Lab,Lab,A-203,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Wednesday,11:00–12:00,11:00,12:00,DBMS Lab,Lab,A-203,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Wednesday,12:00–13:00,12:00,13:00,Operating Systems Lab,Lab,A-203,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Wednesday,14:00–15:00,14:00,15:00,Environmental Studies,Theory,A-201,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Wednesday,15:00–16:00,15:00,16:00,Research and Aptitude,Tutorial,A-201,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Thursday,09:00–10:00,09:00,10:00,Operating Systems,Theory,A-201,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Thursday,10:00–11:00,10:00,11:00,Database Management Systems,Theory,A-201,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Thursday,11:00–12:00,11:00,12:00,Computer Architecture,Theory,A-201,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Thursday,12:00–13:00,12:00,13:00,Microcontrollers and Embedded Systems,Theory,A-201,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Thursday,14:00–15:00,14:00,15:00,Algorithms Lab,Lab,A-203,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Thursday,15:00–16:00,15:00,16:00,Design and Analysis of Algorithms,Theory,A-201,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Friday,09:00–10:00,09:00,10:00,Environmental Studies,Theory,A-201,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Friday,10:00–11:00,10:00,11:00,Research and Aptitude,Tutorial,A-201,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Friday,11:00–12:00,11:00,12:00,Design and Analysis of Algorithms,Theory,A-201,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Friday,12:00–13:00,12:00,13:00,Operating Systems,Theory,A-201,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Friday,14:00–15:00,14:00,15:00,DBMS Lab,Lab,A-203,A,Illustrative sample timetable
+4,2nd Year,CSE,A,Friday,15:00–16:00,15:00,16:00,Operating Systems Lab,Lab,A-203,A,Illustrative sample timetable
+4,2nd Year,CSE,B,Monday,09:00–10:00,09:00,10:00,Microcontrollers and Embedded Systems,Theory,B-202,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Monday,10:00–11:00,10:00,11:00,Research and Aptitude,Tutorial,B-202,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Monday,11:00–12:00,11:00,12:00,Design and Analysis of Algorithms,Theory,B-202,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Monday,12:00–13:00,12:00,13:00,Operating Systems,Theory,B-202,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Monday,14:00–15:00,14:00,15:00,Database Management Systems,Theory,B-202,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Monday,15:00–16:00,15:00,16:00,Computer Architecture,Theory,B-202,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Tuesday,09:00–10:00,09:00,10:00,Algorithms Lab,Lab,B-203,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Tuesday,10:00–11:00,10:00,11:00,DBMS Lab,Lab,B-203,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Tuesday,11:00–12:00,11:00,12:00,Operating Systems Lab,Lab,B-203,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Tuesday,12:00–13:00,12:00,13:00,Environmental Studies,Theory,B-202,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Tuesday,14:00–15:00,14:00,15:00,Research and Aptitude,Tutorial,B-202,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Tuesday,15:00–16:00,15:00,16:00,Design and Analysis of Algorithms,Theory,B-202,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Wednesday,09:00–10:00,09:00,10:00,Database Management Systems,Theory,B-202,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Wednesday,10:00–11:00,10:00,11:00,Computer Architecture,Theory,B-202,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Wednesday,11:00–12:00,11:00,12:00,Microcontrollers and Embedded Systems,Theory,B-202,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Wednesday,12:00–13:00,12:00,13:00,Algorithms Lab,Lab,B-203,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Wednesday,14:00–15:00,14:00,15:00,DBMS Lab,Lab,B-203,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Wednesday,15:00–16:00,15:00,16:00,Operating Systems,Theory,B-202,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Thursday,09:00–10:00,09:00,10:00,Research and Aptitude,Tutorial,B-202,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Thursday,10:00–11:00,10:00,11:00,Design and Analysis of Algorithms,Theory,B-202,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Thursday,11:00–12:00,11:00,12:00,Operating Systems,Theory,B-202,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Thursday,12:00–13:00,12:00,13:00,Database Management Systems,Theory,B-202,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Thursday,14:00–15:00,14:00,15:00,Operating Systems Lab,Lab,B-203,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Thursday,15:00–16:00,15:00,16:00,Environmental Studies,Theory,B-202,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Friday,09:00–10:00,09:00,10:00,DBMS Lab,Lab,B-203,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Friday,10:00–11:00,10:00,11:00,Operating Systems Lab,Lab,B-203,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Friday,11:00–12:00,11:00,12:00,Environmental Studies,Theory,B-202,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Friday,12:00–13:00,12:00,13:00,Computer Architecture,Theory,B-202,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Friday,14:00–15:00,14:00,15:00,Microcontrollers and Embedded Systems,Theory,B-202,B,Illustrative sample timetable
+4,2nd Year,CSE,B,Friday,15:00–16:00,15:00,16:00,Algorithms Lab,Lab,B-203,B,Illustrative sample timetable
+5,3rd Year,CSE,A,Monday,09:00–10:00,09:00,10:00,Theory of Computation,Theory,A-301,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Monday,10:00–11:00,10:00,11:00,Networks Lab,Lab,A-303,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Monday,11:00–12:00,11:00,12:00,Web Technology Lab,Lab,A-303,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Monday,12:00–13:00,12:00,13:00,Mini Project,Project,A-303,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Monday,14:00–15:00,14:00,15:00,Professional Elective I,Theory,A-301,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Monday,15:00–16:00,15:00,16:00,Quantitative Aptitude,Tutorial,A-301,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Tuesday,09:00–10:00,09:00,10:00,Computer Networks,Theory,A-301,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Tuesday,10:00–11:00,10:00,11:00,Software Engineering,Theory,A-301,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Tuesday,11:00–12:00,11:00,12:00,Web Technologies,Theory,A-301,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Tuesday,12:00–13:00,12:00,13:00,Artificial Intelligence,Theory,A-301,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Tuesday,14:00–15:00,14:00,15:00,Networks Lab,Lab,A-303,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Tuesday,15:00–16:00,15:00,16:00,Web Technology Lab,Lab,A-303,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Wednesday,09:00–10:00,09:00,10:00,Professional Elective I,Theory,A-301,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Wednesday,10:00–11:00,10:00,11:00,Quantitative Aptitude,Tutorial,A-301,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Wednesday,11:00–12:00,11:00,12:00,Theory of Computation,Theory,A-301,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Wednesday,12:00–13:00,12:00,13:00,Computer Networks,Theory,A-301,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Wednesday,14:00–15:00,14:00,15:00,Software Engineering,Theory,A-301,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Wednesday,15:00–16:00,15:00,16:00,Mini Project,Project,A-303,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Thursday,09:00–10:00,09:00,10:00,Networks Lab,Lab,A-303,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Thursday,10:00–11:00,10:00,11:00,Web Technology Lab,Lab,A-303,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Thursday,11:00–12:00,11:00,12:00,Mini Project,Project,A-303,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Thursday,12:00–13:00,12:00,13:00,Professional Elective I,Theory,A-301,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Thursday,14:00–15:00,14:00,15:00,Web Technologies,Theory,A-301,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Thursday,15:00–16:00,15:00,16:00,Artificial Intelligence,Theory,A-301,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Friday,09:00–10:00,09:00,10:00,Software Engineering,Theory,A-301,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Friday,10:00–11:00,10:00,11:00,Web Technologies,Theory,A-301,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Friday,11:00–12:00,11:00,12:00,Artificial Intelligence,Theory,A-301,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Friday,12:00–13:00,12:00,13:00,Quantitative Aptitude,Tutorial,A-301,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Friday,14:00–15:00,14:00,15:00,Theory of Computation,Theory,A-301,A,Illustrative sample timetable
+5,3rd Year,CSE,A,Friday,15:00–16:00,15:00,16:00,Computer Networks,Theory,A-301,A,Illustrative sample timetable
+5,3rd Year,CSE,B,Monday,09:00–10:00,09:00,10:00,Software Engineering,Theory,B-302,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Monday,10:00–11:00,10:00,11:00,Web Technologies,Theory,B-302,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Monday,11:00–12:00,11:00,12:00,Artificial Intelligence,Theory,B-302,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Monday,12:00–13:00,12:00,13:00,Networks Lab,Lab,B-303,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Monday,14:00–15:00,14:00,15:00,Web Technology Lab,Lab,B-303,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Monday,15:00–16:00,15:00,16:00,Mini Project,Project,B-303,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Tuesday,09:00–10:00,09:00,10:00,Quantitative Aptitude,Tutorial,B-302,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Tuesday,10:00–11:00,10:00,11:00,Theory of Computation,Theory,B-302,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Tuesday,11:00–12:00,11:00,12:00,Computer Networks,Theory,B-302,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Tuesday,12:00–13:00,12:00,13:00,Software Engineering,Theory,B-302,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Tuesday,14:00–15:00,14:00,15:00,Web Technologies,Theory,B-302,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Tuesday,15:00–16:00,15:00,16:00,Professional Elective I,Theory,B-302,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Wednesday,09:00–10:00,09:00,10:00,Web Technology Lab,Lab,B-303,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Wednesday,10:00–11:00,10:00,11:00,Mini Project,Project,B-303,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Wednesday,11:00–12:00,11:00,12:00,Professional Elective I,Theory,B-302,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Wednesday,12:00–13:00,12:00,13:00,Quantitative Aptitude,Tutorial,B-302,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Wednesday,14:00–15:00,14:00,15:00,Artificial Intelligence,Theory,B-302,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Wednesday,15:00–16:00,15:00,16:00,Networks Lab,Lab,B-303,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Thursday,09:00–10:00,09:00,10:00,Web Technologies,Theory,B-302,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Thursday,10:00–11:00,10:00,11:00,Artificial Intelligence,Theory,B-302,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Thursday,11:00–12:00,11:00,12:00,Networks Lab,Lab,B-303,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Thursday,12:00–13:00,12:00,13:00,Theory of Computation,Theory,B-302,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Thursday,14:00–15:00,14:00,15:00,Computer Networks,Theory,B-302,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Thursday,15:00–16:00,15:00,16:00,Software Engineering,Theory,B-302,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Friday,09:00–10:00,09:00,10:00,Theory of Computation,Theory,B-302,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Friday,10:00–11:00,10:00,11:00,Computer Networks,Theory,B-302,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Friday,11:00–12:00,11:00,12:00,Web Technology Lab,Lab,B-303,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Friday,12:00–13:00,12:00,13:00,Mini Project,Project,B-303,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Friday,14:00–15:00,14:00,15:00,Professional Elective I,Theory,B-302,B,Illustrative sample timetable
+5,3rd Year,CSE,B,Friday,15:00–16:00,15:00,16:00,Quantitative Aptitude,Tutorial,B-302,B,Illustrative sample timetable
+6,3rd Year,CSE,A,Monday,09:00–10:00,09:00,10:00,Professional Elective II,Theory,A-301,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Monday,10:00–11:00,10:00,11:00,Project Seminar,Project,A-303,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Monday,11:00–12:00,11:00,12:00,Machine Learning,Theory,A-301,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Monday,12:00–13:00,12:00,13:00,Compiler Design,Theory,A-301,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Monday,14:00–15:00,14:00,15:00,Cloud Computing,Theory,A-301,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Monday,15:00–16:00,15:00,16:00,Information and Cyber Security,Theory,A-301,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Tuesday,09:00–10:00,09:00,10:00,Machine Learning Lab,Lab,A-303,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Tuesday,10:00–11:00,10:00,11:00,Cloud / Security Lab,Lab,A-303,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Tuesday,11:00–12:00,11:00,12:00,Mobile App Development Lab,Lab,A-303,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Tuesday,12:00–13:00,12:00,13:00,Professional Elective II,Theory,A-301,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Tuesday,14:00–15:00,14:00,15:00,Project Seminar,Project,A-303,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Tuesday,15:00–16:00,15:00,16:00,Mobile Application Development,Theory,A-301,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Wednesday,09:00–10:00,09:00,10:00,Cloud Computing,Theory,A-301,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Wednesday,10:00–11:00,10:00,11:00,Information and Cyber Security,Theory,A-301,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Wednesday,11:00–12:00,11:00,12:00,Mobile Application Development,Theory,A-301,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Wednesday,12:00–13:00,12:00,13:00,Machine Learning Lab,Lab,A-303,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Wednesday,14:00–15:00,14:00,15:00,Machine Learning,Theory,A-301,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Wednesday,15:00–16:00,15:00,16:00,Compiler Design,Theory,A-301,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Thursday,09:00–10:00,09:00,10:00,Project Seminar,Project,A-303,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Thursday,10:00–11:00,10:00,11:00,Machine Learning,Theory,A-301,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Thursday,11:00–12:00,11:00,12:00,Compiler Design,Theory,A-301,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Thursday,12:00–13:00,12:00,13:00,Cloud / Security Lab,Lab,A-303,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Thursday,14:00–15:00,14:00,15:00,Mobile App Development Lab,Lab,A-303,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Thursday,15:00–16:00,15:00,16:00,Professional Elective II,Theory,A-301,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Friday,09:00–10:00,09:00,10:00,Cloud / Security Lab,Lab,A-303,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Friday,10:00–11:00,10:00,11:00,Mobile App Development Lab,Lab,A-303,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Friday,11:00–12:00,11:00,12:00,Cloud Computing,Theory,A-301,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Friday,12:00–13:00,12:00,13:00,Information and Cyber Security,Theory,A-301,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Friday,14:00–15:00,14:00,15:00,Mobile Application Development,Theory,A-301,A,Illustrative sample timetable
+6,3rd Year,CSE,A,Friday,15:00–16:00,15:00,16:00,Machine Learning Lab,Lab,A-303,A,Illustrative sample timetable
+6,3rd Year,CSE,B,Monday,09:00–10:00,09:00,10:00,Cloud / Security Lab,Lab,B-303,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Monday,10:00–11:00,10:00,11:00,Mobile App Development Lab,Lab,B-303,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Monday,11:00–12:00,11:00,12:00,Professional Elective II,Theory,B-302,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Monday,12:00–13:00,12:00,13:00,Project Seminar,Project,B-303,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Monday,14:00–15:00,14:00,15:00,Machine Learning,Theory,B-302,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Monday,15:00–16:00,15:00,16:00,Machine Learning Lab,Lab,B-303,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Tuesday,09:00–10:00,09:00,10:00,Information and Cyber Security,Theory,B-302,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Tuesday,10:00–11:00,10:00,11:00,Mobile Application Development,Theory,B-302,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Tuesday,11:00–12:00,11:00,12:00,Machine Learning Lab,Lab,B-303,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Tuesday,12:00–13:00,12:00,13:00,Cloud / Security Lab,Lab,B-303,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Tuesday,14:00–15:00,14:00,15:00,Compiler Design,Theory,B-302,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Tuesday,15:00–16:00,15:00,16:00,Cloud Computing,Theory,B-302,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Wednesday,09:00–10:00,09:00,10:00,Machine Learning,Theory,B-302,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Wednesday,10:00–11:00,10:00,11:00,Compiler Design,Theory,B-302,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Wednesday,11:00–12:00,11:00,12:00,Cloud Computing,Theory,B-302,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Wednesday,12:00–13:00,12:00,13:00,Mobile App Development Lab,Lab,B-303,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Wednesday,14:00–15:00,14:00,15:00,Professional Elective II,Theory,B-302,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Wednesday,15:00–16:00,15:00,16:00,Project Seminar,Project,B-303,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Thursday,09:00–10:00,09:00,10:00,Mobile App Development Lab,Lab,B-303,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Thursday,10:00–11:00,10:00,11:00,Professional Elective II,Theory,B-302,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Thursday,11:00–12:00,11:00,12:00,Information and Cyber Security,Theory,B-302,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Thursday,12:00–13:00,12:00,13:00,Mobile Application Development,Theory,B-302,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Thursday,14:00–15:00,14:00,15:00,Machine Learning Lab,Lab,B-303,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Thursday,15:00–16:00,15:00,16:00,Cloud / Security Lab,Lab,B-303,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Friday,09:00–10:00,09:00,10:00,Mobile Application Development,Theory,B-302,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Friday,10:00–11:00,10:00,11:00,Project Seminar,Project,B-303,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Friday,11:00–12:00,11:00,12:00,Machine Learning,Theory,B-302,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Friday,12:00–13:00,12:00,13:00,Compiler Design,Theory,B-302,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Friday,14:00–15:00,14:00,15:00,Cloud Computing,Theory,B-302,B,Illustrative sample timetable
+6,3rd Year,CSE,B,Friday,15:00–16:00,15:00,16:00,Information and Cyber Security,Theory,B-302,B,Illustrative sample timetable
+7,4th Year,CSE,A,Monday,09:00–10:00,09:00,10:00,DevOps and Software Deployment,Theory,A-401,A,Illustrative sample timetable
+7,4th Year,CSE,A,Monday,10:00–11:00,10:00,11:00,Generative AI Fundamentals,Theory,A-401,A,Illustrative sample timetable
+7,4th Year,CSE,A,Monday,11:00–12:00,11:00,12:00,Professional Elective III,Theory,A-401,A,Illustrative sample timetable
+7,4th Year,CSE,A,Monday,12:00–13:00,12:00,13:00,Big Data / AI Lab,Lab,A-403,A,Illustrative sample timetable
+7,4th Year,CSE,A,Monday,14:00–15:00,14:00,15:00,IoT Lab,Lab,A-403,A,Illustrative sample timetable
+7,4th Year,CSE,A,Monday,15:00–16:00,15:00,16:00,Internet of Things,Theory,A-401,A,Illustrative sample timetable
+7,4th Year,CSE,A,Tuesday,09:00–10:00,09:00,10:00,Placement Training,Tutorial,A-401,A,Illustrative sample timetable
+7,4th Year,CSE,A,Tuesday,10:00–11:00,10:00,11:00,Big Data Analytics,Theory,A-401,A,Illustrative sample timetable
+7,4th Year,CSE,A,Tuesday,11:00–12:00,11:00,12:00,Internet of Things,Theory,A-401,A,Illustrative sample timetable
+7,4th Year,CSE,A,Tuesday,12:00–13:00,12:00,13:00,DevOps and Software Deployment,Theory,A-401,A,Illustrative sample timetable
+7,4th Year,CSE,A,Tuesday,14:00–15:00,14:00,15:00,Major Project Phase I,Project,A-403,A,Illustrative sample timetable
+7,4th Year,CSE,A,Tuesday,15:00–16:00,15:00,16:00,Entrepreneurship and Innovation,Theory,A-401,A,Illustrative sample timetable
+7,4th Year,CSE,A,Wednesday,09:00–10:00,09:00,10:00,IoT Lab,Lab,A-403,A,Illustrative sample timetable
+7,4th Year,CSE,A,Wednesday,10:00–11:00,10:00,11:00,Major Project Phase I,Project,A-403,A,Illustrative sample timetable
+7,4th Year,CSE,A,Wednesday,11:00–12:00,11:00,12:00,Entrepreneurship and Innovation,Theory,A-401,A,Illustrative sample timetable
+7,4th Year,CSE,A,Wednesday,12:00–13:00,12:00,13:00,Generative AI Fundamentals,Theory,A-401,A,Illustrative sample timetable
+7,4th Year,CSE,A,Wednesday,14:00–15:00,14:00,15:00,Professional Elective III,Theory,A-401,A,Illustrative sample timetable
+7,4th Year,CSE,A,Wednesday,15:00–16:00,15:00,16:00,Big Data / AI Lab,Lab,A-403,A,Illustrative sample timetable
+7,4th Year,CSE,A,Thursday,09:00–10:00,09:00,10:00,Generative AI Fundamentals,Theory,A-401,A,Illustrative sample timetable
+7,4th Year,CSE,A,Thursday,10:00–11:00,10:00,11:00,Professional Elective III,Theory,A-401,A,Illustrative sample timetable
+7,4th Year,CSE,A,Thursday,11:00–12:00,11:00,12:00,Placement Training,Tutorial,A-401,A,Illustrative sample timetable
+7,4th Year,CSE,A,Thursday,12:00–13:00,12:00,13:00,Big Data Analytics,Theory,A-401,A,Illustrative sample timetable
+7,4th Year,CSE,A,Thursday,14:00–15:00,14:00,15:00,Internet of Things,Theory,A-401,A,Illustrative sample timetable
+7,4th Year,CSE,A,Thursday,15:00–16:00,15:00,16:00,DevOps and Software Deployment,Theory,A-401,A,Illustrative sample timetable
+7,4th Year,CSE,A,Friday,09:00–10:00,09:00,10:00,Big Data Analytics,Theory,A-401,A,Illustrative sample timetable
+7,4th Year,CSE,A,Friday,10:00–11:00,10:00,11:00,Big Data / AI Lab,Lab,A-403,A,Illustrative sample timetable
+7,4th Year,CSE,A,Friday,11:00–12:00,11:00,12:00,IoT Lab,Lab,A-403,A,Illustrative sample timetable
+7,4th Year,CSE,A,Friday,12:00–13:00,12:00,13:00,Major Project Phase I,Project,A-403,A,Illustrative sample timetable
+7,4th Year,CSE,A,Friday,14:00–15:00,14:00,15:00,Entrepreneurship and Innovation,Theory,A-401,A,Illustrative sample timetable
+7,4th Year,CSE,A,Friday,15:00–16:00,15:00,16:00,Placement Training,Tutorial,A-401,A,Illustrative sample timetable
+7,4th Year,CSE,B,Monday,09:00–10:00,09:00,10:00,Big Data Analytics,Theory,B-402,B,Illustrative sample timetable
+7,4th Year,CSE,B,Monday,10:00–11:00,10:00,11:00,Internet of Things,Theory,B-402,B,Illustrative sample timetable
+7,4th Year,CSE,B,Monday,11:00–12:00,11:00,12:00,DevOps and Software Deployment,Theory,B-402,B,Illustrative sample timetable
+7,4th Year,CSE,B,Monday,12:00–13:00,12:00,13:00,Generative AI Fundamentals,Theory,B-402,B,Illustrative sample timetable
+7,4th Year,CSE,B,Monday,14:00–15:00,14:00,15:00,Entrepreneurship and Innovation,Theory,B-402,B,Illustrative sample timetable
+7,4th Year,CSE,B,Monday,15:00–16:00,15:00,16:00,Placement Training,Tutorial,B-402,B,Illustrative sample timetable
+7,4th Year,CSE,B,Tuesday,09:00–10:00,09:00,10:00,Major Project Phase I,Project,B-403,B,Illustrative sample timetable
+7,4th Year,CSE,B,Tuesday,10:00–11:00,10:00,11:00,Entrepreneurship and Innovation,Theory,B-402,B,Illustrative sample timetable
+7,4th Year,CSE,B,Tuesday,11:00–12:00,11:00,12:00,Placement Training,Tutorial,B-402,B,Illustrative sample timetable
+7,4th Year,CSE,B,Tuesday,12:00–13:00,12:00,13:00,Professional Elective III,Theory,B-402,B,Illustrative sample timetable
+7,4th Year,CSE,B,Tuesday,14:00–15:00,14:00,15:00,Big Data / AI Lab,Lab,B-403,B,Illustrative sample timetable
+7,4th Year,CSE,B,Tuesday,15:00–16:00,15:00,16:00,IoT Lab,Lab,B-403,B,Illustrative sample timetable
+7,4th Year,CSE,B,Wednesday,09:00–10:00,09:00,10:00,Professional Elective III,Theory,B-402,B,Illustrative sample timetable
+7,4th Year,CSE,B,Wednesday,10:00–11:00,10:00,11:00,Big Data / AI Lab,Lab,B-403,B,Illustrative sample timetable
+7,4th Year,CSE,B,Wednesday,11:00–12:00,11:00,12:00,Big Data Analytics,Theory,B-402,B,Illustrative sample timetable
+7,4th Year,CSE,B,Wednesday,12:00–13:00,12:00,13:00,Internet of Things,Theory,B-402,B,Illustrative sample timetable
+7,4th Year,CSE,B,Wednesday,14:00–15:00,14:00,15:00,DevOps and Software Deployment,Theory,B-402,B,Illustrative sample timetable
+7,4th Year,CSE,B,Wednesday,15:00–16:00,15:00,16:00,Generative AI Fundamentals,Theory,B-402,B,Illustrative sample timetable
+7,4th Year,CSE,B,Thursday,09:00–10:00,09:00,10:00,Internet of Things,Theory,B-402,B,Illustrative sample timetable
+7,4th Year,CSE,B,Thursday,10:00–11:00,10:00,11:00,IoT Lab,Lab,B-403,B,Illustrative sample timetable
+7,4th Year,CSE,B,Thursday,11:00–12:00,11:00,12:00,Major Project Phase I,Project,B-403,B,Illustrative sample timetable
+7,4th Year,CSE,B,Thursday,12:00–13:00,12:00,13:00,Entrepreneurship and Innovation,Theory,B-402,B,Illustrative sample timetable
+7,4th Year,CSE,B,Thursday,14:00–15:00,14:00,15:00,Placement Training,Tutorial,B-402,B,Illustrative sample timetable
+7,4th Year,CSE,B,Thursday,15:00–16:00,15:00,16:00,Big Data Analytics,Theory,B-402,B,Illustrative sample timetable
+7,4th Year,CSE,B,Friday,09:00–10:00,09:00,10:00,DevOps and Software Deployment,Theory,B-402,B,Illustrative sample timetable
+7,4th Year,CSE,B,Friday,10:00–11:00,10:00,11:00,Generative AI Fundamentals,Theory,B-402,B,Illustrative sample timetable
+7,4th Year,CSE,B,Friday,11:00–12:00,11:00,12:00,Professional Elective III,Theory,B-402,B,Illustrative sample timetable
+7,4th Year,CSE,B,Friday,12:00–13:00,12:00,13:00,Big Data / AI Lab,Lab,B-403,B,Illustrative sample timetable
+7,4th Year,CSE,B,Friday,14:00–15:00,14:00,15:00,IoT Lab,Lab,B-403,B,Illustrative sample timetable
+7,4th Year,CSE,B,Friday,15:00–16:00,15:00,16:00,Major Project Phase I,Project,B-403,B,Illustrative sample timetable
+8,4th Year,CSE,A,Monday,09:00–10:00,09:00,10:00,Technical Presentation,Practical,A-403,A,Illustrative sample timetable
+8,4th Year,CSE,A,Monday,10:00–11:00,10:00,11:00,Career Readiness,Tutorial,A-401,A,Illustrative sample timetable
+8,4th Year,CSE,A,Monday,11:00–12:00,11:00,12:00,Research / Publication Work,Project,A-403,A,Illustrative sample timetable
+8,4th Year,CSE,A,Monday,12:00–13:00,12:00,13:00,Industry Mentoring,Seminar,A-501,A,Illustrative sample timetable
+8,4th Year,CSE,A,Monday,14:00–15:00,14:00,15:00,Emerging Technologies Seminar,Seminar,A-501,A,Illustrative sample timetable
+8,4th Year,CSE,A,Monday,15:00–16:00,15:00,16:00,Project Review,Project,A-403,A,Illustrative sample timetable
+8,4th Year,CSE,A,Tuesday,09:00–10:00,09:00,10:00,Professional Elective V,Theory,A-401,A,Illustrative sample timetable
+8,4th Year,CSE,A,Tuesday,10:00–11:00,10:00,11:00,Emerging Technologies Seminar,Seminar,A-501,A,Illustrative sample timetable
+8,4th Year,CSE,A,Tuesday,11:00–12:00,11:00,12:00,Project Review,Project,A-403,A,Illustrative sample timetable
+8,4th Year,CSE,A,Tuesday,12:00–13:00,12:00,13:00,Major Project Phase II,Project,A-403,A,Illustrative sample timetable
+8,4th Year,CSE,A,Tuesday,14:00–15:00,14:00,15:00,Internship / Industry Practice,Practical,A-403,A,Illustrative sample timetable
+8,4th Year,CSE,A,Tuesday,15:00–16:00,15:00,16:00,Professional Elective IV,Theory,A-401,A,Illustrative sample timetable
+8,4th Year,CSE,A,Wednesday,09:00–10:00,09:00,10:00,Major Project Phase II,Project,A-403,A,Illustrative sample timetable
+8,4th Year,CSE,A,Wednesday,10:00–11:00,10:00,11:00,Internship / Industry Practice,Practical,A-403,A,Illustrative sample timetable
+8,4th Year,CSE,A,Wednesday,11:00–12:00,11:00,12:00,Technical Presentation,Practical,A-403,A,Illustrative sample timetable
+8,4th Year,CSE,A,Wednesday,12:00–13:00,12:00,13:00,Career Readiness,Tutorial,A-401,A,Illustrative sample timetable
+8,4th Year,CSE,A,Wednesday,14:00–15:00,14:00,15:00,Research / Publication Work,Project,A-403,A,Illustrative sample timetable
+8,4th Year,CSE,A,Wednesday,15:00–16:00,15:00,16:00,Industry Mentoring,Seminar,A-501,A,Illustrative sample timetable
+8,4th Year,CSE,A,Thursday,09:00–10:00,09:00,10:00,Career Readiness,Tutorial,A-401,A,Illustrative sample timetable
+8,4th Year,CSE,A,Thursday,10:00–11:00,10:00,11:00,Professional Elective IV,Theory,A-401,A,Illustrative sample timetable
+8,4th Year,CSE,A,Thursday,11:00–12:00,11:00,12:00,Professional Elective V,Theory,A-401,A,Illustrative sample timetable
+8,4th Year,CSE,A,Thursday,12:00–13:00,12:00,13:00,Emerging Technologies Seminar,Seminar,A-501,A,Illustrative sample timetable
+8,4th Year,CSE,A,Thursday,14:00–15:00,14:00,15:00,Project Review,Project,A-403,A,Illustrative sample timetable
+8,4th Year,CSE,A,Thursday,15:00–16:00,15:00,16:00,Technical Presentation,Practical,A-403,A,Illustrative sample timetable
+8,4th Year,CSE,A,Friday,09:00–10:00,09:00,10:00,Research / Publication Work,Project,A-403,A,Illustrative sample timetable
+8,4th Year,CSE,A,Friday,10:00–11:00,10:00,11:00,Industry Mentoring,Seminar,A-501,A,Illustrative sample timetable
+8,4th Year,CSE,A,Friday,11:00–12:00,11:00,12:00,Major Project Phase II,Project,A-403,A,Illustrative sample timetable
+8,4th Year,CSE,A,Friday,12:00–13:00,12:00,13:00,Internship / Industry Practice,Practical,A-403,A,Illustrative sample timetable
+8,4th Year,CSE,A,Friday,14:00–15:00,14:00,15:00,Professional Elective IV,Theory,A-401,A,Illustrative sample timetable
+8,4th Year,CSE,A,Friday,15:00–16:00,15:00,16:00,Professional Elective V,Theory,A-401,A,Illustrative sample timetable
+8,4th Year,CSE,B,Monday,09:00–10:00,09:00,10:00,Emerging Technologies Seminar,Seminar,B-503,B,Illustrative sample timetable
+8,4th Year,CSE,B,Monday,10:00–11:00,10:00,11:00,Project Review,Project,B-403,B,Illustrative sample timetable
+8,4th Year,CSE,B,Monday,11:00–12:00,11:00,12:00,Technical Presentation,Practical,B-403,B,Illustrative sample timetable
+8,4th Year,CSE,B,Monday,12:00–13:00,12:00,13:00,Internship / Industry Practice,Practical,B-403,B,Illustrative sample timetable
+8,4th Year,CSE,B,Monday,14:00–15:00,14:00,15:00,Professional Elective IV,Theory,B-402,B,Illustrative sample timetable
+8,4th Year,CSE,B,Monday,15:00–16:00,15:00,16:00,Professional Elective V,Theory,B-402,B,Illustrative sample timetable
+8,4th Year,CSE,B,Tuesday,09:00–10:00,09:00,10:00,Internship / Industry Practice,Practical,B-403,B,Illustrative sample timetable
+8,4th Year,CSE,B,Tuesday,10:00–11:00,10:00,11:00,Professional Elective IV,Theory,B-402,B,Illustrative sample timetable
+8,4th Year,CSE,B,Tuesday,11:00–12:00,11:00,12:00,Career Readiness,Tutorial,B-402,B,Illustrative sample timetable
+8,4th Year,CSE,B,Tuesday,12:00–13:00,12:00,13:00,Research / Publication Work,Project,B-403,B,Illustrative sample timetable
+8,4th Year,CSE,B,Tuesday,14:00–15:00,14:00,15:00,Industry Mentoring,Seminar,B-503,B,Illustrative sample timetable
+8,4th Year,CSE,B,Tuesday,15:00–16:00,15:00,16:00,Major Project Phase II,Project,B-403,B,Illustrative sample timetable
+8,4th Year,CSE,B,Wednesday,09:00–10:00,09:00,10:00,Research / Publication Work,Project,B-403,B,Illustrative sample timetable
+8,4th Year,CSE,B,Wednesday,10:00–11:00,10:00,11:00,Professional Elective V,Theory,B-402,B,Illustrative sample timetable
+8,4th Year,CSE,B,Wednesday,11:00–12:00,11:00,12:00,Emerging Technologies Seminar,Seminar,B-503,B,Illustrative sample timetable
+8,4th Year,CSE,B,Wednesday,12:00–13:00,12:00,13:00,Project Review,Project,B-403,B,Illustrative sample timetable
+8,4th Year,CSE,B,Wednesday,14:00–15:00,14:00,15:00,Technical Presentation,Practical,B-403,B,Illustrative sample timetable
+8,4th Year,CSE,B,Wednesday,15:00–16:00,15:00,16:00,Career Readiness,Tutorial,B-402,B,Illustrative sample timetable
+8,4th Year,CSE,B,Thursday,09:00–10:00,09:00,10:00,Industry Mentoring,Seminar,B-503,B,Illustrative sample timetable
+8,4th Year,CSE,B,Thursday,10:00–11:00,10:00,11:00,Major Project Phase II,Project,B-403,B,Illustrative sample timetable
+8,4th Year,CSE,B,Thursday,11:00–12:00,11:00,12:00,Internship / Industry Practice,Practical,B-403,B,Illustrative sample timetable
+8,4th Year,CSE,B,Thursday,12:00–13:00,12:00,13:00,Professional Elective IV,Theory,B-402,B,Illustrative sample timetable
+8,4th Year,CSE,B,Thursday,14:00–15:00,14:00,15:00,Professional Elective V,Theory,B-402,B,Illustrative sample timetable
+8,4th Year,CSE,B,Thursday,15:00–16:00,15:00,16:00,Emerging Technologies Seminar,Seminar,B-503,B,Illustrative sample timetable
+8,4th Year,CSE,B,Friday,09:00–10:00,09:00,10:00,Technical Presentation,Practical,B-403,B,Illustrative sample timetable
+8,4th Year,CSE,B,Friday,10:00–11:00,10:00,11:00,Career Readiness,Tutorial,B-402,B,Illustrative sample timetable
+8,4th Year,CSE,B,Friday,11:00–12:00,11:00,12:00,Research / Publication Work,Project,B-403,B,Illustrative sample timetable
+8,4th Year,CSE,B,Friday,12:00–13:00,12:00,13:00,Industry Mentoring,Seminar,B-503,B,Illustrative sample timetable
+8,4th Year,CSE,B,Friday,14:00–15:00,14:00,15:00,Major Project Phase II,Project,B-403,B,Illustrative sample timetable
+8,4th Year,CSE,B,Friday,15:00–16:00,15:00,16:00,Project Review,Project,B-403,B,Illustrative sample timetable
