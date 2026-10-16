@@ -33,7 +33,7 @@ _cors_origins = [
     origin.strip()
     for origin in os.getenv(
         "ECOTWIN_CORS_ORIGINS",
-        "http://localhost:5173,http://127.0.0.1:5173",
+        "https://campusdigitaltwin.vercel.app,http://localhost:5173,http://127.0.0.1:5173",
     ).split(",")
     if origin.strip()
 ]

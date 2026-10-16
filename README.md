@@ -58,6 +58,18 @@ npm run dev
 
 The Vite development server proxies `/api` requests to `http://127.0.0.1:8000`. For another backend URL, set `VITE_API_BASE_URL` to its `/api` base before starting or building the frontend.
 
+## Production deployment
+
+Vercel hosts the static frontend; it does not host the FastAPI application. The integration branch frontend requires the backend API and intentionally does not substitute local or fabricated data when those requests fail.
+
+1. Deploy the backend from this repository using a Python 3.11 host. Install dependencies with `python -m pip install -r backend/requirements.txt`; use `uvicorn backend.main:app --host 0.0.0.0 --port $PORT` as the start command. Set `ECOTWIN_DATABASE_URL` to a database location that persists across restarts. Do not rely on SQLite stored on an ephemeral filesystem. The checked-in dependencies support SQLite; if using another database engine, add its SQLAlchemy driver before deployment. The backend creates missing tables at startup but does not import the demo dataset.
+2. Provision a new, empty, persistent demo database for this deployment. If the demonstration requires the bundled campus records, run `python -m backend.seed_data` once as an explicit setup/release task with `ECOTWIN_DATABASE_URL` pointing to that new database. Do not run it against an existing database that must be preserved. Confirm the backend and the import task use the same database URL. The bundled dataset is synthetic or illustrative.
+3. Set the backend environment variable `ECOTWIN_CORS_ORIGINS` to a comma-separated allowlist of exact origins, including `https://campusdigitaltwin.vercel.app`. Do not use `*`. Add any required Vercel preview origin explicitly only if those previews need API access.
+4. In the Vercel project, deploy the `integration/ecotwin-full-project` branch with the repository root as the project root, `npm run build` as the build command, and `dist` as the output directory. Set the build-time variable `VITE_API_BASE_URL` to the real deployed backend's public HTTPS API base ending in `/api` (for example, `https://<your-backend-host>/api`) for the Production environment, then redeploy. Do not set it to localhost or put private credentials in a `VITE_` variable.
+5. Verify `GET <backend-base>/api/health` and `GET <backend-base>/api/buildings` over HTTPS. The health endpoint should report a connected database; the buildings endpoint should return the initialized demo rows. Then use the deployed frontend to test building navigation, a valid and invalid simulation, and Insights.
+
+No backend URL is configured or inferable from this repository or the current deployment, so the Vercel environment variable cannot be completed until the backend has been deployed.
+
 ### Optional: initialize a disposable demo database
 
 Dataset import is a separate, explicit setup operation; it is not part of normal application startup. The importer reads CSVs from `data/raw/ecotwin_dataset/`. For a demo, use a new disposable database path, or make and verify a backup before importing into a database that contains records. Do not point this command at a database whose data must be preserved.

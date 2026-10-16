@@ -33,7 +33,9 @@ $env:ECOTWIN_DATABASE_URL = "sqlite:///C:/path/to/disposable-ecotwin-demo.db"
 backend\.venv\Scripts\python.exe -m backend.seed_data
 ```
 
-Keep the same `ECOTWIN_DATABASE_URL` value when starting the backend to use the imported demo database. `ECOTWIN_CORS_ORIGINS` accepts comma-separated origins; by default only `http://localhost:5173` and `http://127.0.0.1:5173` are enabled.
+Keep the same `ECOTWIN_DATABASE_URL` value when starting the backend to use the imported demo database. `ECOTWIN_CORS_ORIGINS` accepts comma-separated origins; by default it allows the deployed frontend origin `https://campusdigitaltwin.vercel.app` plus `http://localhost:5173` and `http://127.0.0.1:5173`. Set it to an explicit comma-separated origin allowlist for deployment; do not use a wildcard.
+
+For production, deploy the FastAPI backend separately from Vercel, configure a persistent database, and set the Vercel build-time variable `VITE_API_BASE_URL` to the backend's public HTTPS base ending in `/api`. The frontend requires this explicit value in production and reports a configuration error instead of silently requesting the static frontend's `/api` path. See the production deployment steps in the root README.
 
 ## Health
 

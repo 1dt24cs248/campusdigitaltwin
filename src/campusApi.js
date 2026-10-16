@@ -1,14 +1,28 @@
-const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || '/api').replace(/\/$/, '');
+import { resolveApiBaseUrl } from './apiConfig';
 
 async function request(path, options = {}) {
-  const response = await fetch(`${apiBaseUrl}${path}`, {
-    ...options,
-    headers: {
-      Accept: 'application/json',
-      ...options.headers,
-      ...(options.body ? { 'Content-Type': 'application/json' } : {}),
-    },
-  });
+  const apiBaseUrl = resolveApiBaseUrl(
+    import.meta.env.VITE_API_BASE_URL,
+    import.meta.env.PROD,
+  );
+  let response;
+  try {
+    response = await fetch(`${apiBaseUrl}${path}`, {
+      ...options,
+      headers: {
+        Accept: 'application/json',
+        ...options.headers,
+        ...(options.body ? { 'Content-Type': 'application/json' } : {}),
+      },
+    });
+  } catch (error) {
+    if (error instanceof TypeError) {
+      throw new Error(
+        `Cannot reach the EcoTwin backend at ${apiBaseUrl}. Check that the backend is running, the URL is correct, and its CORS settings allow this frontend.`,
+      );
+    }
+    throw error;
+  }
   const payload = await response.json().catch(() => null);
 
   if (!response.ok) {
@@ -22,10 +36,14 @@ async function request(path, options = {}) {
       ? (validationMessage || 'Please check the selected room, image, or timetable details.')
       : response.status === 503
         ? (detail?.message || 'This service is temporarily unavailable. Please try again later.')
-        : typeof detail === 'string'
-          ? detail
-          : detail?.message || 'The request could not be completed.';
+        : `${typeof detail === 'string' ? detail : detail?.message || 'The request could not be completed.'} (HTTP ${response.status} at ${path}). Check the backend URL and API route.`;
     throw new Error(message);
+  }
+
+  if (payload === null) {
+    throw new Error(
+      `The backend returned a non-JSON response for ${path}. Check that VITE_API_BASE_URL points to the FastAPI /api base.`,
+    );
   }
 
   return payload;

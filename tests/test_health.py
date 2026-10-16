@@ -9,3 +9,28 @@ def test_health_reports_database_connectivity(client):
 
     assert response.status_code == 200
     assert response.json() == {"status": "ok", "database": "connected"}
+
+
+def test_cors_allows_deployed_frontend_origin(client):
+    response = client.options(
+        "/api/buildings",
+        headers={
+            "Origin": "https://campusdigitaltwin.vercel.app",
+            "Access-Control-Request-Method": "GET",
+        },
+    )
+
+    assert response.status_code == 200
+    assert response.headers["access-control-allow-origin"] == "https://campusdigitaltwin.vercel.app"
+
+
+def test_cors_does_not_allow_unconfigured_frontend_origin(client):
+    response = client.options(
+        "/api/buildings",
+        headers={
+            "Origin": "https://untrusted.example",
+            "Access-Control-Request-Method": "GET",
+        },
+    )
+
+    assert "access-control-allow-origin" not in response.headers
